@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>网站右侧的侧边栏部分</title>
+    <link rel="stylesheet" href="./css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/lib/init.css">
+    <link rel="stylesheet" href="./css/slideBar.css">
+</head>
+
+<body>
+
+    <div class="imgWrap">
+        <img src="./images/slideBar/weixin_code.jpg" alt="">
+        <button>加入购物车</button>
+        <i class="fa fa-star"></i>
+    </div>
+
+    <!-- 右侧固定的侧边栏区域开始 -->
+    <div class="slideBar">
+        <div class="cont">
+
+            <!-- 侧边栏的左侧导航区域 -->
+            <div class="left">
+                <ul class="list">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="user"></span>
+                        </a>
+                        <div class="user-box">
+                            <div class="top">
+                                <img src="./images/slideBar/default-photo.jpg" alt="用户头像">
+                                <div class="user-msg">
+                                    <p>用户名:<i class="user-name"></i></p>
+                                    <p>级别:<i class="user-level"></i></p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <button>我的订单</button>
+                                <button>我的收藏</button>
+                            </div>
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="contact"></span>
+                        </a>
+                        <div class="contact-box">
+                            <div class="top">
+                                <img src="./images/slideBar/contact.png" alt="">
+                                <p>
+                                    <a class="inline-contact">在线客服</a>
+                                </p>
+                                <p class="inline-time">在线时间: 08:30 - 23:00</p>
+                            </div>
+                            <div class="mid">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p class="serve-phone">400 700 3638</p>
+                                <p class="serve-time">服务时间: 08:00 - 23:00</p>
+                            </div>
+                            <div class="bottom">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p>微信客服扫一扫</p>
+                                <img class="wechat-scan" src="./images/slideBar/wechat-scan1.jpg" alt="">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="shopCar">
+                        <a href="javascript:void(0);">
+                            <span class="shopCar"></span>
+                            <span class="title">购物车</span>
+                            <span class="shop-amount">10</span>
+                        </a>
+                        <div class="shopCar-box-parent">
+                            <div class="shopCar-box">
+                                <div class="cont">
+                                    <p class="close-lunbo"></p>
+                                    <div class="add-suc-model">
+                                        <img src="./images/slideBar/addCart_success.png" alt="添加成功">
+                                        <p class="one">成功加入购物车!</p>
+                                        <p>购物车保留时间有限，建议您尽快结算!</p>
+                                    </div>
+                                    <p class="tip-msg">达人购物车都有啥</p>
+                                    <div class="my02-lunbo1">
+                                        <div class="viewport1">
+                                            <div class="imgWrap-1">
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="btn-01-prev btns"></div>
+                                        <div class="btn-01-next btns"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="my-money"></span>
+                        </a>
+                        <div class="money-box">
+                            我的资产
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="advice"></span>
+                        </a>
+                        <div class="advice-box">
+                            投诉建议
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="scan">
+                    <span></span>
+                    <div class="scan-box">
+                        <img src="./images/slideBar/weixin_code.jpg" alt="">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="returnTop">
+                    <span></span>
+                    <div class="returnTop-box">
+                        返回顶部
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 侧边栏的右侧购物车区域 -->
+            <div class="right">
+                <div class="top clearfix">
+                    <p>
+                        <img class="car" src="./images/slideBar/right_car.png" alt="">
+                        <span>购物车</span>
+                        <img class="close" src="./images/slideBar/right_close.png" alt="">
+                    </p>
+                </div>
+                <div class="mid">
+
+                    <!-- 商品列表 -->
+                    <ul class="item">
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="empty">
+                        <img src="./images/slideBar/cartIcon.png" alt="">
+                        <p>购物车里空空如也 , 赶紧去逛逛吧~</p>
+                        <a href="#">去首页看看</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p class="one">
+                        <span class="selectAll">
+                            <input type="checkbox"><span>全选</span>
+                        </span>
+                        <span class="already-select">
+                            已选 <span class="total">0</span> 件商品
+                        </span>
+                        <span class="total-money">
+                            共计<em> ￥ </em><span>0.00</span>
+                        </span>
+                    </p>
+                    <a href="#">去购物车结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧固定的侧边栏区域结束 -->
+
+    <script src="./js/lib/jquery-3.3.1.js"></script>
+    <script src="./js/lib/fly.js"></script>
+    <script src="./js/slideBar.js"></script>
+</body>
+
+</html>

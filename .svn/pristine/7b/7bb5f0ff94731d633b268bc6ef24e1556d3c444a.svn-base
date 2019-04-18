@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/lib/init.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <!-- top-ad开始 -->
+    <div class="top-ad">
+        <div class="top-ad-mid"></div>
+    </div>
+    <!-- top-ad结束 -->
+
+    <!-- nav开始 -->
+    <div class="nav">
+        <div class="nav-mid clearfix">
+            <div class="nav-mid-left">
+                <span>您好！欢迎来到音平商城！</span>
+                <span><a href="#">请登录</a></span>
+                <span><a href="#">免费注册</a></span>
+            </div>
+            <div class="nav-mid-right clearfix">
+                
+                <div class="right-one">
+                    <span class="my-yinping">我的音平<img src="images/index/bottom-arrow.png"/></span>
+                    <div class="right-one-hid">
+                        <span>我的订单</span>
+                        <span>我的收藏</span>
+                        <span>我要评价</span>
+                        <span>我的优惠劵 0</span>
+                    </div>
+                </div>
+                <div class="right-two">
+                    <span class="my-cart">我的购物车</span>
+                    <div class="cart-tips"><span>0</span></div>
+                </div>
+                <div class="right-three">
+                    <span class="my-qiye">企业采购</span>
+                </div>
+                <div class="right-four">
+                    <span class="my-kefu">客服服务<img src="images/index/bottom-arrow.png"/></span>
+                    <div class="right-four-hid">
+                        <div class="hid-list-one">
+                            <span class="title">在线客服</span>
+                            <p>在线时间:8:30-23:00</p>
+                        </div>
+                        <div class="hid-list-two">
+                            <span>400 700 3638</span>
+                            <p>服务时间：08:30 - 23:00</p>
+                        </div>
+                        <div class="hid-list-three">
+                            <img src="images/index/wechat-icon-1.0.0.png">
+                            <span>微信客服扫一扫</span>
+                            <img src="images/index/wechatqr-1.0.0.jpg">
+                        </div>
+                        
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </div>
+    <!-- nav结束 -->
+
+    <!-- top-list开始 -->
+    <div class="top">
+        <div class="top-mid">
+            <div class="top-mid-up clearfix">
+                <img src="images/index/logo.png"/>
+                <img src="images/index/top-list1.gif"/>
+                <div class="search clearfix">
+                    <input type="text" placeholder="德胜PH103手机麦"/>
+                    <div class="search-list">
+                        <ul>
+                        </ul>
+                    </div>
+                    <span>搜索</span>
+                    <ul class="item clearfix">
+                        <li><a href="#" title="k歌直播声卡">k歌直播声卡</a></li>
+                        <li><a href="#" title="录音声卡">录音声卡</a></li>
+                        <li><a href="#" title="电容麦">电容麦</a></li>
+                        <li><a href="#" title="监听音箱">监听音箱</a></li>
+                        <li><a href="#" title="吉他">吉他</a></li>
+                        <li><a href="#" title="音响">音响</a></li>
+                        <li><a href="#" title="RME声卡">RME声卡</a></li>
+                        <li><a href="#" title="莱维特">莱维特</a></li>
+                    </ul>
+                </div>
+                <div class="small-icon">
+                    <img src="images/index/small-icon1.png" class="small-icon-one">
+                    <img src="images/index/wx_code-1.0.1.jpg" class="hid-icon">
+                    <img src="images/index/small-icon.png">
+                </div>
+            </div>
+            <div class="top-mid-down clearfix">
+                <div class="all-list">全部商品分类</div>
+                <div class="list-item">
+                    <ul class="clearfix">
+                        <li><a href="#">网站首页</a></li>
+                        <li><a href="#">套装方案</a></li>
+                        <li><a href="#">活动专区</a></li>
+                        <li><a href="#">品牌专区</a></li>
+                        <li><a href="#">音平资迅</a></li>
+                        <li><a href="#">音平乐享</a></li>
+                        <li><a href="#">音师傅</a></li>
+                    </ul>
+                </div>
+                <div class="small-loop clearfix">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="arrow">
+                        <img src="images/index/arrow-top.png" class="arrow-top">
+                        <img src="images/index/bottom-arrow.png" class="arrow-bottom">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top-list结束 -->
+
+    <!-- banner开始 -->
+    <div class="banner">
+        <ul class="banner-loop">
+            <li><img  src="images/index/banner1.jpg"/></li>
+            <li><img  src="images/index/banner2.jpg"/></li>
+            <li><img  src="images/index/banner3.jpg"/></li>
+            <li><img  src="images/index/banner4.jpg"/></li>
+            <li><img  src="images/index/banner5.jpg"/></li>
+            <li><img  src="images/index/banner6.jpg"/></li>
+            <li><img  src="images/index/banner7.jpg"/></li>
+        </ul>
+        <ul class="loop-line clearfix">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="banner-mid clearfix">
+            
+            <div class="banner-list">
+                <ul>
+                    <li>
+                        <p class="list-title">
+                            <span>声卡</span>
+                            <span>调音台</span>
+                            <span>控制器</span>
+                        </p>
+                        <p class="list-item">
+                            <span>K歌声卡</span>
+                            <span>专业声卡</span>
+                            <span>调音台</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="list-title">
+                            <span>麦克风</span>
+                            <span>耳机</span>
+                            <span>扩音器</span>
+                        </p>
+                        <p class="list-item">
+                            <span>电容麦</span>
+                            <span>无线麦</span>
+                            <span>音乐耳机</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="list-title">
+                            <span>音箱</span>
+                            <span>功放</span>
+                            <span>家庭影院</span>
+                        </p>
+                        <p class="list-item">
+                            <span>KTV功放</span>
+                            <span>监听音箱</span>
+                            <span>舞台音箱</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="list-title">
+                            <span>键盘</span>
+                            <span>吉他</span>
+                            <span>贝斯</span>
+                        </p>
+                        <p class="list-item">
+                            <span>MIDI键盘</span>
+                            <span>民谣吉他</span>
+                            <span>架子鼓</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="list-title">
+                            <span>影视录音</span>
+                            <span>点歌机</span>
+                            <span>播放器</span>
+                        </p>
+                        <p class="list-item">
+                            <span>录音机</span>
+                            <span>一体点歌机</span>
+                            <span>触摸屏</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="list-title">
+                            <span>话放</span>
+                            <span>耳放</span>
+                            <span>效果器</span>
+                        </p>
+                        <p class="list-item">
+                            <span>模拟话放</span>
+                            <span>专业耳放</span>
+                            <span>吉他效果器</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="list-title">
+                            <span>配件</span>
+                            <span>软件</span>
+                            <span>声卡调试</span>
+                        </p>
+                        <p class="list-item">
+                            <span>麦克风支架</span>
+                            <span>摄像头</span>
+                            <span>录音软件</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>      
+    </div>
+
+
+
+
+
+     <!-- 网站脚注区域开始 -->
+     <div class="footer">
+        <div class="foot-top">
+            <div class="container clearfix">
+                <a href="#">
+                    <img src="./images/shopCar/footer1.png" alt="正品保障">
+                    正品保障
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer2.png" alt="正品保障">
+                    闪电发货
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer3.png" alt="正品保障">
+                    货到付款
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer4.png" alt="正品保障">
+                    七天退换
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer5.png" alt="正品保障">
+                    售后无忧
+                </a>
+            </div>
+        </div>
+        <div class="foot-mid">
+            <div class="container clearfix">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="#">会员积分</a></dd>
+                    <dd><a href="#">网上订购</a></dd>
+                    <dd><a href="#">电话订购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">网站地图</a></dd>
+                    <dd><a href="#">手机触屏版</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于支付</dt>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于配送</dt>
+                    <dd><a href="#">音平配送</a></dd>
+                    <dd><a href="#">上门自提</a></dd>
+                    <dd><a href="#">包邮政策</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换政策</a></dd>
+                    <dd><a href="#">如何办理</a></dd>
+                    <dd><a href="#">开具发票</a></dd>
+                    <dd><a href="#">声卡调试</a></dd>
+                    <dd><a href="#">专业搭配</a></dd>
+                </dl>
+                <dl>
+                    <dt>申请合作</dt>
+                    <dd><a href="#">成为供应商</a></dd>
+                    <dd><a href="#">成为经销商</a></dd>
+                    <dd><a href="#">企业采购</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                    <dd><a href="#">成为微商</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">诚聘英才</a></dd>
+                    <dd><a href="#">公司简介</a></dd>
+                    <dd><a href="#">发展历程</a></dd>
+                </dl>
+                <div class="foot-mid-right">
+                    <p class="item1">客服电话</p>
+                    <p class="item2">400-700-3638</p>
+                    <p class="item3">服务时间：08:30 - 23:00</p>
+                    <a href="#" class="item4">在线咨询</a>
+                    <img src="./images/shopCar/contact.png" alt="联系我们">
+                </div>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <div class="container">
+                <p class="foot-title">音平商城 —— 大型正品音乐设备网购商城</p>
+                <p class="our-promise">
+                    增值电信业务经营许可证：&nbsp;
+                    <a href="#">粤B2-20110237</a> /
+                    <a href="#">粤ICP备11032710号-1</a> /
+                    <a href="#">粤公网安备 44130202000152号</a>
+                </p>
+                <p class="our-property">
+                    © 2011-2019 音平公司版权所有，并保留所有权利（
+                    <a href="#">著作权及商标声明</a>
+                    ）。 特聘律师团：广东斯明律师事务所
+                </p>
+                <p class="our-imgs">
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom1.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom2.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom3.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom4.png" alt="">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 网站脚注区域结束 -->
+
+    <script src="js/lib/jquery-3.3.1.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

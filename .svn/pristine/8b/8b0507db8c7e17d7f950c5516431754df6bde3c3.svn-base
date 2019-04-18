@@ -1,0 +1,209 @@
+$(function () {
+    var c_obj = (function () {
+        // 处理鼠标悬浮事件 悬停出现  离开隐藏  obj:对象  index:要显示所在相对的下标
+        function handleHover(obj) {
+            obj.hover(
+                function () {
+                    $(this).children().eq(1).show();
+                },
+                function () {
+                    $(this).children().eq(1).hide();
+                }
+            )
+        }
+
+        // 处理多条鼠标悬浮事件 悬停出现 变色 离开隐藏  obj:对象
+        function moreHover(obj,kind){   /* left-list */
+            obj.children().each(function(){
+                $(this).hover(
+                     function () {
+                        //  console.log($(this).index());
+                        $.ajax({
+                            type:"post",
+                            url:"../api/index-api/listgoods.php",
+                            data: {index:$(this).index()},
+                            dataType:'json',
+                            success:function(result){
+                                // console.log(result)
+                                var leftB = $("<ul>");
+                                leftB.addClass("hide-left");
+                                $.each(result,function(i,val){
+                                    console.log(result[i].length);
+                                    var listB = $("<li>"),
+                                        pB = $("<p>"),
+                                        ulB = $("<ul>");
+                                        pB.html(i);
+                                        ulB.addClass("clearfix");
+                                    var len = result[i].length;
+                                    for(var j = 0; j < len; j++){
+
+                                    }
+                                })
+                            }
+                        });
+                        $(this).children().eq(1).show();
+                        $(this).children().eq(0).addClass(kind);
+                        $(this).addClass(kind);  
+                    },
+                    function () {
+                        $(this).children().eq(1).hide();
+                        $(this).children().eq(0).removeClass(kind);
+                        $(this).parent().children().removeClass(kind);
+                    }
+                )
+            })
+        }
+
+        // 添加颜色  obj:对象  arr:颜色数组rgb格式的
+        function addcolor(obj, arr) {
+            obj.children().each(function (i) {
+                $(this).css({ backgroundColor: "rgb" + arr[i] });
+            })
+        }
+
+        //top切换 obj:对象  kind:加的类名设置样式  list:yao
+        function handleEntrance(obj,list,kind) {
+            obj.children().each(function () {
+                // $(this).parent().parent().next().children().hide();
+                // $(this).parent().parent().next().children().eq(0).show();
+                // var i = $(this).index();
+                var flag = true;
+                $(this).mouseenter(function () {    
+                    
+                    $(this).parent().children().removeClass(kind);
+                    $(this).addClass(kind);  
+                    // console.log($(this).html())
+                    // list.children().eq(i).show().siblings().hide();
+                    if(flag){
+                        flag = false;
+                        $.ajax({
+                        type:"post",
+                        url:"../api/section3.php",
+                        // data:$(this).html(),
+                        data: {val:$(this).html()},
+                        dataType:"json",
+                        success:function( result ){
+                            // console.log($(result[0]['brief']));
+                            var len = result.length,
+                                ulB = $("<ul>");
+                            ulB.addClass("list-box");
+                            // console.log(len);
+                            list.html("");   
+                            for(var i = 0; i<len; i++){
+                              var liB = $("<li>"),
+                                aB = $("<a>"),
+                                divB = $("<div>");
+                                divB.addClass("top1");
+                                $(divB).append("<p class=\"p1\">" +result[i]['brief']+ "</p>");
+                                $(divB).append("<p class=\"p2\">￥" +result[i]['price']+ "</p>");
+                                $(divB).append("<img src=../images/img5/" +result[i]['img']+ ".jpg alt=\"\" >");
+                                aB.append(divB);
+                                liB.append(aB);
+                                ulB.append(liB);
+                            }
+                            list.html(ulB)
+                            flag = true;
+                            // console.log(len);
+                        },
+                        error:function(){
+                            alert("出错");
+                        }
+                    })
+                    }
+                    
+                })
+            })
+        }
+
+        //轮播图事件
+        function banner(obj,shangBtn,xiaBtn){
+            obj.children().eq(0).clone("true").appendTo(obj);    
+            var imgH= obj.children().eq(0).innerHeight(),
+                len = obj.children().length;
+                imgX = 0;
+                // 下箭头事件
+                xiaBtn.click(function(){
+                    xia();
+                    // css({marginTop:-topVal})
+                })
+                function xia (){
+                    imgX++;
+                    if(imgX == len){
+                        // console.log(len*imgH)
+                        imgX = 1;
+                        obj.css({marginTop: 0}) 
+                    }
+                    obj.stop(true,true).animate({marginTop:-imgX*imgH});
+                }
+                // 上箭头事件
+                shangBtn.click(function(){
+                    
+                    if(imgX == 0){
+                        // console.log(len*imgH)
+                        imgX = len-1;
+                        obj.css({marginTop: -(len-1)*imgH}) 
+                    }
+                    imgX--;
+                    obj.stop(true,true).animate({marginTop:-imgX*imgH});
+                    // css({marginTop:-topVal})
+                })
+                // 悬浮停止轮播
+                obj.parent().hover(
+                    function(){
+                        if(tim){
+                        clearInterval(tim);
+                       }
+                    },
+                    function(){
+                        tim = setInterval(xia,2000);
+                    }
+                )
+                // 自动轮播
+                var tim = setInterval(xia,2000);
+        }
+        //导航出现效果
+        function handleStairs(obj,stairs){
+            var offsetT = obj.offset().top,
+                windowT = $(window).scrollTop();
+            $(window).scroll(function(){
+                stairsIn();
+            })
+            function stairsIn(){
+                 windowT = $(window).scrollTop();
+                if(windowT - offsetT >20 || offsetT<windowT){
+                    // console.log(windowT)
+                    stairs.fadeIn("fast");
+                }else{
+                    stairs.fadeOut("fast");
+                }
+            };
+            stairsIn();
+
+
+        }
+        return {
+            handleHover: handleHover,
+            addcolor: addcolor,
+            handleEntrance: handleEntrance,
+            moreHover:moreHover,
+            banner:banner,
+            handleStairs:handleStairs
+        }
+    })();
+
+    //全部商品    处理鼠标悬浮事件
+    c_obj.handleHover($(".header .bottom .left"));
+    //全部商品分类调用    鼠标悬浮事件 添加类名改变样式
+    c_obj.moreHover($(".header .bottom .left-list"),"addBg");
+    //手机直播和相关设备调用    添加颜色
+    c_obj.addcolor($(".content .phone .btn-box"), ["(51,204,255)", "(102,204,0)",
+        "(255,102,153)", "(255,153,0)", "(0,204,204)"]);
+    //调用top切换
+    c_obj.handleEntrance($(".content .phone .btn-box"),$(".content .phone .phone-list"),"addCl");
+    //轮播图事件调用
+    c_obj.banner($(".banner-left"),$(".banner .banner-shang"),$(".banner .banner-xia"));
+    //导航出现调用
+    c_obj.handleStairs($(".content"),$(".stairs"));
+
+
+});

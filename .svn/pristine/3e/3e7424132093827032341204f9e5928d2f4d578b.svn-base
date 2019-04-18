@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navList1.css">
+</head>
+
+<body>
+    <!-- 广告 开始-->
+    <div class="advertis">
+        <div class="advertising container">
+            <a href="#" title="双旦钜惠，跨年狂欢"></a>
+        </div>
+    </div>
+    <!-- 广告 结束-->
+    <!-- 头部登陆 开始-->
+    <!-- 登陆注册 -->
+    <div class="head">
+        <div class="container head-top clearfix">
+            <div class="head-top-1">
+                <span class="head-one">你好，欢迎来到音平商城！</span>[<span class="head-two"><a href="#">请登录</a></span>|<span
+                    class="head-three"><a href="#">免费注册</a></span>]
+            </div>
+            <!-- 我的音平等四个标签 -->
+            <div class="head-top-2">
+                <ul>
+                    <li class="head-top-3  head-top-list">
+                        <a href="#">我的音平<img src="images/navList1/banner4.png" alt=""></a>
+                        <ul class="head-top-ul">
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">我的收藏</a></li>
+                            <li><a href="#">我的评价</a></li>
+                            <li><a href="#">我的优惠券</a></li>
+                        </ul>
+                    </li>
+                    <li class="head-top-4 head-top-list"><a href="#">我的购物车</a></li>
+                    <li class="head-top-5 head-top-list"><a href="#">企业采购</a></li>
+                    <li class="head-top-6 head-top-list">
+                        <a href="#">客服服务<img src="images/navList1/banner4.png" alt=""></a>
+                        <div class="head-top-6-one">
+                            <div class="head-top-6-two">
+                                <p class="head-top-6-p1"><a href="#">我的客服</a></p>
+                                <p class="head-top-6-p2">在线时间：08:30 - 23:00</p>
+                            </div>
+                            <div class="head-top-6-three">
+                                <p class="head-top-6-p3">400 700 3638</p>
+                                <p class="head-top-6-p2">服务时间：08:30 - 23:00</p>
+                            </div>
+                            <div class="head-top-6-four">
+                                <div class="head-top-6-div1"><img src="images/navList1/wechat-icon-1.0.0.png" alt=""></div>
+                                <div class="head-top-6-div2">微信客服<br>扫一扫</div>
+                                <div class="head-top-6-div3"><img src="images/navList1/wechatqr-1.0.0.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- logo  搜索框-->
+
+    <div class="head-middle clearfix">
+        <div class="head-middle-list container">
+            <div class="head-middle-one"></div>
+            <div class="head-middle-two"></div>
+            <div class="head-middle-three">
+                <div class="head-middle-three-top">
+                    <input type="text" placeholder="得胜PH130手机麦" class="head-middle-text"><input type="submit" value="搜索"
+                        class="head-middle-btn">
+                </div>
+                <div class="head-middle-three-down">
+                    <ul>
+                        <li><a href="#">K歌直播声卡</a></li>
+                        <li><a href="#">录音声卡</a></li>
+                        <li><a href="#">电容麦</a></li>
+                        <li><a href="#">监听音箱</a></li>
+                        <li><a href="#">调音台</a></li>
+                        <li><a href="#">吉他</a></li>
+                        <li><a href="#">RME声卡</a></li>
+                        <li><a href="#">莱维特</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="head-middle-four">
+                <div class="head-middle-four-left">
+                    <div class="head-middle-four-left-div"></div>
+                </div>
+                <div class="head-middle-four-right"><a href="#"> </a></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 商品分类 -->
+
+    <div class="head-down clearfix">
+        <div class="head-down-list container">
+            <div class="head-down-one">
+                <a href="#">全部商品分类</a>
+                <div>
+
+                </div>
+            </div>
+            <div class="head-down-two">
+                <ul>
+                    <li><a href="#">网站首页</a></li>
+                    <li><a href="#">套装方案</a>
+
+                    </li>
+                    <li><a href="#">活动专区</a></li>
+                    <li><a href="#">品牌专区</a></li>
+                    <li><a href="#">音平咨询</a></li>
+                    <li><a href="#">音乐乐享</a></li>
+                    <li><a href="#">音师傅</a></li>
+                </ul>
+            </div>
+            <div class="head-down-three">
+                <div></div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 商品分类 结束-->
+
+    <!-- body 上部分 -->
+    <!-- 套装分类 -->
+    <div class="bady-bg1"></div>
+    <div class="all-body">
+        <div class="body-top container">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li>〉</li>
+                <li><a href="#">录音编曲</a></li>
+                <li>〉</li>
+                <li>按销量从高到低</li>
+            </ul>
+        </div>
+        <div class="bady-bg2 container"></div>
+        <div class="microphone-list container">
+            <a href="#" class="microphone-list-one">
+                <i class="icon iconfont">
+
+                </i>
+                录音编曲
+            </a>
+            <a href="#">
+                <i class="iconfont  ">
+
+                </i>
+                网络主播
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                手机直播
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                演出音响
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                家庭KTV
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                影视录音
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                乐器设备
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                音乐欣赏
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                会议工程
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                家庭影院
+            </a>
+        </div>
+
+        <!-- 热卖 -->
+        <div class="hot-sale container clearfix">
+            <div class="hot-sale-style">
+                <div class="hot-sale-recommendation">
+                    <span>热卖</span><br>
+                    <span>推荐</span>
+                </div>
+            </div>
+            <div class="hot-sale-show">
+                <div class="hot-sale-list">
+                        <a href="#">
+                                <img src="images/navList1/list1.jpg" alt="RME Fireface UCX声卡搭配爱科技C414XLII麦克风   专业录音套装">
+                        </a>
+                        <div class="hot-sale-list1">
+                            <a href="#">
+                                    RME Fireface UCX声卡搭配爱科技C414XLII麦克风   专业录音套装
+                            </a><br>
+                            <strong>
+                                    ￥ 3895.00
+                            </strong>
+                            <div class="hot-sale-buy">
+                                <a href="#">立即抢购</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="hot-sale-list">
+                        <a href="#">
+                                <img src="images/navList1/list1.jpg" alt="RME Fireface UCX声卡搭配爱科技C414XLII麦克风   专业录音套装">
+                        </a>
+                        <div class="hot-sale-list1">
+                            <a href="#">
+                                    RME Fireface UCX声卡搭配爱科技C414XLII麦克风   专业录音套装
+                            </a><br>
+                            <strong>
+                                    ￥ 3895.00
+                            </strong>
+                            <div class="hot-sale-buy">
+                                <a href="#">立即抢购</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="hot-sale-list">
+                        <a href="#">
+                                <img src="images/navList1/list1.jpg" alt="RME Fireface UCX声卡搭配爱科技C414XLII麦克风   专业录音套装">
+                        </a>
+                        <div class="hot-sale-list1">
+                            <a href="#">
+                                    RME Fireface UCX声卡搭配爱科技C414XLII麦克风   专业录音套装
+                            </a><br>
+                            <strong>
+                                    ￥ 3895.00
+                            </strong>
+                            <div class="hot-sale-buy">
+                                <a href="#">立即抢购</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 套装产品部分 -->
+        <div class="suit-top container clearfix">
+            <div class="classify">
+                    <a href="#">销量<span class="fa fa-arrow-up"></span></a>
+                    <a href="#">价格<span class="fa fa-arrow-up"></span></a>
+                    <a href="#">新品<span class="fa fa-arrow-up"></span></a>
+                    <a href="#">优惠<span class="fa fa-arrow-up"></span></a>
+            </div>
+            <div class="screen">
+                <span>￥</span><input type="text"name=""><span>-￥</span><input type="text"name=""> <a href="#">筛选</a>
+            </div>
+            <div class="search">
+                <input type="text"name=""><a href="">搜索</a>
+            </div>
+            <div class="service">
+                <div></div>
+                <a href="#">专业客服导购</a>
+            </div>
+        </div>
+
+        <div class="suit-list-pandect container clearfix">
+            <div class="suit-list clearfix">
+                <div class="suit-list1 clearfix">
+                    <div class="suit-list1-pic">
+                        <img src="images/navList1/123.jpg" alt="">
+                    </div>
+                    <div class="suit-list1-introduce">
+                        <a href="#">富克斯特2i2声卡搭配得胜K820麦克风 录音套装</a>
+                        <p><span>套装标签:</span><a href="#">单人录像套装</a></p>
+                        <p><span>推荐理由:</span>&nbsp;&nbsp;&nbsp;&nbsp;小额预算配置 颜值与性能兼具，麦克风及声卡均为性价比的口碑产品、操作简单方便、稳定性佳 适用于音乐翻唱、小说录制、广告配音等</p>
+                    </div>
+                </div>
+                <div class="suit-list2 clearfix">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="suit-list-price">
+
+            </div>
+        </div>
+    </div>
+    <div class="foot"></div>
+</body>
+</html>

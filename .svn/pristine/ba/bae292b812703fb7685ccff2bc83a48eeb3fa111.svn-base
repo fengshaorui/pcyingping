@@ -1,0 +1,14 @@
+$(function(){
+    var shopDetail = (function($){
+
+
+
+        return {
+
+        }
+
+    })(jQuery);
+
+    
+
+});

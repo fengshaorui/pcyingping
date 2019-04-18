@@ -1,0 +1,582 @@
+$(function(){
+    var indexFun=(function(){
+
+        //nav我的购物车显示购物数量
+        function cartCount(){
+            var userStr=document.cookie.split("=");
+            if(userStr[0]=="user"){
+                $.ajax({
+                    type:"post",
+                    url:"../api/index-api/cartNum.php",
+                    data:{
+                        user:userStr[1],
+                    },
+                    dataType:"json",
+                    success:function(data){
+                        var num=data.length;
+                        $(".right-two .cart-tips span").html(num);
+                    }
+
+                })
+            }
+        }
+
+        /**hover效果，鼠标放上去出现隐藏块，移除消失
+        *hoverObj为数遍移入移除的块
+        *showHideObj是隐藏显示的块
+        **/
+        function hoverHideShow(hoverObj,showHideObj){
+            hoverObj.hover(
+                function(){
+                    showHideObj.show();
+                },
+                function(){
+                    showHideObj.hide();
+                })     
+        }
+
+        //轮播图给li设置背景图片封装
+        function setImgLoop(arr,obj){
+            var len=obj.length;
+            for(var i=0;i<len;i++){
+                obj.eq(i).css({
+                    background:"url(images/index/"+arr[i]+") no-repeat 0 0",
+                })      
+            }
+        }
+
+        //小轮播上下轮播
+        function arrowClick(topObj,bottomObj,loopObj,height){
+            var imgindex=0;
+            var len=loopObj.children().length;
+            topObj.click(function(){
+                imgindex--;
+                if(imgindex<0){
+                    var topVal=(len-1)*height;
+                    loopObj.css({marginTop:-topVal});
+                    imgindex=len-2;
+                }
+                loopObj.stop(true,true).animate({marginTop:-(height*imgindex)});
+            }) 
+
+            function bottomClick(){
+                imgindex++;
+                if(imgindex==len){
+                    loopObj.css({marginTop:0});
+                    imgindex=1;
+                }
+                loopObj.stop(true,true).animate({marginTop:-height*imgindex});              
+            }
+
+            bottomObj.click(bottomClick);
+            var smallLoopTime=setInterval(bottomClick,2000);
+
+            loopObj.parent().hover(
+                function(){
+                    if(smallLoopTime){
+                        clearInterval(smallLoopTime);
+                    }
+                },
+                function(){
+                    smallLoopTime=setInterval(bottomClick,2000);
+                })
+        }
+
+
+        //上下轮播图实现的调用
+        function smallLoop(){
+            //初始化       
+            var imgstr = ["loop1.jpg","loop2.jpg","loop3.jpg"];
+            //克隆第一个节点
+            indexFun.setImgLoop(imgstr,$(".small-loop ul li"));
+            var lastLoopImg=$(".small-loop ul li:first").clone(true,true);
+            lastLoopImg.appendTo(".small-loop ul");
+
+            var height=parseInt($(".small-loop ul li").css("height").split("px"));
+            indexFun.arrowClick($(".arrow-top"),$(".arrow-bottom"),$(".small-loop ul"),height);
+        }
+
+        //当键盘按下发起jsonp请求与输入搜索内容相关的内容
+        var searchIndex=-1;
+        function searchKeyup(){
+            var timer;
+            $(".search input").keyup(function(e){
+                 e.stopPropagation();
+                 if(timer){
+                    clearTimeout(timer);
+                 }
+                
+                if(e.which!==40&&e.which!==38){
+                    searchIndex=-1;
+                    timer=setTimeout(ajaxRequest,300);
+                }
+            })
+                     
+        }
+
+        //搜索框jsonp请求数据（接口实现）
+        function ajaxRequest(){
+            var inputVal=$(".top .search input").val();
+            var url="https://www.ingping.com/search/solrCheck?";
+            $(".search .search-list ul").html("");
+            $.ajax({
+                type:"get",
+                url:url,
+                data:{
+                    term:inputVal
+                },
+                dataType:"jsonp",
+                success:function(data){
+                    $(".search .search-list ul").html("");
+                    $(".search .search-list").show();
+                    var liStr="";
+                    for(var i=0;i<data.length;i++){
+                        liStr+="<li>"+data[i]+"</li>";
+                    }
+                    $(".search .search-list ul").append(liStr);
+                }
+            }) 
+        }
+        
+
+        //search,up,down切换选项
+        function searchUpDown(){
+            $(window).keydown(function(e){
+                e.stopPropagation();
+                var len=$(".search .search-list ul li").length; 
+                if(e.which==40){ 
+                    if(searchIndex==len-1){
+                        searchIndex=-1;
+                    }   
+                    searchIndex++; 
+                    console.log(searchIndex)   
+                    $(".search .search-list ul li").eq(searchIndex).addClass("search-select").siblings().removeClass("search-select");
+                    $(".search input").val($(".search .search-list ul li").eq(searchIndex).html());  
+                    //z测试====================================
+                           
+                }
+                if(e.which==38){ 
+                    if(searchIndex<=0){
+                       searchIndex=len;
+                    }    
+                    searchIndex--;    
+                    $(".search .search-list ul li").eq(searchIndex).addClass("search-select").siblings().removeClass("search-select");   
+                    $(".search input").val($(".search .search-list ul li").eq(searchIndex).html());
+
+                }
+                if(e.which==13){      
+                    $(".search .search-list").hide();
+                       searchIndex=-1;
+                    }
+            })
+        }
+
+        //执行搜索,以及结果的操作
+        function search(){
+            
+            searchKeyup();
+            searchUpDown()
+
+            $(document).not($(".search")[0]).click(function(){
+                $(".search .search-list").hide();
+            })
+            $(".search .search-list ul").on("click","li",function(){
+                $(".search input").val($(this).html());
+                $(".search .search-list").hide();
+                searchIndex=-1;
+
+            })
+            $(".search .search-list ul").on("mouseover","li",function(){
+                $(this).addClass("hover");
+            })
+            $(".search .search-list ul").on("mouseout","li",function(){
+                $(this).removeClass("hover");
+            })
+        }
+
+        //banner初始化
+        function bannerInit(){
+            //背景色初始化    
+            var colorArr=["#FE6029","#9812D4","#9412FE","#16B865","#2C95FF","#E71832","#FF6702"];
+            for(var i= 0;i<colorArr.length;i++){
+                $(".banner-loop li").eq(i).css({backgroundColor:colorArr[i]});
+            }
+            //设置图片
+            var bannerLoopImg=$(".banner .banner-loop li:first").clone(true,true);
+            bannerLoopImg.appendTo(".banner .banner-loop"); 
+
+            $(".banner .loop-line li").eq(0).css({backgroundColor:"white"});          
+        }
+
+        //loop-ing,loop-line,自动播放
+        function bannerMoveLineHover(loopIndex,lineIndex){
+            var time=window.setInterval(function(){
+            var len=$(".banner-loop li").length;
+            loopIndex++;
+            lineIndex++;
+            if(loopIndex==len){
+                loopIndex=1;
+            }
+            if(lineIndex==len-1){
+                lineIndex=0;
+            }
+            $(".banner-loop li").eq(loopIndex).children("img").fadeIn().parent().siblings().children("img").fadeOut();
+
+            //轮播条
+            $(".loop-line li").eq(lineIndex).css({backgroundColor:"white"}).siblings().css({backgroundColor:"rgba(255,255,255,.5)"})
+            },3000); 
+            lineHover(time);
+        }
+
+        //轮播条hover事件
+        function lineHover(time){
+            $(".banner .loop-line li").hover(
+            function(){
+                console.log(1);
+                if(time){
+                    clearInterval(time);
+                }
+                $(".banner-loop li").eq($(this).index()).children("img").fadeIn().parent().siblings().children("img").fadeOut();
+                $(".loop-line li").eq($(this).index()).css({backgroundColor:"white"}).siblings().css({backgroundColor:"rgba(255,255,255,.5)"})
+            },
+            function(){
+                loopIndex=$(this).index();
+                lineIndex=$(this).index();
+                bannerMoveLineHover(loopIndex,lineIndex)
+            }) 
+        }
+
+        //bannerloop入口函数
+        function bannerLoop(){ 
+            var loopIndex=0;
+            var lineIndex=0;  
+            bannerInit();
+            bannerMoveLineHover(loopIndex,lineIndex);
+        }
+
+        //ajax获取list数据
+        function getList(){
+            var listgoods="<div class='left'></div>";
+            $(".banner-list ul li.list-hid").prepend(listgoods);
+            $(".banner-list ul").on("mouseover","li",function(){
+                $(".banner-list .list-hid").show();
+                $.ajax({
+                    type:"post",
+                    url:"../api/index-api/listgoods.php",
+                    data:{
+                        index:$(this).index()
+                    },
+                    dataType:"json",
+                    success:function(data){
+                        dealListData(data);
+                    }
+                })
+            })
+            $(".banner-list ul").on("mouseout",function(){
+                $(".banner-list .list-hid").hide();
+            })
+        }
+
+        //处理菜单栏list ajax数据
+        function dealListData(data){
+            $(".banner-list ul li.list-hid .left").children().remove();
+            $(".banner-list .list-hid .right .right-bottom span").remove();
+            var listName="";
+            var imgStr="";
+            for(var key in data){
+                if(key=="imgs"){
+                    for(var i=0;i<data[key].length;i++){
+                        imgStr+="<span><img src=\"images/index/"+data[key][i]+"\"/></span>";
+                    }
+                    $(".banner-list .list-hid .right .right-bottom").append(imgStr);
+                }else{
+                    listName="<p>"+key+"</p><div>";
+                    for(var i=0;i<data[key].length;i++){
+                        listName+="<span><a href='goodsList.html'>"+data[key][i]+"</a></span><span>\/\</span>";
+                    }
+                    listName+="</div>";
+                    $(".banner-list .list-hid .left").append(listName);
+                }
+        
+            }
+        }
+
+        //tab切换
+        function tab(){
+            //初始化
+            $(".tab-list ul").hide();
+            $(".tab-list ul").eq(0).show();
+            $(".tab-title li").mouseover(function(){
+                var index=$(this).index();
+                $(".tab-list ul").eq(index).show().siblings("ul").hide();
+                $(".banner-news .line").stop(true,true).animate({left:15+50*(index)},200)
+            })
+
+        }
+
+        //楼层导航
+        function lift(){
+            $(window).scroll(function(){
+                var floorTop=$(".floor").eq(0).offset().top;
+                var winH=$(window).height();
+                var scrollTop=$(window).scrollTop();
+                if(floorTop<=winH+scrollTop+150){
+                    $(".lift").removeClass("hid").addClass("play");
+                }else{
+                    $(".lift").removeClass("play").addClass("hid");
+                }
+                var len=$(".floor").length;
+                for(var i=0;i<len;i++){
+                    var offTop=$(".floor").eq(i).offset().top;
+                    if(offTop<=scrollTop+100){
+                        $(".lift ul li").eq(i).addClass("scroll-color").siblings().removeClass("scroll-color");
+                    }
+                }
+            })
+            liftClick();    
+        }
+        function liftClick(){
+            $(".lift ul li").click(function(){
+                var objScroll=$(".floor").eq($(this).index()).offset().top;
+                console.log(objScroll);
+                $(window).scrollTop(objScroll);
+            })
+        }
+
+        //动态添加hot模块里的数据
+        function addData(obj){
+            obj.data("flag",false);
+            $(window).scroll(function(){
+                var offsetTop=obj.offset().top;
+                var scrollTop=$(window).scrollTop();
+                var winH=$(window).height();
+                if(offsetTop-winH<=scrollTop+50){
+                    if(obj.data("flag")==false){
+                        $.ajax({
+                            type:"post",
+                            url:"api/index-api/indexlist.php",
+                            data:{
+                                type:obj.data("type"),
+                            },
+                            dataType:"json",
+                            success:function(data){
+                                if(obj.data("type")=="hot"){
+                                    setHotData(data);
+                                }else{
+                                    setFloorData(data,obj);
+                                }
+                                
+                            }
+
+                        })
+                        obj.data("flag",true);
+                    }else{
+                        return false;
+                    }
+                    
+                    
+                }
+            })
+        }
+
+        //处理热卖模块ajax的数据
+        function setHotData(data){
+            $(".hot div.load").remove();
+            for(var i=0;i<data.length;i++){
+                
+                for(var key in data[i]){
+                    var htmlStr="";
+                    if(data[i]["info"]=="1"){
+                        htmlStr="<img src='images/index/"+data[i]["indeximg"]+"'>";
+                    }else if(data[i]["info"]=="4"){
+
+                        htmlStr="<img src='images/index/"+data[i]["indeximg"]+"'>";
+
+                    }else{
+
+                        htmlStr+="<div class='hot-font'>";
+                        var str=data[i]["info"].split("/");
+                        htmlStr+="<p class='font-one'>"+str[0]+"</p>";
+                        htmlStr+="<p class='font-two'>"+str[1]+"</p>";
+                        htmlStr+="<p class='font-th'><span class='item_price_new c-primary'><i>¥</i>"+data[i]["price"]+"</span></p></div>";
+                        htmlStr+="<div class='hot-goods'><img src='images/index/"+data[i]["indeximg"]+"'></div>";
+                    }
+               
+                }
+                $(".hot-list ul li").eq(i).append(htmlStr);
+
+            }
+        }
+
+        //处理floor模块ajax的数据
+        function setFloorData(data,obj){
+            obj.find(".small-list").children("ul").empty();
+            obj.find("div.load").remove();
+            for(var i=0;i<data.length;i++){
+                
+                for(var key in data[i]){
+                    var htmlStr="";
+                    var htmlTips="";
+                    var htmlImg="";
+                    if(data[i]["info"]=="1"){
+                        htmlStr="<img src='images/index/"+data[i]["indeximg"]+"'>";
+                        obj.children(".floor-mid").children(".list").children(".left").append(htmlStr);
+                        
+                        var tips=data[i]["sort"];
+                        var temp=tips.split("/");
+                        for(var j=0;j<temp.length;j++){
+                            htmlTips+="<li>"+temp[j]+"</li><li>/</li>";
+                        }
+
+                        obj.find(".small-list").children("ul").append(htmlTips);
+
+                        var img=data[i]["adimg"];
+                        var imgtemp=img.split("/");
+                        for(var m=0;m<imgtemp.length;m++){
+                            htmlImg+="<img src='images/index/"+imgtemp[m]+"'>";
+                        }
+                        obj.find(".floor-bottom").append(htmlImg);
+                        break;
+
+                    }else{
+                        var str=data[i]["info"].split("/");
+                        htmlStr+="<div class='hot-font'><p class='font-one'>"+str[0]+"</p>";
+                        htmlStr+="<p class='font-two' title='"+str[1]+"'>"+str[1]+"</p>";
+                        htmlStr+="<p class='font-th'><span class='item_price_new c-primary'><i>¥</i>"+data[i]["price"]+"</span></p></div>";
+                        htmlStr+="<div class='hot-goods'><img src='images/index/"+data[i]["indeximg"]+"'></div>";
+                    }
+
+                }
+                if(i!=0){
+                obj.children().eq(0).children(".list").children(".right").children("ul").children().eq(i-1).append(htmlStr);
+
+                }
+               
+            }
+        }
+
+        //猜你喜欢 换一批效果
+        function tabLikeList(){
+            $(".huan .font-zero").click(function(){
+                var page=$(".like .like-list ul").data("page");
+                $.ajax({
+                    type:"post",
+                    url:"../api/index-api/guesslike.php",
+                    data:{
+                        page:page
+                    },
+                    dataType:"json",
+                    success:function(data){
+                        guessLikeData(data);
+                        if(page==1){
+                            $(".like .like-list ul").data("page",0);
+                        }else{
+                            $(".like .like-list ul").data("page",1);
+                        }   
+                    }   
+                })
+            })
+
+        }
+        //处理猜您喜欢的ajax请求的数据
+        function guessLikeData(data){
+            for(var i=0;i<data.length;i++){
+                for(var key in data[i]){
+                    var htmlStr="";
+                    htmlStr+="<img src='images/index/"+data[i]["indeximg"]+"'>";
+                    htmlStr+="<p class='item_name'><a href='detail.php?"+data[i]["Id"]+"'>"+data[i]["info"]+"</a></p>";
+                    htmlStr+="<p class='item_price'><i>¥</i> "+data[i]["price"]+"</p>";
+                }
+                $(".like .like-list ul li").eq(i).children().remove();
+                $(".like .like-list ul li").eq(i).append(htmlStr);
+
+            }
+        }
+
+        //初始化猜你喜欢模块
+        function initLike(){
+            $(".like .like-list ul li").eq(0).css({marginLeft:0});
+            $(".like-list ul li p.item-name a").each(function(){
+                var likeId=$(this).data("id");
+                $(this).attr("href","detail.php?id="+likeId);
+            })
+        }
+
+        //判断登陆状态
+        function isLogin(){
+            var userStr=document.cookie.split("=")[0];
+            if(userStr=="user"){
+                $(".nav-mid-left span").has("a").remove();
+            }
+
+        }
+
+        return {
+            hoverHideShow:hoverHideShow,
+            setImgLoop:setImgLoop,
+            arrowClick:arrowClick,
+            smallLoop:smallLoop,
+            search:search,
+            bannerLoop:bannerLoop,
+            getList:getList,
+            tab:tab,
+            lift:lift,
+            addData:addData,
+            tabLikeList:tabLikeList,
+            initLike:initLike,
+            isLogin:isLogin,
+            cartCount:cartCount
+        }
+
+    })()
+
+
+
+//调用hoverHideShow显示或者隐藏块
+indexFun.hoverHideShow($(".right-one"),$(".right-one-hid"));
+indexFun.hoverHideShow($(".right-four"),$(".right-four-hid"));
+indexFun.hoverHideShow($(".small-icon-one"),$(".hid-icon"));
+
+//上下小轮播图实现调用
+indexFun.smallLoop();
+
+//搜索框功能实现
+indexFun.search();
+
+//banner轮播图实现
+indexFun.bannerLoop(); 
+
+//菜单栏ajax加载实现
+indexFun.getList();
+
+//tab功能
+indexFun.tab();
+
+//楼层导航
+indexFun.lift();
+
+//按需加载不同模块
+indexFun.addData($(".hot"));
+indexFun.addData($(".fl01"));
+indexFun.addData($(".fl02"));
+indexFun.addData($(".fl03"));
+indexFun.addData($(".fl04"));
+indexFun.addData($(".fl05"));
+indexFun.addData($(".fl06"));
+
+//猜你喜欢换一批功能实现
+indexFun.tabLikeList();
+
+//初始化like模块
+indexFun.initLike();
+
+//判断用户是否登陆
+indexFun.isLogin();
+
+
+indexFun.cartCount();
+
+
+})
+
+

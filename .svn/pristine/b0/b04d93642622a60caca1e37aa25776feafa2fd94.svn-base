@@ -1,0 +1,33 @@
+<!doctype html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,user-scalable=1">
+     <title>touch的两种注册方式</title>
+     <style>
+        * { margin: 0; padding: 0;}
+        .box { width: 300px; height: 1000px; background-color: orange; margin: 50px auto; padding-top: 150px;}
+     </style>
+ </head>
+ <body>
+     
+
+     <script>
+        //  document.ontouchstart = function(){
+        //      console.log('touchstart');
+        //  }
+        //  document.ontouchmove = function(){
+        //      console.log('touchmove');
+        //  }
+        //  document.ontouchend = function(){
+        //      console.log('touchend');
+        //  }
+        var isMobile = "ontouchstart" in document;
+        if (isMobile){
+            alert('是移动端');
+        }else{
+            alert('pc端');
+        }
+     </script>
+ </body>
+ </html> 

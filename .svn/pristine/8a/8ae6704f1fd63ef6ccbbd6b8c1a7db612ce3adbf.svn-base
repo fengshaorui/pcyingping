@@ -1,0 +1,64 @@
+$(function(){
+    var sectionFun = (function(){
+        //轮播图添加背景图片
+        function setImgBannerLoop(arr,obj){
+                var len = obj.length;
+                for(var i = 0;i < len;i ++){
+                    obj.eq(i).css({
+                        background:"url(images/Section5/" + arr[i] + ") no-repeat 0 0",
+                    })      
+                }
+            }
+        //添加点击button切换loop事件    
+        function  bannerLoopclick(loopObj,btnObj){
+            loopObj.eq(0).show().siblings().hide();
+            btnObj.eq(0).css({background:'#F899B3'});
+            var x = 0;
+            btnObj.click(function(){
+                x = $(this).index();
+                fadeIn(x);
+            });
+            function fadeIn(x){
+                loopObj.eq(x).fadeIn().siblings().fadeOut();
+                btnObj.eq(x).css({background:'rgb(233, 102, 183)'})
+                .siblings().css({background:'#fff'});
+            }
+        //loop自动切换事件
+            function  bannerLoopMove(){
+                x++;
+                if(x>loopObj.length-1){
+                    x = 0
+                }
+                fadeIn(x);
+            }
+            var loopTime=setInterval(bannerLoopMove,3000);
+        //鼠标悬停loop时清空计时器，结束loop自动切换    
+            loopObj.parent().hover(
+                function(){
+                    console.log(1);
+                    if(loopTime){
+                        clearInterval(loopTime);
+                    }
+                },
+                function(){
+                    loopTime=setInterval(bannerLoopMove,2000);
+            })
+        } 
+        
+    
+    return{
+        setImgBannerLoop:setImgBannerLoop,
+        bannerLoopclick:bannerLoopclick,
+    }
+    
+    })();
+
+    //调用轮播函数
+    function bannerLoop(){
+        var imgstr = ["banner_1.png","banner_2.png","banner_3.png"];
+        sectionFun.setImgBannerLoop(imgstr,$(".banner-loop ul.loop li"));
+        sectionFun.bannerLoopclick($(".banner-loop ul.loop li"),$(".banner-loop .banner-next li"));
+    
+    }
+    bannerLoop();
+});

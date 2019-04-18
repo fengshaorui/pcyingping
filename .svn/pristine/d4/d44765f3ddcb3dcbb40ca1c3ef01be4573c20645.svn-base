@@ -1,0 +1,132 @@
+/* 网站脚注区域开始 */
+.footer{
+    margin-top: 10px;
+}
+
+.footer .foot-top{
+    height: 65px;
+    background-color: #ff6600;
+}
+.footer .foot-top a{
+    text-align: center;
+    height: 65px;
+    width: 232px;
+    line-height: 65px;
+    color: #fff!important;
+    font-size: 18px;
+    float: left;
+    font-weight: 700;
+}
+.footer .foot-top a img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.footer .foot-mid{
+    height: 176px;
+    margin: 40px 0;
+    font-size: 12px;
+    color: #333;
+}
+.footer .foot-mid dl{
+    float: left;
+    width: 158px;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.footer .foot-mid dl dt{
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.footer .foot-mid dl dd{
+    height: 24px;
+    line-height: 24px;
+}
+.footer .foot-mid dl dd a{
+    color: #333;
+}
+.footer .foot-mid dl dd a:hover{
+    color: #ff6600;
+}
+.footer .foot-mid .foot-mid-right{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: 46px;
+    height: 130px;
+    width: 220px;
+    text-align: right;
+}
+.footer .foot-mid .foot-mid-right p.item1{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.footer .foot-mid .foot-mid-right p.item2{
+    color: #ff6600;
+    font-weight: 700;
+    font-size: 30px;
+}
+.footer .foot-mid .foot-mid-right p.item3{
+    margin: 5px 0;
+}
+.footer .foot-mid .foot-mid-right a.item4{
+    text-align: center;
+    color: #ff6600;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+    padding: 5px 35px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.footer .foot-mid .foot-mid-right img{
+    position: absolute;
+    left: -35px;
+    top: -65px;
+    width: 130px;
+    height: 130px;
+}
+.footer .foot-bottom{
+    height: 163px;
+    box-sizing: border-box;
+    background: #333;
+    color: #a4a4a4;
+    padding: 20px 0;
+}
+.footer .foot-bottom .container{
+    padding: 0 10px;
+}
+.footer .foot-bottom  p.foot-title{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.footer .foot-bottom  p.our-promise{
+    font-size: 12px;   
+}
+.footer .foot-bottom a{
+    color: #a4a4a4;
+}
+.footer .foot-bottom a:hover{
+    color: #ff6600;
+}
+.footer .foot-bottom  p.our-property{
+   font-size: 12px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+}
+.footer .foot-bottom  p.our-imgs a{
+    display: inline-block;
+    width: 96px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.footer .foot-bottom  p.our-imgs a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+/* 网站脚注区域结束 */

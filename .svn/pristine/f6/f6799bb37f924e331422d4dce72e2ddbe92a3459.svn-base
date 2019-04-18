@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/lib/init.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <div class="top-ad">
+        <div class="top-ad-mid"></div>
+    </div>
+    <div class="nav">
+        <div class="nav-mid clearfix">
+            <div class="nav-mid-left">
+                <span>您好！欢迎来到音平商城！</span>
+                <span><a href="#">请登录</a></span>
+                <span><a href="#">免费注册</a></span>
+            </div>
+            <div class="nav-mid-right clearfix">
+                
+                <div class="right-one">
+                    <span class="my-yinping">我的音平<img src="images/index/bottom-arrow.png"/></span>
+                    <div class="right-one-hid">
+                        <span>我的订单</span>
+                        <span>我的收藏</span>
+                        <span>我要评价</span>
+                        <span>我的优惠劵 0</span>
+                    </div>
+                </div>
+                <div class="right-two">
+                    <span class="my-cart">我的购物车</span>
+                </div>
+                <div class="right-three">
+                    <span class="my-qiye">企业采购</span>
+                </div>
+                <div class="right-four">
+                    <span class="my-kefu">客服服务<img src="images/index/bottom-arrow.png"/></span>
+                    <div class="right-four-hid">
+                        <div class="hid-list-one">
+                            <span class="title">在线客服</span>
+                            <p>在线时间:8:30-23:00</p>
+                        </div>
+                        <div class="hid-list-two">
+                            <span>400 700 3638</span>
+                            <p>服务时间：08:30 - 23:00</p>
+                        </div>
+                        <div class="hid-list-three"></div>
+                        
+                    </div>
+                </div>          
+        </div>
+    </div>
+    <script src="js/lib/jquery-3.3.1.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

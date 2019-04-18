@@ -1,0 +1,19 @@
+$(function(){
+    var myShopCar = (function( $ ){
+
+        // tab切换功能
+        function handleTabHover(){
+            $(".tab-hover li").mouseover(function(){
+                console.log(1111);
+                $(this).siblings().removeClass("active").end().addClass("active");
+            });
+        }
+
+        return {
+            handleTabHover: handleTabHover
+        }
+    })( jQuery );
+
+    // tab切换功能
+    myShopCar.handleTabHover();
+});

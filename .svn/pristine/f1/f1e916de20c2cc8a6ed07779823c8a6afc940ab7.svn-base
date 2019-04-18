@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="./css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/lib/init.css">
+    <link rel="stylesheet" href="./css/slideBar.css">
+    <link rel="stylesheet" href="./css/page-footer.css">
+    <link rel="stylesheet" href="./css/detail.css">
+</head>
+
+<body>
+
+    <!-- 网站顶部的logo区域开始 -->
+    <div class="top-ad"></div>
+    <!-- 网站顶部的logo区域结束 -->
+
+    <!-- 头部区域开始 -->
+    <div class="header">
+        <div class="container clearfix">
+            <div class="left">
+                <span class="login-info">您好！欢迎来到音平商城！</span>
+                <span class="login-tip">
+                    [
+                    <a href="#">请登陆</a>
+                    &nbsp;| &nbsp;
+                    <a href="#">免费注册</a>
+                    ]
+                </span>
+            </div>
+            <div class="right">
+                <ul class="list clearfix">
+                    <li class="my-yinping">
+                        <a href="#">
+                            <i class="fa fa-user"></i>
+                            &nbsp;我的音平&nbsp;
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="my-msg">
+                            <a href="#">我的订单</a>
+                            <a href="#">我的收藏</a>
+                            <a href="#">我要评价</a>
+                            <a href="#">我的优惠券</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-shopping-cart"></i>
+                            &nbsp;我的购物车
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-heart"></i>
+                            &nbsp;企业采购&nbsp;
+                        </a>
+                    </li>
+                    <li class="contact">
+                        <a href="#">
+                            <img src="./images/shopCar/header.gif" class="contact-gif"></img>
+                            客服服务
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="contact-box">
+                            <div class="top">
+                                <img src="./images/shopCar/contact.png" alt="联系我们">
+                                <a href="#">在线客服</a>
+                                <span>在线时间：08:30 - 23:00</span>
+                            </div>
+                            <div class="mid">
+                                <div class="mid-l"></div>
+                                <div class="mid-r">
+                                    <p class="one">400 700 3638</p>
+                                    <p class="two">服务时间 : 08:30-23:00</p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <img src="./images/slideBar/wechat-icon.png" alt="" class="one">
+                                <p>微信客服扫一扫</p>
+                                <img src="./images/slideBar/weixin_code.jpg" alt="" class="two">
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 头部区域结束 -->
+
+    <!-- 网站logo和全文搜索区域开始 -->
+    <div class="brand-box">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./images/shopCar/logo.png" alt="网站logo" width="220" height="75">
+            </a>
+            <a href="#" class="hongbao">
+                <img src="./images/detail/hongbao.gif" alt="红包" width="180" height="70">
+            </a>
+            <div class="brand-box-mid">
+                <div class="brand-mid-box">
+                    <div class="search-box">
+                        <input type="text" class="search-input">
+                        <a href="#">搜索</a>
+                        <ul class="item-box">
+                            <li class="active">jsadf</li>  
+                            <li>jsadf</li>  
+                            <li>jsadf</li>  
+                            <li>jsadf</li>  
+                            <li>jsadf</li>  
+                            <li>jsadf</li>  
+                        </ul>
+                    </div>
+                    <div class="keywords">
+                        <a href="#">K歌直播声卡</a>
+                        <a href="#">录音声卡</a>
+                        <a href="#">电容麦</a>
+                        <a href="#">监听音箱</a>
+                        <a href="#">调音台</a>
+                        <a href="#">吉他</a>
+                        <a href="#">RME声卡</a>
+                        <a href="#">莱维特</a>
+                    </div>
+                </div>
+            </div>
+            <div class="brand-box-right">
+                <a href="#" class="one"></a>
+                <a href="#" class="two"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 网站logo和全文搜索区域结束 -->
+
+    <!-- 网站导航区域 -->
+    <div class="container navbar">
+        <div class="item-box">
+            <h3>全部商品分类</h3>
+            <ul class="jsonp-box">
+                <li>
+                    <div class="top-title">
+                        <a href="#">声卡</a>
+                        <a href="#">调音台</a>
+                        <a href="#">控制器</a>
+                    </div>
+                    <div class="tuijian">
+                        <a href="#">K歌声卡</a>
+                        <a href="#">专业声卡</a>
+                        <a href="#">调音台</a>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="top-title">
+                        <a href="#">麦克风</a>
+                        <a href="#">耳机</a>
+                        <a href="#">扩音器</a>
+                    </div>
+                    <div class="tuijian">
+                        <a href="#">电容麦</a>
+                        <a href="#">无线麦</a>
+                        <a href="#">音乐耳机</a>
+                    </div>
+                    <!-- <div class="cont-box clearfix">
+                        <div class="cont-box-left">
+                            <dl class="clearfix">
+                                <dt>乐器配件</dt>
+                                <dd>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                </dd>
+                            </dl>
+                            <dl class="clearfix">
+                                <dt>乐器配件</dt>
+                                <dd>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                </dd>
+                            </dl>
+                            <dl class="clearfix">
+                                <dt>乐器配件</dt>
+                                <dd>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                </dd>
+                            </dl>
+                            <dl class="clearfix">
+                                <dt>乐器配件</dt>
+                                <dd>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                </dd>
+                            </dl>
+                            <dl class="clearfix">
+                                <dt>乐器配件</dt>
+                                <dd>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                </dd>
+                            </dl>
+                            <dl class="clearfix">
+                                <dt>乐器配件</dt>
+                                <dd>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                </dd>
+                            </dl>
+                            <dl class="clearfix">
+                                <dt>乐器配件</dt>
+                                <dd>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                    <a href="#">吉他线材</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="cont-box-right">
+                            <dl class="ad-wrap">
+                                <dt>套装分类</dt>
+                                <dd class="clearfix">
+                                    <a href="#">录音编曲 ></a>
+                                    <a href="#">录音编曲 ></a>
+                                    <a href="#">录音编曲 ></a>
+                                    <a href="#">录音编曲 ></a>
+                                    <a href="#">录音编曲 ></a>
+                                    <a href="#">录音编曲 ></a>
+                                    <a href="#">录音编曲 ></a>
+                                    <a href="#">录音编曲 ></a>
+                                    <a href="#">录音编曲 ></a>
+                                    <a href="#">录音编曲 ></a>
+                                </dd>
+                            </dl>
+                            <dl class="imgWrap">
+                                <dt>品牌精选</dt>
+                                <dd class="clearfix">
+                                    <a href="#">
+                                        <img src="./images/index/shop-logo-1.png" alt="提示文字" width="80" height="40">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/index/shop-logo-1.png" alt="提示文字" width="80" height="40">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/index/shop-logo-1.png" alt="提示文字" width="80" height="40">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/index/shop-logo-1.png" alt="提示文字" width="80" height="40">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/index/shop-logo-1.png" alt="提示文字" width="80" height="40">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/index/shop-logo-1.png" alt="提示文字" width="80" height="40">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/index/shop-logo-1.png" alt="提示文字" width="80" height="40">
+                                    </a>
+                                    
+                                </dd>
+                            </dl>
+                        </div>
+                    </div> -->
+                </li>
+                <li>
+                    <div class="top-title">
+                        <a href="#">音箱</a>
+                        <a href="#">功放</a>
+                        <a href="#">家庭影院</a>
+                    </div>
+                    <div class="tuijian">
+                        <a href="#">KTV功放</a>
+                        <a href="#">监听音箱</a>
+                        <a href="#">舞台音箱</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="top-title">
+                        <a href="#">键盘</a>
+                        <a href="#">吉他</a>
+                        <a href="#">贝司</a>
+                    </div>
+                    <div class="tuijian">
+                        <a href="#">MIDI键盘</a>
+                        <a href="#">民谣吉他</a>
+                        <a href="#">架子鼓</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="top-title">
+                        <a href="#">影视录音</a>
+                        <a href="#">点歌机</a>
+                        <a href="#">播放器</a>
+                    </div>
+                    <div class="tuijian">
+                        <a href="#">录音机</a>
+                        <a href="#">一体点歌机</a>
+                        <a href="#">触摸屏</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="top-title">
+                        <a href="#">话放</a>
+                        <a href="#">耳放</a>
+                        <a href="#">效果器</a>
+                    </div>
+                    <div class="tuijian">
+                        <a href="#">模拟画放</a>
+                        <a href="#">专业耳放</a>
+                        <a href="#">吉他效果器</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="top-title">
+                        <a href="#">配件</a>
+                        <a href="#">软件</a>
+                        <a href="#">声卡调试</a>
+                    </div>
+                    <div class="tuijian">
+                        <a href="#">麦克风支架</a>
+                        <a href="#">摄像头</a>
+                        <a href="#">录音软件</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <ul class="navbar-mid">
+            <li>
+                <a href="#">网站首页</a>
+            </li>
+            <li>
+                <a href="#">套装方案</a>
+            </li>
+            <li>
+                <a href="#">活动专区</a>
+            </li>
+        </ul>
+        <div class="navbar-right">
+            <div class="imgWrap1">
+                <a href="#">
+                    <img src="./images/detail/small-lunbo1.jpg" alt="" width="195" height="35">
+                </a>
+                <a href="#">
+                    <img src="./images/detail/small-lunbo2.jpg" alt="" width="195" height="35">
+                </a>
+                <a href="#">
+                    <img src="./images/detail/small-lunbo3.jpg" alt="" width="195" height="35">
+                </a>
+                <a href="#">
+                    <img src="./images/detail/small-lunbo1.jpg" alt="" width="195" height="35">
+                </a>
+            </div>
+            <div class="btns1">
+                <span class="to-up"></span>
+                <span class="to-down"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主体内容区域开始 -->
+    <div class="main">
+        <div class="container">
+            <div class="crumb">
+                <a href="#">首页</a>
+                <a href="#">麦克风</a>
+                <a href="#">罗德</a>
+                <a href="#" class="last">RODE麦克风</a>
+            </div>
+            <div class="shop-section clearfix">
+                <div class="left">
+                    <div class="img-box">
+                        <img src="./images/detail/shopImg1.jpg" width="398" height="398" alt="提示文字">
+                        <!-- <div class="move-view"></div> -->
+                    </div>
+                    <div class="big"></div>
+                    <div class="move-box2">
+                        <div class="controll prev"></div>
+                        <div class="controll next"></div>
+                        <div class="view">
+                            <div class="imgWrap2">
+                                <img class="active" src="./images/detail/lunbo2-demo.jpg" alt="">
+                                <img src="./images/detail/lunbo2-demo.jpg" alt="">
+                                <img src="./images/detail/lunbo2-demo.jpg" alt="">
+                                <img src="./images/detail/lunbo2-demo.jpg" alt="">
+                                <img src="./images/detail/lunbo2-demo.jpg" alt="">
+                                <img src="./images/detail/lunbo2-demo.jpg" alt="">
+                                <img src="./images/detail/lunbo2-demo.jpg" alt="">
+                                <img src="./images/detail/lunbo2-demo.jpg" alt="">
+                                <img src="./images/detail/lunbo2-demo.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mid">
+                    <h1>罗德(RODE) 澳大利亚进口 NT1-A 电容式录音麦克风十年保修</h1>
+                    <div class="row clearfix price-box">
+                        <div class="col1">
+                            <span>价格</span>
+                        </div>
+                        <div class="col2">
+                            ￥<span class="price">19200.00</span>
+                            <a href="#">降价通知</a>
+                        </div>
+                    </div>
+                    <div class="row clearfix youhui">
+                        <div class="col1">
+                            <span>促销</span>
+                        </div>
+                        <div class="col2">
+                            <span class="one">立减</span>
+                            <a href="#">小程序下单立减5元</a>
+                        </div>
+                    </div>
+                    <div class="row clearfix delivery">
+                        <div class="col1">
+                            <span>配送</span>
+                        </div>
+                        <div class="col2">
+                            <p>
+                                现货，21:00前完成下单当天发货，预计1-3天到达<br/>现在下单，立享满99元包邮
+                                <a href="#">运费说明</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row clearfix size">
+                        <div class="col1">
+                            <span>规格</span>
+                        </div>
+                        <div class="col2">
+                            <a href="#" class="duihao">T5V</a>
+                            <a href="#">T7V</a>
+                        </div>
+                    </div>
+                    <div class="row clearfix goumai">
+                        <div class="col1">
+                            <input type="text" class="sig-count" value="5">
+                            <span class="up-add">+</span>
+                            <span class="down-reduce">-</span>
+                        </div>
+                        <div class="col2">
+                            <a href="#" class="buy-now">立即购买</a>
+                            <a href="javascript:void(0);" class="addCar">加入购物车</a>
+                            <a href="#" class="buy-by-phone">用手机购买
+                                <div>
+                                    <img src="./images/detail/phone-erweima.jpg" alt="提示文字" width="108" height="108"> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row clearfix zhifu">
+                        <div class="col1">
+                            <span>支付</span>
+                        </div>
+                        <div class="col2">
+                            <a href="#">支付宝</a>
+                            <a href="#">微信支付</a>
+                            <a href="#">财付通</a>
+                        </div>
+                    </div>
+
+                    <div class="row clearfix serve">
+                        <div class="col1">
+                            <span>音平服务</span>
+                        </div>
+                        <div class="col2">
+                            · 支持7天无理由退换货&nbsp;&nbsp;· 正品保障&nbsp;&nbsp;官方保修
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <p> 
+                        <span>——</span>
+                        达人都在看 
+                        <span>——</span>
+                    </p>
+                    <div class="lunbo3">
+                        <div class="viewport">
+                            <ul>
+                                <li>
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="./images/detail/img1.jpg" alt="提示文字" width="130" height="130">
+                                          
+                                        </a>
+                                        <span>￥1960.00</span>
+                                    </div>
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="./images/detail/img1.jpg" alt="提示文字" width="130" height="130">
+                                        </a>
+                                        <span>
+                                            ￥19200.00
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="./images/detail/img1.jpg" alt="提示文字" width="130" height="130">
+                                          
+                                        </a>
+                                        <span>￥1960.00</span>
+                                    </div>
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="./images/detail/img1.jpg" alt="提示文字" width="130" height="130">
+                                        </a>
+                                        <span>
+                                            ￥19200.00
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="./images/detail/img1.jpg" alt="提示文字" width="130" height="130">
+                                          
+                                        </a>
+                                        <span>￥1960.00</span>
+                                    </div>
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="./images/detail/img1.jpg" alt="提示文字" width="130" height="130">
+                                        </a>
+                                        <span>
+                                            ￥19200.00
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul>
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <a href="#">专业客服导购</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体内容区域结束 -->
+
+
+
+    <!-- 网站脚注区域开始 -->
+    <div class="footer">
+        <div class="foot-top">
+            <div class="container clearfix">
+                <a href="#">
+                    <img src="./images/shopCar/footer1.png" alt="正品保障">
+                    正品保障
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer2.png" alt="正品保障">
+                    闪电发货
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer3.png" alt="正品保障">
+                    货到付款
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer4.png" alt="正品保障">
+                    七天退换
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer5.png" alt="正品保障">
+                    售后无忧
+                </a>
+            </div>
+        </div>
+        <div class="foot-mid">
+            <div class="container clearfix">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="#">会员积分</a></dd>
+                    <dd><a href="#">网上订购</a></dd>
+                    <dd><a href="#">电话订购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">网站地图</a></dd>
+                    <dd><a href="#">手机触屏版</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于支付</dt>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于配送</dt>
+                    <dd><a href="#">音平配送</a></dd>
+                    <dd><a href="#">上门自提</a></dd>
+                    <dd><a href="#">包邮政策</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换政策</a></dd>
+                    <dd><a href="#">如何办理</a></dd>
+                    <dd><a href="#">开具发票</a></dd>
+                    <dd><a href="#">声卡调试</a></dd>
+                    <dd><a href="#">专业搭配</a></dd>
+                </dl>
+                <dl>
+                    <dt>申请合作</dt>
+                    <dd><a href="#">成为供应商</a></dd>
+                    <dd><a href="#">成为经销商</a></dd>
+                    <dd><a href="#">企业采购</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                    <dd><a href="#">成为微商</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">诚聘英才</a></dd>
+                    <dd><a href="#">公司简介</a></dd>
+                    <dd><a href="#">发展历程</a></dd>
+                </dl>
+                <div class="foot-mid-right">
+                    <p class="item1">客服电话</p>
+                    <p class="item2">400-700-3638</p>
+                    <p class="item3">服务时间：08:30 - 23:00</p>
+                    <a href="#" class="item4">在线咨询</a>
+                    <img src="./images/shopCar/contact.png" alt="联系我们">
+                </div>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <div class="container">
+                <p class="foot-title">音平商城 —— 大型正品音乐设备网购商城</p>
+                <p class="our-promise">
+                    增值电信业务经营许可证：&nbsp;
+                    <a href="#">粤B2-20110237</a> /
+                    <a href="#">粤ICP备11032710号-1</a> /
+                    <a href="#">粤公网安备 44130202000152号</a>
+                </p>
+                <p class="our-property">
+                    © 2011-2019 音平公司版权所有，并保留所有权利（
+                    <a href="#">著作权及商标声明</a>
+                    ）。 特聘律师团：广东斯明律师事务所
+                </p>
+                <p class="our-imgs">
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom1.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom2.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom3.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom4.png" alt="">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 网站脚注区域结束 -->
+
+    <!-- 右侧固定的侧边栏区域开始 -->
+    <div class="slideBar">
+        <div class="cont">
+
+            <!-- 侧边栏的左侧导航区域 -->
+            <div class="left">
+                <ul class="list">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="user"></span>
+                        </a>
+                        <div class="user-box">
+                            <div class="top">
+                                <img src="./images/slideBar/default-photo.jpg" alt="用户头像">
+                                <div class="user-msg">
+                                    <p>用户名:<i class="user-name"></i></p>
+                                    <p>级别:<i class="user-level"></i></p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <button>我的订单</button>
+                                <button>我的收藏</button>
+                            </div>
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="contact"></span>
+                        </a>
+                        <div class="contact-box">
+                            <div class="top">
+                                <img src="./images/slideBar/contact.png" alt="">
+                                <p>
+                                    <a class="inline-contact">在线客服</a>
+                                </p>
+                                <p class="inline-time">在线时间: 08:30 - 23:00</p>
+                            </div>
+                            <div class="mid">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p class="serve-phone">400 700 3638</p>
+                                <p class="serve-time">服务时间: 08:00 - 23:00</p>
+                            </div>
+                            <div class="bottom">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p>微信客服扫一扫</p>
+                                <img class="wechat-scan" src="./images/slideBar/wechat-scan1.jpg" alt="">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="shopCar">
+                        <a href="javascript:void(0);">
+                            <span class="shopCar"></span>
+                            <span class="title">购物车</span>
+                            <span class="shop-amount">10</span>
+                        </a>
+                        <div class="shopCar-box-parent">
+                            <div class="shopCar-box">
+                                <div class="cont">
+                                    <p class="close-lunbo"></p>
+                                    <div class="add-suc-model">
+                                        <img src="./images/slideBar/addCart_success.png" alt="添加成功">
+                                        <p class="one">成功加入购物车!</p>
+                                        <p>购物车保留时间有限，建议您尽快结算!</p>
+                                    </div>
+                                    <p class="tip-msg">达人购物车都有啥</p>
+                                    <div class="my02-lunbo1">
+                                        <div class="viewport1">
+                                            <div class="imgWrap-1">
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="btn-01-prev btns"></div>
+                                        <div class="btn-01-next btns"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="my-money"></span>
+                        </a>
+                        <div class="money-box">
+                            我的资产
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="advice"></span>
+                        </a>
+                        <div class="advice-box">
+                            投诉建议
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="scan">
+                    <span></span>
+                    <div class="scan-box">
+                        <img src="./images/slideBar/weixin_code.jpg" alt="">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="returnTop">
+                    <span></span>
+                    <div class="returnTop-box">
+                        返回顶部
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 侧边栏的右侧购物车区域 -->
+            <div class="right">
+                <div class="top clearfix">
+                    <p>
+                        <img class="car" src="./images/slideBar/right_car.png" alt="">
+                        <span>购物车</span>
+                        <img class="close" src="./images/slideBar/right_close.png" alt="">
+                    </p>
+                </div>
+                <div class="mid">
+
+                    <!-- 商品列表 -->
+                    <ul class="item">
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="empty">
+                        <img src="./images/slideBar/cartIcon.png" alt="">
+                        <p>购物车里空空如也 , 赶紧去逛逛吧~</p>
+                        <a href="#">去首页看看</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p class="one">
+                        <span class="selectAll">
+                            <input type="checkbox"><span>全选</span>
+                        </span>
+                        <span class="already-select">
+                            已选 <span class="total">0</span> 件商品
+                        </span>
+                        <span class="total-money">
+                            共计<em> ￥ </em><span>0.00</span>
+                        </span>
+                    </p>
+                    <a href="#">去购物车结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧固定的侧边栏区域结束 -->
+
+    <script src="./js/lib/jquery-3.3.1.js"></script>
+    <script src="./js/lib/fly.js"></script>
+    <script src="./js/slideBar.js"></script>
+    <script src="./js/detail.js"></script>
+
+</body>
+
+</html>

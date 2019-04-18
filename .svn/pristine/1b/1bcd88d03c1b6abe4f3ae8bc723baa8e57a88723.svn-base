@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="css/navList1.css">
+</head>
+<body>
+    <!-- 广告 -->
+    <div class="advertis">
+        <div class="advertising container">
+            <a href="#" title="双旦钜惠，跨年狂欢"></a>
+        </div>
+    </div>
+    <!-- 头部登陆 -->
+    <div class="head">
+        <div class="container head-top clearfix">
+            <div class="head-top-1">
+                <span class="head-one">你好，欢迎来到....！</span>[<span class="head-two"><a href="#">请登录</a></span>|<span class="head-three"><a href="#">免费注册</a></span>]
+            </div>
+            <div class="head-top-2">
+                <ul>
+                    <li class="head-top-3  head-top-list">
+                        <a href="#">我的音平<img src="images/navList1/banner4.png" alt=""></a>
+                        <ul class="head-top-ul">
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">我的收藏</a></li>
+                            <li><a href="#">我的评价</a></li>
+                            <li><a href="#">我的优惠券</a></li>
+                        </ul>
+                    </li>
+                    <li class="head-top-4 head-top-list"><a href="#">我的购物车</a></li>
+                    <li class="head-top-5 head-top-list"><a href="#">企业采购</a></li>
+                    <li class="head-top-6 head-top-list">
+                        <a href="#">客服服务<img src="images/navList1/banner4.png" alt=""></a>
+                            <div class="head-top-6-one">
+                                <div class="head-top-6-two">
+                                    <p class="head-top-6-p1"><a href="#">我的客服</a></p>
+                                    <p class="head-top-6-p2">在线时间：08:30 - 23:00</p>
+                                </div>
+                                <div class="head-top-6-three">
+                                    <p class="head-top-6-p3">400 700 3638</p>
+                                    <p class="head-top-6-p2">服务时间：08:30 - 23:00</p>
+                                </div>
+                                <div class="head-top-6-four">
+                                    <div class="head-top-6-div1"><img src="images/navList1/wechat-icon-1.0.0.png" alt=""></div>
+                                    <div class="head-top-6-div2">微信客服<br>扫一扫</div>
+                                    <div class="head-top-6-div3"><img src="images/navList1/wechatqr-1.0.0.jpg" alt=""></div>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="head-middle clearfix">
+        <div class="head-middle-list container">
+            <div class="head-middle-one"></div> 
+            <div class="head-middle-two"></div>
+            <div class="head-middle-three">
+                <div class="head-middle-three-top">
+                    <input type="text" placeholder="得胜PH130手机麦" class="head-middle-text"><input type="submit" value="搜索"class="head-middle-btn">
+                </div>
+                <div class="head-middle-three-down">
+                    <ul>
+                        <li><a href="#">K歌直播声卡</a></li>
+                        <li><a href="#">录音声卡</a></li>
+                        <li><a href="#">电容麦</a></li>
+                        <li><a href="#">监听音箱</a></li>
+                        <li><a href="#">调音台</a></li>
+                        <li><a href="#">吉他</a></li>
+                        <li><a href="#">RME声卡</a></li>
+                        <li><a href="#">莱维特</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="head-middle-four">
+                <div class="head-middle-four-left"></div>
+                <div class="head-middle-four-right"><a href="#"> </a></div>
+            </div>
+        </div>
+    </div>
+    <div class="head-down clearfix">
+        <div class="head-down-list container">
+            <div class="head-down-one">
+                <a href="#">全部商品分类</a>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    
+</body>
+</html>

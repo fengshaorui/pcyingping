@@ -1,0 +1,389 @@
+// list列表框
+function getList() {
+    var listgoods = "<div class='left'></div>";
+    $(".banner-list ul li.list-hid").prepend(listgoods);
+    $(".banner-list ul").on("mouseover", "li", function () {
+        $(".banner-list .list-hid").show();
+        $.ajax({
+            type: "post",
+            url: "../api/index-api/listgoods.php",
+            data: {
+                index: $(this).index()
+            },
+            dataType: "json",
+            success: function (data) {
+                dealListData(data);
+            }
+        })
+    })
+    $(".banner-list ul").on("mouseout", function () {
+        $(".banner-list .list-hid").hide();
+    })
+}
+getList();
+
+//处理list数据
+function dealListData(data) {
+    $(".banner-list ul li.list-hid .left").children().remove();
+    $(".banner-list .list-hid .right .right-bottom span").remove();
+    var listName = "";
+    var imgStr = "";
+    for (var key in data) {
+        if (key == "imgs") {
+            for (var i = 0; i < data[key].length; i++) {
+                imgStr += "<span><img src=\"images/index/" + data[key][i] + "\"/></span>";
+            }
+            $(".banner-list .list-hid .right .right-bottom").append(imgStr);
+        } else {
+            listName = "<p>" + key + "</p><div>";
+            for (var i = 0; i < data[key].length; i++) {
+                listName += "<span><a href='#'>" + data[key][i] + "</a></span><span>\/\</span>";
+            }
+            listName += "</div>";
+            $(".banner-list .list-hid .left").append(listName);
+        }
+
+    }
+}
+
+// 呼出
+function topList() {
+    $(".top .top-mid-down .all-list").mouseenter(function () {
+        $(".banner-mid").show();
+    });
+    $(".banner-mid").mouseleave(function () {
+        $(".banner-mid").hide();
+    });
+}
+topList();
+
+// 图片懒加载
+function lanjia() {
+    function isShow(el) {
+        var winH = $(window).height();
+        var scrollH = $(window).scrollTop();
+        var top = el.offset().top;
+        if (scrollH + winH > top) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    function isloaded(el) {
+        if (el.data("isloaded")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    $(window).on('scroll', function () {
+        checkShow();
+    })
+    checkShow();
+    function checkShow() {
+        $('img').each(function () {
+            var $cur = $(this);
+            if (isloaded($cur)) { return; }
+            if (isShow($cur)) {
+                setTimeout(function () {
+                    showImg($cur);
+                }, 300)
+            };
+        });
+    }
+    function showImg(el) {
+        el.attr('src', el.attr('data-src'));
+        el.data('isloaded', true);
+    }
+};
+lanjia();
+
+// 手风琴
+function shoufenqin() {
+    $('.content .main1 .main1-1').css({ float: "left", overflow: 'hidden' });
+    $('.content .main1 .list1').css({
+        width: 201,
+        height: 240,
+        float: 'left'
+    })
+    $('.content .main1 .main1-1 .list1-h').css({
+        width: 0,
+        height: 240,
+        float: 'left'
+    })
+    $('.content .main1 .main1-1 .list1-h').first().css({ width: 392 }).show();
+    $('.content .main1 .main1-1 .list1').first().hide();
+    $('.content .main1 .main1-1 .list1').click(function () {
+        $(this).css({ display: 'none' }).next().animate({ width: 392 }, 1000);
+        $(this).parent().siblings().children('.content .main1 .main1-1 .list1').css({ display: 'block' });
+        $(this).parent().siblings().children('.content .main1 .main1-1 .list1-h').animate({ width: 0 }, 1000);
+    });
+};
+shoufenqin();
+
+// 热销推荐tab
+function main3Tab(){
+    $(".content .main3 .main3-3-4 .tab li").click(function(){
+        $(this).css({"borderBottom":"2px solid #FF6600"}).siblings().css({"borderBottom":"none"})
+        $.ajax({
+            type: "get",
+            url: 'api/section2.php',
+            data: {
+                type: $(this).html()
+            },
+            dataType: 'json',
+            success: function (data) {
+                var htmlStr = "";
+                for (var i = 0; i < data.length; i++) {
+                    htmlStr += "<ul>";
+                    htmlStr += "<li>";
+                    htmlStr += "<img src=images/section2/" + data[i].img + ".jpg alt=\"\">";
+                    htmlStr += "<p class=\"text\">" + data[i].brief + "</p>";
+                    htmlStr += "<p class=\"price\">￥<span>" + data[i].price + "</span></p>";
+                    htmlStr += "</li>";
+                    htmlStr += "</ul";
+                }
+                $(".main3 .tab-con").html(htmlStr);
+            },
+            error: function () {
+                console.log('请求失败');
+            }
+        });
+
+    })
+
+}
+main3Tab();
+
+function main4Tab(){
+    $(".content .main4 .main4-3-4 .tab li").click(function(){
+        $(this).css({"borderBottom":"2px solid #FF6600"}).siblings().css({"borderBottom":"none"})
+        $.ajax({
+            type: "get",
+            url: 'api/section2-2.php',
+            data: {
+                type: $(this).html()
+            },
+            dataType: 'json',
+            success: function (data) {
+                var htmlStr = "";
+                for (var i = 0; i < data.length; i++) {
+                    htmlStr += "<ul>";
+                    htmlStr += "<li>";
+                    htmlStr += "<img src=images/section2/" + data[i].img + ".jpg alt=\"\">";
+                    htmlStr += "<p class=\"text\">" + data[i].brief + "</p>";
+                    htmlStr += "<p class=\"price\">￥<span>" + data[i].price + "</span></p>";
+                    htmlStr += "</li>";
+                    htmlStr += "</ul";
+                }
+                $(".main4 .tab-con").html(htmlStr);
+            },
+            error: function () {
+                console.log('请求失败');
+            }
+        });
+
+    })
+
+}
+main4Tab();
+
+function main5Tab(){
+    $(".content .main5 .main5-3-4 .tab li").click(function(){
+        $(this).css({"borderBottom":"2px solid #FF6600"}).siblings().css({"borderBottom":"none"})
+        $.ajax({
+            type: "get",
+            url: 'api/section2-3.php',
+            data: {
+                type: $(this).html()
+            },
+            dataType: 'json',
+            success: function (data) {
+                var htmlStr = "";
+                for (var i = 0; i < data.length; i++) {
+                    htmlStr += "<ul>";
+                    htmlStr += "<li>";
+                    htmlStr += "<img src=images/section2/" + data[i].img + ".jpg alt=\"\">";
+                    htmlStr += "<p class=\"text\">" + data[i].brief + "</p>";
+                    htmlStr += "<p class=\"price\">￥<span>" + data[i].price + "</span></p>";
+                    htmlStr += "</li>";
+                    htmlStr += "</ul";
+                }
+                $(".main5 .tab-con").html(htmlStr);
+            },
+            error: function () {
+                console.log('请求失败');
+            }
+        });
+
+    })
+
+}
+main5Tab();
+
+function main6Tab(){
+    $(".content .main6 .main6-3-4 .tab li").click(function(){
+        $(this).css({"borderBottom":"2px solid #FF6600"}).siblings().css({"borderBottom":"none"})
+        $.ajax({
+            type: "get",
+            url: 'api/section2-4.php',
+            data: {
+                type: $(this).html()
+            },
+            dataType: 'json',
+            success: function (data) {
+                var htmlStr = "";
+                for (var i = 0; i < data.length; i++) {
+                    htmlStr += "<ul>";
+                    htmlStr += "<li>";
+                    htmlStr += "<img src=images/section2/" + data[i].img + ".jpg alt=\"\">";
+                    htmlStr += "<p class=\"text\">" + data[i].brief + "</p>";
+                    htmlStr += "<p class=\"price\">￥<span>" + data[i].price + "</span></p>";
+                    htmlStr += "</li>";
+                    htmlStr += "</ul";
+                }
+                $(".main6 .tab-con").html(htmlStr);
+            },
+            error: function () {
+                console.log('请求失败');
+            }
+        });
+
+    })
+
+}
+main6Tab();
+
+function main7Tab(){
+    $(".content .main7 .main7-3-4 .tab li").click(function(){
+        $(this).css({"borderBottom":"2px solid #FF6600"}).siblings().css({"borderBottom":"none"})
+        $.ajax({
+            type: "get",
+            url: 'api/section2-5.php',
+            data: {
+                type: $(this).html()
+            },
+            dataType: 'json',
+            success: function (data) {
+                var htmlStr = "";
+                for (var i = 0; i < data.length; i++) {
+                    htmlStr += "<ul>";
+                    htmlStr += "<li>";
+                    htmlStr += "<img src=images/section2/" + data[i].img + ".jpg alt=\"\">";
+                    htmlStr += "<p class=\"text\">" + data[i].brief + "</p>";
+                    htmlStr += "<p class=\"price\">￥<span>" + data[i].price + "</span></p>";
+                    htmlStr += "</li>";
+                    htmlStr += "</ul";
+                }
+                $(".main7 .tab-con").html(htmlStr);
+            },
+            error: function () {
+                console.log('请求失败');
+            }
+        });
+
+    })
+
+}
+main7Tab();
+
+function loop1(){
+    $(".main8 .pro_right").click(function () {
+        $(".content .main8 .main8-2").animate({ marginLeft: -1200 }, 1000);
+        // $(".main8 .pro_right").addClass(".main8 pro_currR");
+        // $(".main8 .pro_left").addClass(".main8 pro_currL");
+    });
+    
+    $(" .main8 .pro_left").click(function () {
+        $(".content .main8 .main8-2").animate({ marginLeft: 0 }, 1000);
+        // $(".main8 .pro_right").removeClass(".main8 pro_currR");
+        // $(".main8 .pro_left").removeClass(".main8 pro_currL");
+    });
+}
+loop1();
+
+function loop2(){
+    $(".main9 .pro_right").click(function () {
+        $(".content .main9 .main9-2").animate({ marginLeft: -1200 }, 1000);   
+    });
+    
+    $(".main9 .pro_left").click(function () {
+        $(".content .main9 .main9-2").animate({ marginLeft: 0 }, 1000);        
+    });
+}
+loop2();
+
+function loop3(){
+    $(".main10 .pro_right").click(function () {
+        $(".content .main10 .main10-2").animate({ marginLeft: -1200 }, 1000);   
+    });
+    
+    $(".main10 .pro_left").click(function () {
+        $(".content .main10 .main10-2").animate({ marginLeft: 0 }, 1000);        
+    });
+}
+loop3();
+
+function loop4(){
+    $(".main11 .pro_right").click(function () {
+        $(".content .main11 .main11-2").animate({ marginLeft: -1200 }, 1000);   
+    });
+    
+    $(".main11 .pro_left").click(function () {
+        $(".content .main11 .main11-2").animate({ marginLeft: 0 }, 1000);        
+    });
+}
+loop4();
+
+// function loop5(){
+//     $(".main12 .pro_right").click(function () {
+//         $(".content .main12 .main12-2").animate({ marginLeft: -1200 }, 1000);   
+//     });
+    
+//     $(".main12 .pro_left").click(function () {
+//         $(".content .main12 .main12-2").animate({ marginLeft: 0 }, 1000);        
+//     });
+// }
+// loop5();
+if( !document.cookie ){
+    $(".nav-mid-left .ready").show();
+    // location.href = "./login.html";
+}else{
+    $(".nav-mid-left .ready").hide();
+}
+// function gd(){
+//     $(".pro_right").click(function(){
+                   
+//             $.ajax({
+//                 type: "get",
+//                 url: 'api/section2-6.php',
+//                 data: {
+//                     type: $(this).html()
+//                     // type:Bval
+//                 },
+//                 dataType: 'json',
+//                 success: function (data) {
+//                     var htmlStr = "";
+//                     for (var i = 0; i < data.length; i++) {
+//                         htmlStr += "<a href=\"\">";
+//                         htmlStr += "<div class='main8-2-1'>";
+//                         htmlStr += "<img src=images/section2/" + data[i].img + ".jpg alt=\"\">";
+//                         htmlStr += "<div class='pro'>";
+//                         htmlStr += "<p>" + data[i].pro + "</p>";
+//                         htmlStr += "</div>";
+//                         htmlStr += "<div class='price'>";
+//                         htmlStr += "<p class=\"pri\">￥<span>" + data[i].price + "</span></p>";
+//                         htmlStr += "</div>";
+//                         htmlStr += "</div>";
+//                         htmlStr += "</a>";
+//                     }
+//                     $(".main8-2").html(htmlStr);
+//                 },
+//                 error: function () {
+//                     console.log('请求失败');
+//                 },
+//             });   
+//     })
+// }
+
+// gd();

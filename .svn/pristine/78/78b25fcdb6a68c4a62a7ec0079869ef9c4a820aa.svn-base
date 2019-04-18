@@ -1,0 +1,122 @@
+// list列表框
+function getList() {
+    var listgoods = "<div class='left'></div>";
+    $(".banner-list ul li.list-hid").prepend(listgoods);
+    $(".banner-list ul").on("mouseover", "li", function () {
+        $(".banner-list .list-hid").show();
+        $.ajax({
+            type: "post",
+            url: "../api/index-api/listgoods.php",
+            data: {
+                index: $(this).index()
+            },
+            dataType: "json",
+            success: function (data) {
+                dealListData(data);
+            }
+        })
+    })
+    $(".banner-list ul").on("mouseout", function () {
+        $(".banner-list .list-hid").hide();
+    })
+}
+getList();
+
+//处理list数据
+function dealListData(data) {
+    $(".banner-list ul li.list-hid .left").children().remove();
+    $(".banner-list .list-hid .right .right-bottom span").remove();
+    var listName = "";
+    var imgStr = "";
+    for (var key in data) {
+        if (key == "imgs") {
+            for (var i = 0; i < data[key].length; i++) {
+                imgStr += "<span><img src=\"images/index/" + data[key][i] + "\"/></span>";
+            }
+            $(".banner-list .list-hid .right .right-bottom").append(imgStr);
+        } else {
+            listName = "<p>" + key + "</p><div>";
+            for (var i = 0; i < data[key].length; i++) {
+                listName += "<span><a href='#'>" + data[key][i] + "</a></span><span>\/\</span>";
+            }
+            listName += "</div>";
+            $(".banner-list .list-hid .left").append(listName);
+        }
+
+    }
+}
+
+// 呼出
+function topList() {
+    $(".top .top-mid-down .all-list").mouseenter(function () {
+        $(".banner-mid").show();
+    });
+    $(".banner-mid").mouseleave(function () {
+        $(".banner-mid").hide();
+    });
+}
+topList();
+
+// 图片懒加载
+function lanjia() {
+    function isShow(el) {
+        var winH = $(window).height();
+        var scrollH = $(window).scrollTop();
+        var top = el.offset().top;
+        if (scrollH + winH > top) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    function isloaded(el) {
+        if (el.data("isloaded")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    $(window).on('scroll', function () {
+        checkShow();
+    })
+    checkShow();
+    function checkShow() {
+        $('img').each(function () {
+            var $cur = $(this);
+            if (isloaded($cur)) { return; }
+            if (isShow($cur)) {
+                setTimeout(function () {
+                    showImg($cur);
+                }, 300)
+            };
+        });
+    }
+    function showImg(el) {
+        el.attr('src', el.attr('data-src'));
+        el.data('isloaded', true);
+    }
+};
+lanjia();
+
+
+function shoufenqin() {
+    $('.content .main1 .main1-1').css({ float: "left", overflow: 'hidden' });
+    $('.content .main1 .list1').css({
+        width: 201,
+        height: 240,
+        float: 'left'
+    })
+    $('.content .main1 .main1-1 .list1-h').css({
+        width: 0,
+        height: 240,
+        float: 'left'
+    })
+    $('.content .main1 .main1-1 .list1-h').first().css({ width: 392 }).show();
+    $('.content .main1 .main1-1 .list1').first().hide();
+    $('.content .main1 .main1-1 .list1').click(function () {
+        $(this).css({ display: 'none' }).next().animate({ width: 392 }, 1000);
+        $(this).parent().siblings().children('.content .main1 .main1-1 .list1').css({ display: 'block' });
+        $(this).parent().siblings().children('.content .main1 .main1-1 .list1-h').animate({ width: 0 }, 1000);
+    });
+};
+shoufenqin();

@@ -1,0 +1,28 @@
+/*header开始*/
+.header .header-mid{
+    width: 1200px;
+    margin:0 auto;
+    padding-top:30px;
+}
+.header .header-mid .left{
+    float:left;
+}
+.header .header-mid .right{
+    width: 775px;
+    height: 28px;
+    border:1px solid #FFB4A8;
+    background-color:#FEF2F2;
+    font-size: 12px;
+    padding-left:45px;
+    float:right;
+}
+.header .header-mid .right p{
+    line-height: 28px;
+}
+.header .header-mid .right ul li{
+    float:left;
+}
+.content{
+    height: 620px;
+    background: url(../images/login-regist/body.jpg) no-repeat 0 0;
+}

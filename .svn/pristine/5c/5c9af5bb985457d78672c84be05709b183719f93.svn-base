@@ -1,0 +1,161 @@
+/* 广告 */
+.advertis{
+    width: 100%;
+    height: 100px;
+    background: rgb(206,18,26);
+    cursor: pointer;
+}
+.advertis .advertising{
+    height: 100px;
+    background: url(../images/navList1/advertis.jpg) no-repeat 0 0;
+}
+
+
+/* 头部登陆 */
+/* 1 head-top */
+
+
+.head{
+    width: 100%;
+    border-bottom: 1px solid #EDEEF0;
+}
+.head .head-top{
+    /* margin-bottom: 20px; */
+}
+.head .head-top-1{
+    width: 724px;
+    height: 36px;
+    float: left;
+    line-height: 36px;
+    color:#ddd;
+}
+.head .head-top-1 .head-one{
+    color:black;
+}
+.head .head-top-1 .head-two,.head-three{
+    margin: 0 10px;
+}
+.head .head-top-1 a{
+    color:#ff6600;
+}
+
+.head .head-top-2{
+    width: 476px;
+    height: 37px;
+    float: left;
+}
+.head .head-top ul li{
+    float: left;
+    width: 111px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-left:1px solid transparent;
+    border-right:1px solid transparent;
+}
+.head .head-top ul li a{
+    
+    color:black;
+}
+.head .head-top ul li a:hover{
+    color:#ff6600;
+}
+.head .head-top ul li:hover{
+    border-left:1px solid  #EDEEF0;
+    border-right:1px solid  #EDEEF0;
+}
+
+
+/* 2 head-middle */
+
+
+.head-middle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.head-middle .head-middle-one{
+    width: 220px;
+    height: 75px;
+    background: url(../images/navList1/logo.png) no-repeat 0 0;
+    float: left;
+}
+.head-middle .head-middle-two{
+    width: 190px;
+    height: 70px;
+    background: url(../images/navList1/001.gif) no-repeat 0 0;
+    float: left;
+    margin: 0 5px;
+}
+.head-middle .head-middle-three{
+    float: left;
+    width: 560px;
+}
+.head-middle .head-middle-three .head-middle-three-top{
+    width: 560px;
+    height: 36px;
+    margin-top: 20px;
+}
+.head-middle .head-middle-three .head-middle-three-down ul li{
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+   
+}
+.head-middle .head-middle-three .head-middle-three-down a{
+    color: black;
+}
+.head-middle .head-middle-three .head-middle-three-down a:hover{
+    color: #ff6600;
+}
+
+.head-middle .head-middle-three .head-middle-text{
+    width: 456px;
+    height: 32px;
+    padding-left: 10px;
+    line-height: 32px;
+    border:2px solid #ff6600; 
+    float: left;
+}
+.head-middle .head-middle-three .head-middle-btn{
+    width: 90px;
+    height: 36px;
+    background: #ff6600;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ddd;
+    border:#ff6600;
+    float: left;
+}
+.head-middle .head-middle-four{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 151px;
+    height: 45px;
+    float: right;
+}
+.head-middle .head-middle-four .head-middle-four-left{
+    width: 58px;
+    float: left;
+    cursor: pointer;
+    height: 40px;
+    margin-right: 15px;
+    background: url(../images/navList1/goods-icon1.jpg)no-repeat 0 0
+}
+.head-middle .head-middle-four .head-middle-four-right{
+    width: 75px;
+    float: left;
+    height: 40px;
+    cursor: pointer;
+    background: url(../images/navList1/goods-icon1.jpg)no-repeat -60px 0px;
+}
+
+/* 3 head-down */
+
+.head-down{
+    width: 100%;
+}
+.head-down .head-down-one{
+    /* width: 210px; */
+    height: 40px;
+    float: left;
+}

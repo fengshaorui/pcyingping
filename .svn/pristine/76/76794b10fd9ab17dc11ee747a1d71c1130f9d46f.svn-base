@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="css/navList1.css">
+</head>
+<body>
+    <!-- 广告 -->
+    <div class="advertis">
+        <div class="advertising container">
+            <a href="#" title="双旦钜惠，跨年狂欢"></a>
+        </div>
+    </div>
+    <!-- 头部登陆 -->
+    <div class="head">
+        <div class="container head-top clearfix">
+            <div class="head-top-1">
+                <span class="head-one">你好，欢迎来到....！</span>[<span class="head-two"><a href="#">请登录</a></span>|<span class="head-three"><a href="#">免费注册</a></span>]
+            </div>
+            <div class="head-top-2">
+                <ul>
+                    <li><a href="#">我的音频</a></li>
+                    <li><a href="#">我的购物车</a></li>
+                    <li><a href="#">企业采购</a></li>
+                    <li><a href="#">客服服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="head-middle clearfix">
+        <div class="head-middle-list container">
+            <div class="head-middle-one"></div> 
+            <div class="head-middle-two"></div>
+            <div class="head-middle-three">
+                <div class="head-middle-three-top">
+                    <input type="text" placeholder="得胜PH130手机麦" class="head-middle-text"><input type="submit" value="搜索"class="head-middle-btn">
+                </div>
+                <div class="head-middle-three-down">
+                    <ul>
+                        <li><a href="#">K歌直播声卡</a></li>
+                        <li><a href="#">录音声卡</a></li>
+                        <li><a href="#">电容麦</a></li>
+                        <li><a href="#">监听音箱</a></li>
+                        <li><a href="#">调音台</a></li>
+                        <li><a href="#">吉他</a></li>
+                        <li><a href="#">RME声卡</a></li>
+                        <li><a href="#">莱维特</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="head-middle-four">
+                <div class="head-middle-four-left"></div>
+                <div class="head-middle-four-right"><a href="#"> </a></div>
+            </div>
+        </div>
+    </div>
+    <div class="head-down clearfix">
+        <div class="head-down-one container">
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

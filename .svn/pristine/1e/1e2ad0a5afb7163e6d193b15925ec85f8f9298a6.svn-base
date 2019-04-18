@@ -1,0 +1,47 @@
+.clearfix:after{
+    clear: both;
+    content: '';
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+.clearfix{
+    zoom:1;
+}
+ .head .top-ad{
+    width: 1903px;
+    background-color: #ce121a;
+}
+.head .top-ad div{
+    width: 1200px;
+    min-width: 1200px;
+    height: 100px;
+    margin: 0 auto; 
+    background: url(../images/goodsList/top-ad.jpg) no-repeat 0 0;
+}
+.nav{
+    width: 1200px;
+    margin: 0 auto;
+    border:1px solid red;
+}
+.navLeft p{
+    float: left;
+    margin-right: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+.navLeft p a {
+    color: #ff6600;
+}
+.navLeft p span {
+    color: #666666;
+}
+.navRight{
+    position: relative;
+}
+.subnav_1{
+    display: none;
+}
+.subnav_2{
+    display: none;
+}

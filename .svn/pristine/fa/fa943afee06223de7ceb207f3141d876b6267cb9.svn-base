@@ -1,0 +1,41 @@
+<!doctype html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,user-scalable=1">
+     <title>touch事件属性</title>
+     <style>
+        * { margin: 0; padding: 0;}
+        .box { width: 300px; height: 1000px; background-color: orange; margin: 50px auto; padding-top: 150px;}
+        p { height: 100px; margin: 20px; border: 1px solid #aaa;}
+        span {
+            border: 1px solid #000;
+            display: inline-block;
+            width: 100px;
+            height: 20px;
+        }
+     </style>
+ </head>
+ <body>
+     <div class="box">
+         <h4>touch事件</h4>
+         <p><span></span></p>
+         <p><span></span></p>
+         <p><span></span></p>
+         <p><span></span></p>
+     </div>
+
+     <script>
+        var box = document.querySelector('.box');
+        var span = document.querySelectorAll('span');
+        var m0 = m1 = m2 = m3 = 0;
+           
+            box.addEventListener("touchstart",function(e){
+                span[0].innerHTML = "clientX：" + e.touches[0].clientX;
+                span[1].innerHTML = "clientY：" + e.touches[0].clientY;
+                span[2].innerHTML = "target：" + e.touches[0].target;
+            });
+            
+     </script>
+ </body>
+ </html> 

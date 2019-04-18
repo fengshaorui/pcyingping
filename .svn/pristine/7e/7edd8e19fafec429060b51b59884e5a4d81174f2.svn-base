@@ -1,0 +1,30 @@
+$(function () {
+    var c_obj = (function () {
+        // 处理鼠标悬浮事件
+        function handleHover(obj) {
+            obj.hover(
+                function () {
+                    $(this).children().eq(1).show();
+                },
+                function () {
+                    $(this).children().eq(1).hide();
+                }
+            )
+        }
+        // 添加颜色
+        function addcolor( obj, arr ) {
+            obj.children().each(function(i){
+                $(this).css({backgroundColor:arr[i]});
+            })  
+        }
+        return {
+            handleHover: handleHover,
+            addcolor:addcolor
+        }
+    })();
+
+    //全部商品分类调用    处理鼠标悬浮事件
+    c_obj.handleHover($(".header .bottom .left"));
+    //手机直播和相关设备调用    添加颜色
+    c_obj.addcolor($(".content .phone .btn-box"), ["pink","blue","red","green","yellow"]);
+});

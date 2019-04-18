@@ -1,0 +1,41 @@
+<!doctype html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,user-scalable=1">
+     <title>touches手指个数</title>
+     <style>
+        * { margin: 0; padding: 0;}
+        .box { width: 300px; height: 300px; background-color: orange; margin: 20px auto; padding-top: 40px;}
+        p { height: 50px; margin: 20px; border: 1px solid #aaa;}
+     </style>
+ </head>
+ <body>
+     <div class="box">
+         <h4>touch事件11</h4>
+         <p><span></span></p>
+         <p><span></span></p>
+         <p><span></span></p>
+         <p><span></span></p>
+     </div>
+
+     <script>
+        var box = document.querySelector('.box');
+        var span = document.querySelectorAll('span');
+        var m0 = m1 = m2 = m3 = 0;
+           
+            box.addEventListener("touchstart",function(e){
+                // console.log(e);
+                span[0].innerHTML = e;  // [object touchEvent]
+                // box上所有手指个数
+                span[1].innerHTML = "touches手指个数：" + e.touches.length
+
+                //如果两个手指都触摸同一个元素，比如触摸同一个span，则个数为2
+                //如果一个指向第一个p,一个指向第二个p,则个数为1
+                span[2].innerHTML = "targetTouches手指个数：" + e.targetTouches.length
+                
+            });
+            
+     </script>
+ </body>
+ </html> 

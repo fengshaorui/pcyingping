@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/lib/init.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-mid clearfix">
+            <div class="left">
+                <img src="images/login-regist/logo.png">
+            </div>
+            <div class="right">
+                <p>为确保您的账号安全及正常使用，依《网络安全法》相关要求，会员账号需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！</p>
+                <ul class="clearfix">
+                    <li><img src="images/login-regist/ad-01.png"/></li>
+                    <li><img src="images/login-regist/xiegang.png"/></li>
+                    <li><img src="images/login-regist/ad-02.png"/></li>
+                    <li><img src="images/login-regist/xiegang.png"/></li>
+                    <li><img src="images/login-regist/ad-03.png"/></li>
+                    <li><img src="images/login-regist/xiegang.png"/></li>
+                    <li><img src="images/login-regist/ad-04.png"/></li>
+                    <li><img src="images/login-regist/xiegang.png"/></li>
+                    <li><img src="images/login-regist/ad-05.png"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="box">
+            <p class="title">一个账号，玩转所有音平服务</p>
+            <div class="login-box">
+                <span class="tips">密码登陆</span>
+                <form autocomplete="off">
+                    <p>
+                        <input type="text" name="user" class="user" placeholder="手机号/用户名/邮箱"/>
+                    </p>
+                    <p>
+                        <input type="password" name="pwd" class="pwd" placeholder="密码"/>
+                    </p>
+                    <p class="forget">忘记密码?</p>
+                    <span class="login">立即登陆</span>
+                </form>
+                <div class="hezuo">
+                    <span class="tips2">合作伙伴账号登陆:</span>
+                    <span class="weixin init"></span>
+                    <span class="zhifubao init"></span>
+                    <span class="qq init"></span>
+                    <span class="weibo init"></span>
+                </div>
+                <span class="regist"><a href="#">注册音平账号</a></span>
+
+            </div>
+        </div>
+   </div>
+   <div class="footer">
+       <p><a href="#">关于我们</a><span class="line">|</span><a href="#">联系我们</a></p>
+       <p>增值电信业务经营许可证：粤B2-20110237 | 粤ICP备11032710号-1</p>
+       <p>© 2011-2017 音平公司版权所有，并保留所有权利（著作权及商标声明）。</p>
+   </div>
+    
+</body>
+</html>

@@ -1,0 +1,435 @@
+$(function(){
+    var indexFun=(function(){
+
+        /**hover效果，鼠标放上去出现隐藏块，移除消失
+        *hoverObj为数遍移入移除的块
+        *showHideObj是隐藏显示的块
+        **/
+        function hoverHideShow(hoverObj,showHideObj){
+            hoverObj.hover(
+                function(){
+                    showHideObj.show();
+                },
+                function(){
+                    showHideObj.hide();
+                })     
+        }
+
+        //轮播图给li设置背景图片封装
+        function setImgLoop(arr,obj){
+            var len=obj.length;
+            for(var i=0;i<len;i++){
+                obj.eq(i).css({
+                    background:"url(images/index/"+arr[i]+") no-repeat 0 0",
+                })      
+            }
+        }
+
+        //小轮播上下轮播
+        function arrowClick(topObj,bottomObj,loopObj,height){
+            var imgindex=0;
+            var len=loopObj.children().length;
+            topObj.click(function(){
+                imgindex--;
+                if(imgindex<0){
+                    var topVal=(len-1)*height;
+                    loopObj.css({marginTop:-topVal});
+                    imgindex=len-2;
+                }
+                loopObj.stop(true,true).animate({marginTop:-(height*imgindex)});
+            }) 
+
+            function bottomClick(){
+                imgindex++;
+                if(imgindex==len){
+                    loopObj.css({marginTop:0});
+                    imgindex=1;
+                }
+                loopObj.stop(true,true).animate({marginTop:-height*imgindex});              
+            }
+
+            bottomObj.click(bottomClick);
+            var smallLoopTime=setInterval(bottomClick,2000);
+
+            loopObj.parent().hover(
+                function(){
+                    if(smallLoopTime){
+                        clearInterval(smallLoopTime);
+                    }
+                },
+                function(){
+                    smallLoopTime=setInterval(bottomClick,2000);
+                })
+        }
+
+
+        //上下轮播图实现的调用
+        function smallLoop(){
+            //初始化       
+            var imgstr = ["loop1.jpg","loop2.jpg","loop3.jpg"];
+            //克隆第一个节点
+            indexFun.setImgLoop(imgstr,$(".small-loop ul li"));
+            var lastLoopImg=$(".small-loop ul li:first").clone(true,true);
+            lastLoopImg.appendTo(".small-loop ul");
+
+            var height=parseInt($(".small-loop ul li").css("height").split("px"));
+            indexFun.arrowClick($(".arrow-top"),$(".arrow-bottom"),$(".small-loop ul"),height);
+        }
+
+        //当键盘按下发起jsonp请求与输入搜索内容相关的内容
+        function searchKeyup(){
+            var flag=true;
+            $(".search input").keyup(function(e){
+                 e.stopPropagation();
+                if(flag){
+                    flag=false;
+                    var inputVal=$(this).val();
+                    var url="https://www.ingping.com/search/solrCheck?";
+                    if(e.which!==40&&e.which!==38){
+                        $(".search .search-list ul").html("");
+                        $.ajax({
+                            type:"get",
+                            url:url,
+                            data:{
+                                term:inputVal
+                            },
+                            dataType:"jsonp",
+                            success:function(data){
+                                $(".search .search-list").show();
+                                var liStr="";
+                                for(var i=0;i<data.length;i++){
+                                    liStr+="<li>"+data[i]+"</li>";
+                                }
+                                $(".search .search-list ul").append(liStr);
+                            }
+                        }) 
+                    }
+                    flag=true;
+                }
+                     
+            })
+        } 
+
+        //search,up,down切换选项
+        function searchUpDown(){
+            var index=-1;
+            $(window).keydown(function(e){  
+                e.stopPropagation();
+                var len=$(".search .search-list ul li").length; 
+                if(e.which==40){   
+                    index++;    
+                    $(".search .search-list ul li").eq(index).addClass("search-select").siblings().removeClass("search-select");
+                    $(".search input").val($(".search .search-list ul li").eq(index).html());
+                    if(index==len-1){
+                        index=-1;
+                    }        
+                }
+                if(e.which==38){ 
+                    if(index<=0){
+                        index=len;
+                    }    
+                    index--;    
+                    $(".search .search-list ul li").eq(index).addClass("search-select").siblings().removeClass("search-select");   
+                    $(".search input").val($(".search .search-list ul li").eq(index).html());
+
+                }
+            })
+        }
+
+        //执行搜索,以及结果的操作
+        function search(){
+            
+            searchKeyup();
+            searchUpDown()
+            $(".search input").blur(function(){
+                $(".search .search-list").hide();
+            })
+                        
+            //bug
+            $(".search .search-list ul").on("click","li",function(){
+                $(".search input").val($(this).html());
+            })
+            $(".search .search-list ul").on("mouseover","li",function(){
+                $(this).addClass("hover");
+            })
+            $(".search .search-list ul").on("mouseout","li",function(){
+                $(this).removeClass("hover");
+            })
+        }
+
+        //banner初始化
+        function bannerInit(){
+            //背景色初始化    
+            var colorArr=["#FE6029","#9812D4","#9412FE","#16B865","#2C95FF","#E71832","#FF6702"];
+            for(var i= 0;i<colorArr.length;i++){
+                $(".banner-loop li").eq(i).css({backgroundColor:colorArr[i]});
+            }
+            //设置图片
+            var bannerLoopImg=$(".banner .banner-loop li:first").clone(true,true);
+            bannerLoopImg.appendTo(".banner .banner-loop"); 
+
+            $(".banner .loop-line li").eq(0).css({backgroundColor:"white"});          
+        }
+
+        //loop-ing,loop-line,自动播放
+        function bannerMoveLineHover(loopIndex,lineIndex){
+            var time=window.setInterval(function(){
+            var len=$(".banner-loop li").length;
+            loopIndex++;
+            lineIndex++;
+            if(loopIndex==len){
+                loopIndex=1;
+            }
+            if(lineIndex==len-1){
+                lineIndex=0;
+            }
+            $(".banner-loop li").eq(loopIndex).children("img").fadeIn().parent().siblings().children("img").fadeOut();
+
+            //轮播条
+            $(".loop-line li").eq(lineIndex).css({backgroundColor:"white"}).siblings().css({backgroundColor:"rgba(255,255,255,.5)"})
+            },3000); 
+            lineHover(time);
+        }
+
+        //轮播条hover事件
+        function lineHover(time){
+            $(".banner .loop-line li").hover(
+            function(){
+                console.log(1);
+                if(time){
+                    clearInterval(time);
+                }
+                $(".banner-loop li").eq($(this).index()).children("img").fadeIn().parent().siblings().children("img").fadeOut();
+                $(".loop-line li").eq($(this).index()).css({backgroundColor:"white"}).siblings().css({backgroundColor:"rgba(255,255,255,.5)"})
+            },
+            function(){
+                loopIndex=$(this).index();
+                lineIndex=$(this).index();
+                bannerMoveLineHover(loopIndex,lineIndex)
+            }) 
+        }
+
+        //bannerloop
+        function bannerLoop(){ 
+            var loopIndex=0;
+            var lineIndex=0;  
+            bannerInit();
+            bannerMoveLineHover(loopIndex,lineIndex);
+        }
+
+        //获取list数据
+        function getList(){
+            var listgoods="<div class='left'></div>";
+            $(".banner-list ul li.list-hid").prepend(listgoods);
+            $(".banner-list ul").on("mouseover","li",function(){
+                $(".banner-list .list-hid").show();
+                $.ajax({
+                    type:"post",
+                    url:"../api/index-api/listgoods.php",
+                    data:{
+                        index:$(this).index()
+                    },
+                    dataType:"json",
+                    success:function(data){
+                        dealListData(data);
+                    }
+                })
+            })
+            $(".banner-list ul").on("mouseout",function(){
+                $(".banner-list .list-hid").hide();
+            })
+        }
+
+        //处理list数据
+        function dealListData(data){
+            $(".banner-list ul li.list-hid .left").children().remove();
+            $(".banner-list .list-hid .right .right-bottom span").remove();
+            var listName="";
+            var imgStr="";
+            for(var key in data){
+                if(key=="imgs"){
+                    for(var i=0;i<data[key].length;i++){
+                        imgStr+="<span><img src=\"images/index/"+data[key][i]+"\"/></span>";
+                    }
+                    $(".banner-list .list-hid .right .right-bottom").append(imgStr);
+                }else{
+                    listName="<p>"+key+"</p><div>";
+                    for(var i=0;i<data[key].length;i++){
+                        listName+="<span><a href='#'>"+data[key][i]+"</a></span><span>\/\</span>";
+                    }
+                    listName+="</div>";
+                    $(".banner-list .list-hid .left").append(listName);
+                }
+        
+            }
+        }
+
+        //tab切换
+        function tab(){
+            //初始化
+            $(".tab-list ul").hide();
+            $(".tab-list ul").eq(0).show();
+            $(".tab-title li").mouseover(function(){
+                var index=$(this).index();
+                $(".tab-list ul").eq(index).show().siblings("ul").hide();
+                $(".banner-news .line").stop(true,true).animate({left:15+50*(index)},200)
+            })
+
+        }
+
+        //楼层导航
+        function lift(){
+            $(window).scroll(function(){
+                var floorTop=$(".floor").eq(0).offset().top;
+                var winH=$(window).height();
+                var scrollTop=$(window).scrollTop();
+                if(floorTop<=winH+scrollTop+150){
+                    $(".lift").removeClass("hid").addClass("play");
+                }else{
+                    $(".lift").removeClass("play").addClass("hid");
+                }
+                var len=$(".floor").length;
+                for(var i=0;i<len;i++){
+                    var offTop=$(".floor").eq(i).offset().top;
+                    if(offTop<=scrollTop+100){
+                        $(".lift ul li").eq(i).addClass("scroll-color").siblings().removeClass("scroll-color");
+                    }
+                }
+            })
+            liftClick();    
+        }
+        function liftClick(){
+            $(".lift ul li").click(function(){
+                var objScroll=$(".floor").eq($(this).index()).offset().top;
+                console.log(objScroll);
+                $(window).scrollTop(objScroll);
+            })
+        }
+
+        //动态添加hot模块里的数据
+        function addData(obj){
+            obj.data("flag",false);
+            $(window).scroll(function(){
+                var offsetTop=obj.offset().top;
+                var scrollTop=$(window).scrollTop();
+                var winH=$(window).height();
+                if(offsetTop-winH<=scrollTop+50){
+                    if(obj.data("flag")==false){
+                        $.ajax({
+                            type:"post",
+                            url:"api/index-api/indexlist.php",
+                            data:{
+                                type:obj.data("type"),
+                            },
+                            dataType:"json",
+                            success:function(data){
+                                if(obj.data("type")=="hot"){
+                                    setHotData(data);
+                                }else{
+                                    setFloorData(data,obj);
+                                }
+                                
+                            }
+
+                        })
+                        obj.data("flag",true);
+                    }else{
+                        return false;
+                    }
+                    
+                    
+                }
+            })
+        }
+        function setHotData(data){
+            $(".hot div.load").remove();
+            for(var i=0;i<data.length;i++){
+                
+                for(var key in data[i]){
+                    var htmlStr="";
+                    if(data[i]["info"]=="1"){
+
+                        htmlStr="<img src='images/index/"+data[i]["indeximg"]+"'>";
+                       
+                    }else if(data[i]["info"]=="4"){
+
+                        htmlStr="<img src='images/index/"+data[i]["indeximg"]+"'>";
+
+                    }else{
+
+                        htmlStr+="<div class='hot-font'>";
+                        var str=data[i]["info"].split("/");
+                        htmlStr+="<p class='font-one'>"+str[0]+"</p>";
+                        htmlStr+="<p class='font-two'>"+str[1]+"</p>";
+                        htmlStr+="<p class='font-th'><span class='item_price_new c-primary'><i>¥</i>"+data[i]["price"]+"</span></p></div>";
+                        htmlStr+="<div class='hot-goods'><img src='images/index/"+data[i]["indeximg"]+"'></div>";
+                    }
+               
+                }
+                $(".hot-list ul li").eq(i).append(htmlStr);
+            }
+        }
+
+        function setFloorData(data,obj){
+            for(var i=0;i<data.length;i++){
+                
+                for(var key in data[i]){
+                    var htmlStr="";
+                    if(data[i]["info"]=="1"){
+                        htmlStr="<img src='images/index/"+data[i]["indeximg"]+"'>";
+                        $(".fl01 .list .left").append(htmlStr);
+                        break;
+
+                    }else{
+                        var str=data[i]["info"].split("/");
+                        htmlStr+="<div class='hot-font'><p class='font-one'>"+str[0]+"</p>";
+                        htmlStr+="<p class='font-two' title='"+str[1]+"'>"+str[1]+"</p>";
+                        htmlStr+="<p class='font-th'><span class='item_price_new c-primary'><i>¥</i>"+data[i]["price"]+"</span></p></div>";
+                        htmlStr+="<div class='hot-goods'><img src='images/index/"+data[i]["indeximg"]+"'></div>";
+                    }
+
+                }
+                if(i!=0){
+                obj.children(".list").children(".right").children("ul").children().eq(i).append(htmlStr);
+
+                }
+               
+            }
+        }
+
+        return {
+            hoverHideShow:hoverHideShow,
+            setImgLoop:setImgLoop,
+            arrowClick:arrowClick,
+            smallLoop:smallLoop,
+            search:search,
+            bannerLoop:bannerLoop,
+            getList:getList,
+            tab:tab,
+            lift:lift,
+            addData:addData
+        }
+
+    })()
+
+
+
+//调用hoverHideShow显示或者隐藏块
+indexFun.hoverHideShow($(".right-one"),$(".right-one-hid"));
+indexFun.hoverHideShow($(".right-four"),$(".right-four-hid"));
+indexFun.hoverHideShow($(".small-icon-one"),$(".hid-icon"));
+
+$(".like .like-list ul li").eq(0).css({marginLeft:0})
+indexFun.smallLoop();
+indexFun.search();
+indexFun.bannerLoop(); 
+indexFun.getList();
+indexFun.tab();
+indexFun.lift();
+
+// indexFun.addData($(".hot"));
+indexFun.addData($(".fl01"));
+
+})
+
+

@@ -1,0 +1,236 @@
+$(function(){
+    var indexFun=(function(){
+
+        /**hover效果，鼠标放上去出现隐藏块，移除消失
+        *hoverObj为数遍移入移除的块
+        *showHideObj是隐藏显示的块
+        **/
+        function hoverHideShow(hoverObj,showHideObj){
+            hoverObj.hover(
+                function(){
+                    showHideObj.show();
+                },
+                function(){
+                    showHideObj.hide();
+                })     
+        }
+
+        //轮播图给li设置背景图片封装
+        function setImgLoop(arr,obj){
+            var len=obj.length;
+            for(var i=0;i<len;i++){
+                obj.eq(i).css({
+                    background:"url(images/index/"+arr[i]+") no-repeat 0 0",
+                })      
+            }
+        }
+
+        //小轮播上下轮播
+        function arrowClick(topObj,bottomObj,loopObj,height){
+            var imgindex=0;
+            var len=loopObj.children().length;
+            topObj.click(function(){
+                imgindex--;
+                if(imgindex<0){
+                    var topVal=(len-1)*height;
+                    loopObj.css({marginTop:-topVal});
+                    imgindex=len-2;
+                }
+                loopObj.stop(true,true).animate({marginTop:-(height*imgindex)});
+            }) 
+
+            function bottomClick(){
+                imgindex++;
+                if(imgindex==len){
+                    loopObj.css({marginTop:0});
+                    imgindex=1;
+                }
+                loopObj.stop(true,true).animate({marginTop:-height*imgindex});              
+            }
+
+            bottomObj.click(bottomClick);
+            var smallLoopTime=setInterval(bottomClick,2000);
+
+            loopObj.parent().hover(
+                function(){
+                    if(smallLoopTime){
+                        clearInterval(smallLoopTime);
+                    }
+                },
+                function(){
+                    smallLoopTime=setInterval(bottomClick,2000);
+                })
+        }
+
+
+        //上下轮播图实现的调用
+        function smallLoop(){
+            //初始化       
+            var imgstr = ["loop1.jpg","loop2.jpg","loop3.jpg"];
+            //克隆第一个节点
+            indexFun.setImgLoop(imgstr,$(".small-loop ul li"));
+            var lastLoopImg=$(".small-loop ul li:first").clone(true,true);
+            lastLoopImg.appendTo(".small-loop ul");
+
+            var height=parseInt($(".small-loop ul li").css("height").split("px"));
+            indexFun.arrowClick($(".arrow-top"),$(".arrow-bottom"),$(".small-loop ul"),height);
+        }
+
+
+        function search(){
+            //bug
+            $(".search input").keyup(function(e){
+                e.stopPropagation();
+                var inputVal=$(this).val();
+                var url="https://www.ingping.com/search/solrCheck?";
+                if(e.which!==40&&e.which!==38){
+                    $(".search .search-list ul").html("");
+                    $.ajax({
+                        type:"get",
+                        url:url,
+                        data:{
+                            term:inputVal
+                        },
+                        dataType:"jsonp",
+                        success:function(data){
+                            $(".search .search-list").show();
+                            var liStr="";
+                            for(var i=0;i<data.length;i++){
+                                liStr+="<li>"+data[i]+"</li>";
+                            }
+                            $(".search .search-list ul").append(liStr);
+                        }
+
+                    }) 
+                }     
+            })
+            $(".search input").blur(function(){
+                $(".search .search-list").hide();
+            })
+            //bug
+            $(".search .search-list ul").on("click","li",function(){
+                $(".search input").val($(this).html());
+            })
+            $(".search .search-list ul").on("mouseover","li",function(){
+                $(this).addClass("hover");
+            })
+            $(".search .search-list ul").on("mouseout","li",function(){
+                $(this).removeClass("hover");
+            })
+    
+            var index=-1;
+            $(window).keydown(function(e){  
+                e.stopPropagation();
+                var len=$(".search .search-list ul li").length; 
+                if(e.which==40){   
+                    index++;    
+                    $(".search .search-list ul li").eq(index).addClass("search-select").siblings().removeClass("search-select");
+                    $(".search input").val($(".search .search-list ul li").eq(index).html());
+                    if(index==len-1){
+                        index=-1;
+                    }        
+                }
+                if(e.which==38){ 
+                    if(index<=0){
+                        index=len;
+                    }    
+                    index--;    
+                    $(".search .search-list ul li").eq(index).addClass("search-select").siblings().removeClass("search-select");   
+                    $(".search input").val($(".search .search-list ul li").eq(index).html());
+
+                }
+            })
+
+        }
+
+        //banner初始化
+        function bannerInit(){
+            //背景色初始化    
+            var colorArr=["#FE6029","#9812D4","#9412FE","#16B865","#2C95FF","#E71832","#FF6702"];
+            for(var i= 0;i<colorArr.length;i++){
+                $(".banner-loop li").eq(i).css({backgroundColor:colorArr[i]});
+            }
+            //设置图片
+            var bannerLoopImg=$(".banner .banner-loop li:first").clone(true,true);
+            bannerLoopImg.appendTo(".banner .banner-loop"); 
+
+            $(".banner .loop-line li").eq(0).css({backgroundColor:"white"});          
+        }
+
+        //loop-ing,loop-line,自动播放
+        function bannerMoveLineHover(loopIndex,lineIndex){
+            var time=window.setInterval(function(){
+            var len=$(".banner-loop li").length;
+            loopIndex++;
+            lineIndex++;
+            if(loopIndex==len){
+                loopIndex=1;
+            }
+            if(lineIndex==len-1){
+                lineIndex=0;
+            }
+            $(".banner-loop li").eq(loopIndex).children("img").fadeIn().parent().siblings().children("img").fadeOut();
+
+            //轮播条
+            $(".loop-line li").eq(lineIndex).css({backgroundColor:"white"}).siblings().css({backgroundColor:"rgba(255,255,255,.5)"})
+            },3000); 
+            lineHover(time);
+        }
+
+        //轮播条hover事件
+        function lineHover(time){
+            $(".banner .loop-line li").hover(
+            function(){
+                if(time){
+                    clearInterval(time);
+                }
+                $(".banner-loop li").eq($(this).index()).children("img").fadeIn().parent().siblings().children("img").fadeOut();
+                $(".loop-line li").eq($(this).index()).css({backgroundColor:"white"}).siblings().css({backgroundColor:"rgba(255,255,255,.5)"})
+            },
+            function(){
+                loopIndex=$(this).index();
+                lineIndex=$(this).index();
+                bannerMoveLineHover(loopIndex,lineIndex)
+            }) 
+        }
+
+        //bannerloop
+        function bannerLoop(){ 
+            var loopIndex=0;
+            var lineIndex=0;  
+            bannerInit();
+            bannerMoveLineHover(loopIndex,lineIndex);
+        }
+
+        return {
+            hoverHideShow:hoverHideShow,
+            setImgLoop:setImgLoop,
+            arrowClick:arrowClick,
+            smallLoop:smallLoop,
+            search:search,
+            bannerLoop:bannerLoop
+        }
+
+    })()
+
+
+
+//调用hoverHideShow显示或者隐藏块
+indexFun.hoverHideShow($(".right-one"),$(".right-one-hid"));
+indexFun.hoverHideShow($(".right-four"),$(".right-four-hid"));
+indexFun.hoverHideShow($(".small-icon-one"),$(".hid-icon"));
+
+
+    
+indexFun.smallLoop();
+indexFun.search();
+indexFun.bannerLoop();
+
+    
+   
+
+
+
+})
+
+

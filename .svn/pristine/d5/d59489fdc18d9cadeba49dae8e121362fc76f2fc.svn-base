@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="js/zepto.min.js"></script>
+<script src="js/touch.js"></script>
+</head>
+<body>
+    <div id="view" style="height:500px">
+        <span id="msg">--></span><br>
+
+        <span id="msg2">--></span>
+    </div>
+    <script>
+    // 在手机模拟器上，二者显示不准确
+    // 在真机上测，tap总是比click快
+    $(function(){
+        var d1,d2;
+        $("#view").on("tap",function(){
+            d1=Date.now();
+            $("#msg").text("t a p:" + d1);
+        })
+
+        $("#view").on("click",function(){
+            d2=Date.now();
+            $("#msg2").text("click:"+d2)
+        })
+    })
+    </script>
+</body>
+</html>

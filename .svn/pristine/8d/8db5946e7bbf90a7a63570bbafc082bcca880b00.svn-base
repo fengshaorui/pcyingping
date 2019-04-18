@@ -1,0 +1,85 @@
+$(function(){
+    var goodlistFun = (function(){
+        //加载更多logo
+        function addMore(x,y){
+            var flag = true;
+            //点击发起ajax请求更多内容
+            x.click(function(){                
+                $('.sb-logo ul').removeClass('sb-logo-ul2').addClass('sb-logo-ul');
+                $('.s-brand').addClass('s-brand-1');
+                x.hide(); 
+                y.show(); 
+                if(flag){
+                    flag = false;
+                    $.ajax({
+                        type:"post",
+                        url: "../api/goodlogo.php",
+                        data:{
+                            type:'声卡'
+                        },
+                        dataType:'json',
+                        success:function(data){                        
+                           addCont(data)
+                        }
+                    })
+                }
+            });
+            //点击收起
+            y.click(function(){
+                $('.sb-logo ul').removeClass('sb-logo-ul').addClass('sb-logo-ul2');
+                $('.s-brand').removeClass('s-brand-1');
+                x.show(); 
+                y.hide();
+            })
+            //添加内容
+            function addCont(obj){
+                var len = obj.length;                
+                for(var i = 0;i < len;i ++){
+                    var dLi = $("<li>"),
+                        dA = $('<a>');
+                    dA.append('<img src="../images/goodlist/' + obj[i]['images'] + '"class=".sb-img">' + obj[i]['logo']);
+                    dLi.append(dA);
+                    $('.sb-logo ul').append(dLi);
+                }
+            }
+        }
+        //价格筛选
+        function priceButton(obj1){
+            obj1.mousedown(function(e){
+                e.preventDefault();
+                obj1.addClass('button-shadow');
+            })
+            obj1.mouseup(function(e){
+                e.preventDefault();
+                obj1.removeClass('button-shadow');
+            })
+        }
+        //更多筛选条件
+        function moreSelect(obj1,obj2){
+            obj1.hover(function(){
+                obj1.parent().addClass('s-more-top2');
+            },function(){
+                obj1.parent().removeClass('s-more-top2');
+            })
+            obj1.click(function(){
+                $('.s-wrap-flow').show();
+                obj1.hide().siblings().show().parent().addClass('s-more-top');
+            
+            })
+            obj2.click(function(){
+                $('.s-wrap-flow').hide();
+                obj2.hide().siblings().show().parent().removeClass('s-more-top');
+                
+            })
+        }
+        return{
+            addmore:addMore,
+            priceButton:priceButton,
+            moreSelect:moreSelect
+        }
+    })()
+    goodlistFun.addmore($('.sb-ext'),$('.sb-ext2'));
+    goodlistFun.priceButton($('.s-price a'));
+    goodlistFun.moreSelect($('.s-open'),$('.s-close'));
+ 
+})

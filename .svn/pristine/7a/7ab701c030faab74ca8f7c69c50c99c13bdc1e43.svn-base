@@ -1,0 +1,37 @@
+<!doctype html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,user-scalable=1">
+     <title>常用的三种touch事件</title>
+     <style>
+        * { margin: 0; padding: 0;}
+        .box { width: 300px; height: 1000px; background-color: orange; margin: 50px auto; padding-top: 150px;}
+     </style>
+ </head>
+ <body>
+     <div class="box">
+         <h4>touch事件</h4>
+         <p>ontouchstart:-----<span></span></p>
+         <p>touchmove:-----<span></span></p>
+         <p>touchend:------<span></span></p>
+     </div>
+
+     <script>
+        var box = document.querySelector('.box');
+        var span = document.querySelectorAll('span');
+        var m0 = m1 = m2 = m3 = 0;
+           
+            box.addEventListener("touchstart",function(){
+                span[0].innerHTML = 'touchstart' + m0++;
+            });
+            box.addEventListener("touchmove",function(){
+                span[1].innerHTML = 'touchmove' + m1++;
+            });
+
+            box.addEventListener("touchend",function(){
+                span[2].innerHTML = 'touchend' + m2++;
+            });
+     </script>
+ </body>
+ </html> 

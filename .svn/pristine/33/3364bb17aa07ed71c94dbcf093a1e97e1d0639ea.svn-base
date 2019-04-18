@@ -1,0 +1,5 @@
+$(".content .plate4 .plate4-16-z div").first().show();
+    $(".content .plate4 .plate4-16-1 li").mouseover (function(){
+        $(this).css({background:"red"}).siblings().css({background:"#fff"});
+        $(".content .plate4 .plate4-16-z").eq($(this).index()).show().siblings().hide();
+    })

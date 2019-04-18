@@ -1,0 +1,935 @@
+/* 主体内容 */
+/* 广告 */
+.container-z{
+    width: 980px;
+    margin: 0 auto;
+}
+.content .ad{
+    width: 100%;
+    height: 370px;
+    background: url(../images/section1/ad1.jpg) 0 0;
+}
+/* 优惠券 */
+.content .coupon{
+    width: 100%;
+    height: 216px;
+    background: #febc27;
+}
+.content .coupon-box{ 
+    height: 138px;
+    margin: 0 auto;
+    padding-top:20px; 
+}
+.content .coupon-img1{
+    margin-left:60px; 
+}
+.content .coupon-bz{
+    height: 38px;
+    width: 570px;
+    margin: 10px auto;
+    line-height: 38px;
+    color:red;   
+}
+/* 栏目 */
+.content .article{
+    height: 162px;
+    background:#980035;
+}
+.content .article-box{
+    margin: 0 auto;
+    width: 981px;
+    height: 129px;
+    padding-top: 15px;
+}
+.content .article-img{
+    margin-left:5px; 
+}
+/* 个人录音配音方案 */
+.content .plate1-1{
+    background: #000;
+    height: 208px;
+    width: 100%;
+}
+.content .plate1-1-bj{
+    height: 208px;
+    background: url(../images/section1/a_51.jpg);
+} 
+.content .plate1-2{
+    height: 2813px;
+    background:#510087;
+}
+/* 方案1 */
+.content .plate1-2-1{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    position: relative;
+}
+/* 套装立省 */
+.content .plate1-lisheng-1{
+    height: 35px;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    line-height: 35px;
+    text-align: center;
+    background: #cc00cc; 
+}
+.content .plate1-lisheng{
+    background:#ffff00;
+    width: 115px;
+    height: 95px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content .plate1-lisheng-2{
+    width: 115px;
+}
+.content .plate1-lisheng .lisheng1{
+    color:#e5004f;
+    text-align: center!important;
+    font-size:14px;
+    margin-top:3px; 
+}
+.content .plate1-lisheng .lisheng2{
+    color:#e5004f;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Arial';
+    margin-top: -2px;
+}
+/* 套装立省结束 */
+/* 立即购买 */
+.content .plate1-buy{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.content .plate1-buy p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate1-buy span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate1-buy .plate1-buy-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate1-buy .buy{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案1结束 */
+
+/* 方案2 */
+.content .plate1-2-2{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+/* 套装立省 */
+.content .plate1-lisheng2-1{
+    height: 35px;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    line-height: 35px;
+    text-align: center;
+    background: #cc00cc; 
+}
+.content .plate1-lisheng2{
+    background:#ffff00;
+    width: 115px;
+    height: 95px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .plate1-lisheng2-2{
+    width: 115px;
+}
+.content .plate1-lisheng2 .lisheng2-1{
+    color:#e5004f;
+    text-align: center!important;
+    font-size:14px;
+    margin-top:3px; 
+}
+.content .plate1-lisheng2 .lisheng2-2{
+    color:#e5004f;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Arial';
+    margin-top: -2px;
+}
+/* 套装立省结束 */
+/* 立即购买 */
+.content .plate1-buy2{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.content .plate1-buy2 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate1-buy2 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate1-buy2 .plate1-buy2-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate1-buy2 .buy2{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案2结束 */
+/* 方案3 */
+.content .plate1-2-3{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+/* 套装立省 */
+.content .plate1-lisheng3-1{
+    height: 35px;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    line-height: 35px;
+    text-align: center;
+    background: #cc00cc; 
+}
+.content .plate1-lisheng3{
+    background:#ffff00;
+    width: 115px;
+    height: 95px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content .plate1-lishen3-2{
+    width: 115px;
+}
+.content .plate1-lisheng3 .lisheng3-1{
+    color:#e5004f;
+    text-align: center!important;
+    font-size:14px;
+    margin-top:3px; 
+}
+.content .plate1-lisheng3 .lisheng3-2{
+    color:#e5004f;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Arial';
+    margin-top: -2px;
+}
+/* 套装立省结束 */
+/* 立即购买 */
+.content .plate1-buy3{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.content .plate1-buy3 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate1-buy3 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate1-buy3 .plate1-buy3-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate1-buy3 .buy3{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案3结束 */
+/* 方案4 */
+.content .plate1-2-4{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+/* 套装立省 */
+.content .plate1-lisheng4-1{
+    height: 35px;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    line-height: 35px;
+    text-align: center;
+    background: #cc00cc; 
+}
+.content .plate1-lisheng4{
+    background:#ffff00;
+    width: 115px;
+    height: 95px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .plate1-lishen4-2{
+    width: 115px;
+}
+.content .plate1-lisheng4 .lisheng4-1{
+    color:#e5004f;
+    text-align: center!important;
+    font-size:14px;
+    margin-top:3px; 
+}
+.content .plate1-lisheng4 .lisheng4-2{
+    color:#e5004f;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Arial';
+    margin-top: -2px;
+}
+/* 套装立省结束 */
+/* 立即购买 */
+.content .plate1-buy4{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.content .plate1-buy4 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate1-buy4 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate1-buy4 .plate1-buy4-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate1-buy4 .buy4{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案4结束 */
+/* 方案5 */
+.content .plate1-2-5{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+/* 套装立省 */
+.content .plate1-lisheng5-1{
+    height: 35px;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    line-height: 35px;
+    text-align: center;
+    background: #cc00cc; 
+}
+.content .plate1-lisheng5{
+    background:#ffff00;
+    width: 115px;
+    height: 95px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content .plate1-lishen5-2{
+    width: 115px;
+}
+.content .plate1-lisheng5 .lisheng5-1{
+    color:#e5004f;
+    text-align: center!important;
+    font-size:14px;
+    margin-top:3px; 
+}
+.content .plate1-lisheng5 .lisheng5-2{
+    color:#e5004f;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Arial';
+    margin-top: -2px;
+}
+/* 套装立省结束 */
+/* 立即购买 */
+.content .plate1-buy5{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.content .plate1-buy5 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate1-buy5 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate1-buy5 .plate1-buy5-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate1-buy5 .buy5{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案5结束 */
+/* 方案6 */
+.content .plate1-2-6{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+/* 立即购买 */
+.content .plate1-buy6{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    
+}
+.content .plate1-buy6 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate1-buy6 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate1-buy6 .plate1-buy6-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate1-buy6 .buy6{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案6结束 */
+/* 个人录音配音方案结束 */
+
+
+/* 小型录音棚方案 */
+.content .plate2-1{
+    background: #000;
+    height: 208px;
+    width: 100%;
+}
+.content .plate2-1-bj{
+    height: 208px;
+    background: url(../images/section1/a_60.jpg);
+} 
+.content .plate2-2{
+    height: 1875px;
+    background:#252525;
+}
+/* 方案1 */
+.content .plate2-2-1{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    position: relative;
+}
+
+/* 立即购买 */
+.content .plate2-buy{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.content .plate2-buy p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate2-buy span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate2-buy .plate2-buy-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate2-buy .buy{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案1结束 */
+
+/* 方案2 */
+.content .plate2-2-2{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+
+/* 立即购买 */
+.content .plate2-buy2{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.content .plate2-buy2 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate2-buy2 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate2-buy2 .plate2-buy2-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate2-buy2 .buy2{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案2结束 */
+/* 方案3 */
+.content .plate2-2-3{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+
+/* 立即购买 */
+.content .plate2-buy3{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.content .plate2-buy3 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate2-buy3 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate2-buy3 .plate2-buy3-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate2-buy3 .buy3{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案3结束 */
+/* 方案4 */
+.content .plate2-2-4{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+
+/* 立即购买 */
+.content .plate2-buy4{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.content .plate2-buy4 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate2-buy4 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate2-buy4 .plate2-buy4-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate2-buy4 .buy4{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案4结束 */
+/* 小型录音棚方案结束 */
+
+/* 录音编曲制作方案 */
+.content .plate3-1{
+    background: #000;
+    height: 208px;
+    width: 100%;
+}
+.content .plate3-1-bj{
+    height: 208px;
+    background: url(../images/section1/a_68.jpg);
+} 
+.content .plate3-2{
+    height: 1875px;
+    background:#005961;
+}
+/* 方案1 */
+.content .plate3-2-1{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    position: relative;
+}
+
+/* 立即购买 */
+.content .plate3-buy{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.content .plate3-buy p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate3-buy span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate3-buy .plate3-buy-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate3-buy .buy{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案1结束 */
+
+/* 方案2 */
+.content .plate3-2-2{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+
+/* 立即购买 */
+.content .plate3-buy2{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.content .plate3-buy2 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate3-buy2 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate3-buy2 .plate3-buy2-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate3-buy2 .buy2{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案2结束 */
+/* 方案3 */
+.content .plate3-2-3{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+
+/* 立即购买 */
+.content .plate3-buy3{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.content .plate3-buy3 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate3-buy3 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate3-buy3 .plate3-buy3-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate3-buy3 .buy3{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案3结束 */
+/* 方案4 */
+.content .plate3-2-4{
+    height: 468px;
+    /* border-bottom:1px solid #fff; */
+    border-top:1px solid #fff;
+    position: relative;
+}
+
+/* 立即购买 */
+.content .plate3-buy4{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.content .plate3-buy4 p{
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content .plate3-buy4 span{
+    font-size: 55px;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+.content .plate3-buy4 .plate3-buy4-btn{
+    background: #e5004f;
+    width: 180px;
+    height: 45px;   
+    border-radius:35px;   
+}
+.content .plate3-buy4 .buy4{
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    margin-left:50px ;
+    line-height: 45px;
+}
+/* 立即购买结束 */
+/* 方案4结束 */
+/* 录音编曲制作结束 */
+
+/* 精选系列 */
+/* 热卖排行 */
+.content .plate4{
+    height: 3294px;
+    background: #e6004f;
+}
+.content .plate4 .plate4-1{
+    margin: 0 auto;
+    width: 260px;
+    height: 108px;
+}
+.content .plate4 .plate4-2-1{
+    float: left;
+    width: 299px;
+    height: 195px;
+    margin-bottom:6px; 
+}
+.content .plate4 .plate4-2-2{
+    float: left;
+    width: 200px;
+    height: 175px;
+    padding: 10px; 
+    /* border: 1px solid blue; */
+    background: #fff; 
+    margin-left:7px; 
+    list-style: none;
+    position: relative;
+    margin-bottom:6px; 
+}
+.content .plate4 .plate4-2-2 img{
+    width: 126px;
+    height: 126px;
+    position: absolute;
+    bottom: 0;
+    right: 0;   
+}
+.content .plate4 .text{
+    color:#000;
+}
+.content .plate4  .price{
+    color: #ff5600 !important;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top:6px; 
+}
+.content .plate4-2-2:hover .text{
+    color:#ff5600 !important;
+}
+/* 热卖排行结束 */
+
+/* 精选录音麦克风 */
+
+.content .plate4 .plate4-3-1 .plate4-3{
+    margin: 0 auto !important;
+    width: 377px;
+    height: 104px;
+}
+
+.content .plate4 .plate4-4-2{
+    float: left;
+    width: 200px;
+    height: 175px;
+    padding: 10px; 
+    /* border: 1px solid blue; */
+    background: #fff; 
+    margin-left:7px; 
+    list-style: none;
+    position: relative;
+    margin-bottom:6px; 
+}
+.content .plate4 .plate4-4-2 img{
+    width: 126px;
+    height: 126px;
+    position: absolute;
+    bottom: 0;
+    right: 0;   
+}
+.content .plate4 .text{
+    color:#000;
+}
+.content .plate4  .price{
+    color: #ff5600 !important;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top:6px; 
+}
+.content .plate4-4-2:hover .text{
+    color:#ff5600 !important;
+}
+.content .plate4-4-f{
+    float: left;
+    width: 681px;
+    height: 398px;
+
+}
+.content .plate4-3-1{
+    height: 104px;
+    width: 980px;
+    margin: 0 auto;
+}
+.content .plate4 .plate4-4-1{
+    float: left;
+    width: 299px;
+    height: 398px;
+    margin-bottom:6px; 
+}
+.content .plate4 .plate4-5{
+    height: 82px;
+    width: 980px;
+    padding-top:6px; 
+    background: #fff;
+}
+.content .plate4 .plate4-5-1{
+    width: 140px;
+    height: 78px;
+    border: 1px solid red;
+}
+.content .plate4 .plate4-5-t{
+    margin: 0 auto;
+    width: 100px;
+    height: 45px;
+}
+/* 精选录音麦克风结束 */
+/* 精选系列结束 */

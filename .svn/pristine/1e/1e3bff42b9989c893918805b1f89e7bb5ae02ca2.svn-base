@@ -1,0 +1,21 @@
+$(function () {
+    var c_obj = (function () {
+        // 处理鼠标悬浮事件
+        function handleHover() {
+            $(".header .bottom .left").hover(
+                function () {
+                    $(this).children().eq(1).show();
+                },
+                function () {
+                    $(this).children().eq(1).hide();
+                }
+            )
+        }
+        return {
+            handleHover: handleHover
+        }
+    })();
+
+    //调用方法
+    c_obj.handleHover();
+});

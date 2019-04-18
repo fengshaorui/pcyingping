@@ -1,0 +1,33 @@
+$(function(){
+    var registFun=(function(){
+
+        function slideBlock(e){
+            var offsetL=$(".block").offset().left;
+            $(".block").mousedown(function(e){
+                if(e.button==0){
+                    $(document).bind('mousemove',function(e){  
+
+                        var x=e.pageX-offsetL-20;
+                        if(x>0&&x<285){
+                            $(".block").css({left:x});
+                            $(".hid-block").css({width:x})
+                        }
+                        
+                    })
+                }
+                
+                
+            });
+
+        }
+
+        return {
+            slideBlock:slideBlock
+        }
+    })()
+
+
+    registFun.slideBlock();
+
+
+})

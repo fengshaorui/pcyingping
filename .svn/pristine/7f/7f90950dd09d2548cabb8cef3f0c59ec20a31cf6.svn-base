@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="./css/slideBar.css">
+    <link rel="stylesheet" href="css/page-footer.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/section1.1.css">
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <!-- top-ad开始 -->
+    <div class="top-ad">
+        <div class="top-ad-mid"></div>
+    </div>
+    <!-- top-ad结束 -->
+
+    <!-- nav开始 -->
+    <div class="nav">
+        <div class="nav-mid clearfix">
+            <div class="nav-mid-left">
+                <span>您好！欢迎来到音平商城！</span>
+                <span><a href="#">请登录</a></span>
+                <span><a href="#">免费注册</a></span>
+            </div>
+            <div class="nav-mid-right clearfix">
+
+                <div class="right-one">
+                    <span class="my-yinping">我的音平<img src="images/index/bottom-arrow.png" /></span>
+                    <div class="right-one-hid">
+                        <span>我的订单</span>
+                        <span>我的收藏</span>
+                        <span>我要评价</span>
+                        <span>我的优惠劵 0</span>
+                    </div>
+                </div>
+                <div class="right-two">
+                    <span class="my-cart">我的购物车</span>
+                    <div class="cart-tips"><span>0</span></div>
+                </div>
+                <div class="right-three">
+                    <span class="my-qiye">企业采购</span>
+                </div>
+                <div class="right-four">
+                    <span class="my-kefu">客服服务<img src="images/index/bottom-arrow.png" /></span>
+                    <div class="right-four-hid">
+                        <div class="hid-list-one">
+                            <span class="title">在线客服</span>
+                            <p>在线时间:8:30-23:00</p>
+                        </div>
+                        <div class="hid-list-two">
+                            <span>400 700 3638</span>
+                            <p>服务时间：08:30 - 23:00</p>
+                        </div>
+                        <div class="hid-list-three">
+                            <img src="images/index/wechat-icon-1.0.0.png">
+                            <span>微信客服扫一扫</span>
+                            <img src="images/index/wechatqr-1.0.0.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nav结束 -->
+
+    <!-- top-list开始 -->
+    <div class="top">
+        <div class="top-mid">
+            <div class="top-mid-up clearfix">
+                <img src="images/index/logo.png" />
+                <img src="images/index/top-list1.gif" />
+                <div class="search clearfix">
+                    <input type="text" />
+                    <span>搜索</span>
+                    <ul class="clearfix">
+                        <li><a href="#" title="k歌直播声卡">k歌直播声卡</a></li>
+                        <li><a href="#" title="录音声卡">录音声卡</a></li>
+                        <li><a href="#" title="电容麦">电容麦</a></li>
+                        <li><a href="#" title="监听音箱">监听音箱</a></li>
+                        <li><a href="#" title="吉他">吉他</a></li>
+                        <li><a href="#" title="音响">音响</a></li>
+                        <li><a href="#" title="RME声卡">RME声卡</a></li>
+                        <li><a href="#" title="莱维特">莱维特</a></li>
+                    </ul>
+                </div>
+                <div class="small-icon">
+                    <img src="images/index/small-icon1.png" class="small-icon-one">
+                    <img src="images/index/wx_code-1.0.1.jpg" class="hid-icon">
+                    <img src="images/index/small-icon.png">
+                </div>
+            </div>
+            <div class="top-mid-down clearfix">
+                <div class="all-list">全部商品分类</div>
+                <div class="list-item">
+                    <ul class="clearfix">
+                        <li><a href="#">网站首页</a></li>
+                        <li><a href="#">套装方案</a></li>
+                        <li><a href="#">活动专区</a></li>
+                        <li><a href="#">品牌专区</a></li>
+                        <li><a href="#">音平资迅</a></li>
+                        <li><a href="#">音平乐享</a></li>
+                        <li><a href="#">音师傅</a></li>
+                    </ul>
+                </div>
+                <div class="small-loop clearfix">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="arrow">
+                        <img src="images/index/arrow-top.png" class="arrow-top">
+                        <img src="images/index/bottom-arrow.png" class="arrow-bottom">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top-list结束 -->
+    <!-- 头部结束 -->
+
+    <!-- 主体内容 -->
+    <div class="content">
+        <!-- 广告 -->
+        <div class="ad"></div>
+        <!-- 广告结束 -->
+
+        <!-- 优惠券  -->
+        <div class="coupon">
+            <div class="container-z">
+                <div class="coupon-box">
+                    <a href="#">
+                        <img src="images/section1/yhj-01.png" alt="" class="coupon-img1">
+                        <img src="images/section1/yhj-02.png" alt="" class="coupon-img">
+                        <img src="images/section1/yhj-03.png" alt="" class="coupon-img">
+                        <img src="images/section1/yhj-04.png" alt="" class="coupon-img">
+                    </a>
+                </div>
+                <div class="coupon-bz">
+                    <p class="remark">
+                        注：登陆/注册后即可领取，优惠券在订单结算页面使用，活动时间：2018.12.25-2019.1.8
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 优惠券结束 -->
+
+        <!-- 栏目 -->
+        <div class="article">
+            <div class="container-z">
+                <div class="article-box">
+                    <a href="#">
+                        <img src="images/section1/a_05.jpg" alt="" class="article-img article-img1">
+                    </a>
+                    <a href="#">
+                        <img src="images/section1/a_07.jpg" alt="" class="article-img">
+                    </a>
+                    <a href="#">
+                        <img src="images/section1/a_09.jpg" alt="" class="article-img">
+                    </a>
+                    <a href="#">
+                        <img src="images/section1/a_11.jpg" alt="" class="article-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 栏目结束 -->
+
+        <!-- 个人录音配音方案 -->
+        <div class="plate1">
+
+            <!-- 标题块 -->
+            <div class="plate1-1">
+                <div class="container-z plate1-1-bj"></div>
+            </div>
+            <!-- 标题块结束 -->
+
+            <!-- 方案块 -->
+            <div class="plate1-2">
+
+                <!-- 方案1 -->
+                <div class="container-z plate1-2-1">
+                    <a href="#"><img src="images/section1/L-pc-k550p-2.jpg" alt=""></a>
+
+                    <!-- 套装立省 -->
+                    <div class="plate1-lisheng">
+                        <div class="plate1-lisheng-1">
+                            套装特惠
+                        </div>
+                        <p class="lisheng1">套装已立省</p>
+                        <p class="lisheng2">106</p>
+                    </div>
+                    <!-- 套装立省结束 -->
+
+                    <!-- 立即购买 -->
+                    <div class="plate1-buy">
+                        <p class="plate1-buy-price1">￥ <span class="plate1-buy-price2">1759</span></p>
+                        <div class="plate1-buy-btn">
+                            <a href="#" class="buy">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案1结束 -->
+
+                <!-- 方案2 -->
+                <div class="container-z plate1-2-2">
+                    <a href="#"><img src="images/section1/a_55-2.jpg" alt=""></a>
+
+                    <!-- 套装立省 -->
+                    <div class="plate1-lisheng2">
+                        <div class="plate1-lisheng2-1">
+                            套装特惠
+                        </div>
+                        <p class="lisheng2-1">套装已立省</p>
+                        <p class="lisheng2-2">165</p>
+                    </div>
+                    <!-- 套装立省结束 -->
+
+                    <!-- 立即购买 -->
+                    <div class="plate1-buy2">
+                        <p class="plate1-buy2-price1">￥ <span class="plate1-buy2-price2">2599</span></p>
+                        <div class="plate1-buy2-btn">
+                            <a href="#" class="buy2">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案2结束 -->
+
+                <!-- 方案3 -->
+                <div class="container-z plate1-2-3">
+                    <a href="#"><img src="images/section1/S_57.jpg" alt=""></a>
+
+                    <!-- 套装立省 -->
+                    <div class="plate1-lisheng3">
+                        <div class="plate1-lisheng3-1">
+                            套装特惠
+                        </div>
+                        <p class="lisheng3-1">套装已立省</p>
+                        <p class="lisheng3-2">215</p>
+                    </div>
+                    <!-- 套装立省结束 -->
+
+                    <!-- 立即购买 -->
+                    <div class="plate1-buy3">
+                        <p class="plate1-buy3-price1">￥ <span class="plate1-buy3-price2">3740</span></p>
+                        <div class="plate1-buy3-btn">
+                            <a href="#" class="buy3">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案3结束 -->
+
+                <!-- 方案4 -->
+                <div class="container-z plate1-2-4">
+                    <a href="#"><img src="images/section1/suit-200-1.jpg" alt=""></a>
+
+                    <!-- 套装立省 -->
+                    <div class="plate1-lisheng4">
+                        <div class="plate1-lisheng4-1">
+                            套装特惠
+                        </div>
+                        <p class="lisheng4-1">套装已立省</p>
+                        <p class="lisheng4-2">300</p>
+                    </div>
+                    <!-- 套装立省结束 -->
+
+                    <!-- 立即购买 -->
+                    <div class="plate1-buy4">
+                        <p class="plate1-buy4-price1">￥ <span class="plate1-buy4-price2">5600</span></p>
+                        <div class="plate1-buy4-btn">
+                            <a href="#" class="buy4">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案4结束 -->
+
+                <!-- 方案5 -->
+                <div class="container-z plate1-2-5">
+                    <a href="#"><img src="images/section1/L-senhai-mk4-1.jpg" alt=""></a>
+
+                    <!-- 套装立省 -->
+                    <div class="plate1-lisheng5">
+                        <div class="plate1-lisheng5-1">
+                            套装特惠
+                        </div>
+                        <p class="lisheng5-1">套装已立省</p>
+                        <p class="lisheng5-2">271</p>
+                    </div>
+                    <!-- 套装立省结束 -->
+
+                    <!-- 立即购买 -->
+                    <div class="plate1-buy5">
+                        <p class="plate1-buy5-price1">￥ <span class="plate1-buy5-price2">9700</span></p>
+                        <div class="plate1-buy5-btn">
+                            <a href="#" class="buy5">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案5结束 -->
+
+                <!-- 方案6 -->
+                <div class="container-z plate1-2-6">
+                    <a href="#"><img src="images/section1/suit-203.jpg" alt=""></a>
+                    <!-- 立即购买 -->
+                    <div class="plate1-buy6">
+                        <p class="plate1-buy6-price1">￥ <span class="plate1-buy6-price2">22502</span></p>
+                        <div class="plate1-buy6-btn">
+                            <a href="#" class="buy6">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案6结束 -->
+            </div>
+            <!-- 方案块结束 -->
+        </div>
+        <!-- 个人录音配音方案结束 -->
+
+        <!-- 小型录音棚方案 -->
+        <div class="plate2">
+
+            <!-- 标题块 -->
+            <div class="plate2-1">
+                <div class="container-z plate2-1-bj"></div>
+            </div>
+            <!-- 标题块结束 -->
+
+            <!-- 方案块 -->
+            <div class="plate2-2">
+
+                <!-- 方案1 -->
+                <div class="container-z plate2-2-1">
+                    <a href="#"><img src="images/section1/B_65.jpg" alt=""></a>
+
+                    <!-- 立即购买 -->
+                    <div class="plate2-buy">
+                        <p class="plate2-buy-price1">￥ <span class="plate2-buy-price2">8914</span></p>
+                        <div class="plate2-buy-btn">
+                            <a href="#" class="buy">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案1结束 -->
+
+                <!-- 方案2 -->
+                <div class="container-z plate2-2-2">
+                    <a href="#"><img src="images/section1/B_63-19.jpg" alt=""></a>
+
+                    <!-- 立即购买 -->
+                    <div class="plate2-buy2">
+                        <p class="plate2-buy2-price1">￥ <span class="plate2-buy2-price2">29934</span></p>
+                        <div class="plate2-buy2-btn">
+                            <a href="#" class="buy2">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案2结束 -->
+
+                <!-- 方案3 -->
+                <div class="container-z plate2-2-3">
+                    <a href="#"><img src="images/section1/a_65-7.jpg" alt=""></a>
+
+                    <!-- 立即购买 -->
+                    <div class="plate2-buy3">
+                        <p class="plate2-buy3-price1">￥ <span class="plate2-buy3-price2">65709</span></p>
+                        <div class="plate2-buy3-btn">
+                            <a href="#" class="buy3">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案3结束 -->
+
+                <!-- 方案4 -->
+                <div class="container-z plate2-2-4">
+                    <a href="#"><img src="images/section1/A_72-5.jpg" alt=""></a>
+
+                    <!-- 立即购买 -->
+                    <div class="plate2-buy4">
+                        <p class="plate2-buy4-price1">￥ <span class="plate2-buy4-price2">15198</span></p>
+                        <div class="plate2-buy4-btn">
+                            <a href="#" class="buy4">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案4结束 -->
+
+
+            </div>
+            <!-- 方案块结束 -->
+        </div>
+        <!-- 小型录音棚方案结束 -->
+
+        <!-- 录音编曲制作方案 -->
+        <div class="plate3">
+
+            <!-- 标题块 -->
+            <div class="plate3-1">
+                <div class="container-z plate3-1-bj"></div>
+            </div>
+            <!-- 标题块结束 -->
+
+            <!-- 方案块 -->
+            <div class="plate3-2">
+
+                <!-- 方案1 -->
+                <div class="container-z plate3-2-1">
+                    <a href="#"><img src="images/section1/a_69-2.jpg" alt=""></a>
+
+                    <!-- 立即购买 -->
+                    <div class="plate3-buy">
+                        <p class="plate3-buy-price1">￥ <span class="plate3-buy-price2">1995</span></p>
+                        <div class="plate3-buy-btn">
+                            <a href="#" class="buy">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案1结束 -->
+
+                <!-- 方案2 -->
+                <div class="container-z plate3-2-2">
+                    <a href="#"><img src="images/section1/B_71-2.jpg" alt=""></a>
+
+                    <!-- 立即购买 -->
+                    <div class="plate3-buy2">
+                        <p class="plate3-buy2-price1">￥ <span class="plate3-buy2-price2">6480</span></p>
+                        <div class="plate3-buy2-btn">
+                            <a href="#" class="buy2">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案2结束 -->
+
+                <!-- 方案3 -->
+                <div class="container-z plate3-2-3">
+                    <a href="#"><img src="images/section1/o_73-6.jpg" alt=""></a>
+
+                    <!-- 立即购买 -->
+                    <div class="plate3-buy3">
+                        <p class="plate3-buy3-price1">￥ <span class="plate3-buy3-price2">13125</span></p>
+                        <div class="plate3-buy3-btn">
+                            <a href="#" class="buy3">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案3结束 -->
+
+                <!-- 方案4 -->
+                <div class="container-z plate3-2-4">
+                    <a href="#"><img src="images/section1/o_74-5.jpg" alt=""></a>
+
+                    <!-- 立即购买 -->
+                    <div class="plate3-buy4">
+                        <p class="plate3-buy4-price1">￥ <span class="plate3-buy4-price2">27159</span></p>
+                        <div class="plate3-buy4-btn">
+                            <a href="#" class="buy4">立即购买</a>
+                        </div>
+                    </div>
+                    <!-- 立即购买结束 -->
+                </div>
+                <!-- 方案4结束 -->
+            </div>
+            <!-- 方案块结束 -->
+        </div>
+        <!-- 录音编曲制作方案结束 -->
+
+        <!-- 精选系列 -->
+        <div class="plate4">
+            <div class="container-z">
+                <!-- 热卖排行 -->
+                <div>
+                    <div class="plate4-1">
+                        <img src="images/section1/a_18.jpg" alt="">
+                    </div>
+                    <div class="plate4-2 clearfix">
+                        <div class="plate4-2-1">
+                            <a href="#">
+                                <img src="images/section1/a_22-6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-2-2">
+                            <a href="#">
+                                <p class="text">雅马哈(steinberg) UR242 USB 专业录音网络K歌声卡</p>
+                                <p class="price">￥<span>1618</span></p>
+                                <img src="images/section1/20170629155816088799.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-2-2">
+                            <a href="#">
+                                <p class="text">亚当(ADAM) T7V (7寸) 二分频近场录音棚工作室桌面有源监</p>
+                                <p class="price">￥<span>2499</span></p>
+                                <img src="images/section1/201806111833250611632.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-2-2">
+                            <a href="#">
+                                <p class="text">RME Babyface Pro 电脑录音网络K歌USB声卡</p>
+                                <p class="price">￥<span>5549</span></p>
+                                <img src="images/section1/201608021802370328928.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="plate4-2-1">
+                            <a href="#">
+                                <img src="images/section1/a_23-(24).jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-2-2">
+                            <a href="#">
+                                <p class="text">雅马哈UR242声卡搭配舒尔PGA27 麦克风 录音套装</p>
+                                <p class="price">￥<span>1618</span></p>
+                                <img src="images/section1/201802071711460815556.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-2-2">
+                            <a href="#">
+                                <p class="text">富克斯特2i2声卡搭配得胜K820麦克风 录音套装</p>
+                                <p class="price">￥<span>2499</span></p>
+                                <img src="images/section1/20171006152549061077.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-2-2">
+                            <a href="#">
+                                <p class="text">富克斯特 Scarlett 18i8声卡搭配AKG C3000 麦克风 录音套装</p>
+                                <p class="price">￥<span>5549</span></p>
+                                <img src="images/section1/201811021401340023251.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 热卖排行结束 -->
+
+                <!-- 精选录音麦克风 -->
+                <div>
+                    <div class="plate4-3-1">
+                        <div class="plate4-3">
+                            <img src="images/section1/a_25.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="plate4-4 clearfix">
+                        <div class="plate4-4-1">
+                            <a href="#">
+                                <img src="images/section1/B_33.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-4-f">
+                            <div class="plate4-4-2">
+                                <a href="#">
+                                    <p class="text">铁三角(Audio-technica) AT2020 电容式录音麦克风</p>
+                                    <p class="price">￥<span>920</span></p>
+                                    <img src="images/section1/201211171206320134565.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-4-2">
+                                <a href="#">
+                                    <p class="text">舒尔(SHURE) KSM32 SL 电容式录音麦克风</p>
+                                    <p class="price">￥<span>5899</span></p>
+                                    <img src="images/section1/201201041133400395275.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-4-2">
+                                <a href="#">
+                                    <p class="text">铁三角(Audio-technica) TA4040 电容式录音麦克风</p>
+                                    <p class="price">￥<span>2860</span></p>
+                                    <img src="images/section1/201211171439390989311.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-4-2">
+                                <a href="#">
+                                    <p class="text">莱维特(LEWITT) LCT 840 电容式电子管录音麦克风</p>
+                                    <p class="price">￥<span>9999</span></p>
+                                    <img src="images/section1/201210201054570162435.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-4-2">
+                                <a href="#">
+                                    <p class="text">纽曼(Neumann) 德国进口 U87Ai 电容式录音麦克风</p>
+                                    <p class="price">￥<span>22999</span></p>
+                                    <img src="images/section1/201201061057460703717.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-4-2">
+                                <a href="#">
+                                    <p class="text">罗德(RODE) 澳大利亚进口 NT1-A 电容式录音麦克风十年</p>
+                                    <p class="price">￥<span>1479</span></p>
+                                    <img src="images/section1/201203301557200091291.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate4-5">
+                        <div class="plate4-5-1">
+                            <div class="plate4-5-t">
+                                <a href="#">
+                                    <img src="images/section1/201712181143390451354.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>得胜</p>
+                            </a>
+                        </div>
+                        <div class="plate4-5-1">
+                            <div class="plate4-5-t">
+                                <a href="">
+                                    <img src="images/section1/201211291637040818474.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>莱维特</p>
+                            </a>
+                        </div>
+                        <div class="plate4-5-1">
+                            <div class="plate4-5-t">
+                                <a href="">
+                                    <img src="images/section1/201204021500350361697.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>罗德</p>
+                            </a>
+                        </div>
+                        <div class="plate4-5-1">
+                            <div class="plate4-5-t">
+                                <a href="">
+                                    <img src="images/section1/201204021443100645594.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>铁三角</p>
+                            </a>
+                        </div>
+                        <div class="plate4-5-1">
+                            <div class="plate4-5-t">
+                                <a href="">
+                                    <img src="images/section1/201204021453490257722.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>纽曼</p>
+                            </a>
+                        </div>
+                        <div class="plate4-5-1">
+                            <div class="plate4-5-t">
+                                <a href="">
+                                    <img src="images/section1/20120406153611079582.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>AKG</p>
+                            </a>
+                        </div>
+                        <div class="plate4-5-1">
+                            <div class="plate4-5-gd">
+                                <a href="#">
+                                    <p class="plate4-5-gd1">更多 ></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 精选录音麦克风结束 -->
+
+                <!-- 精选专业声卡 -->
+                <div>
+                    <div class="plate4-6-1">
+                        <div class="plate4-6">
+                            <img src="images/section1/a_31.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="plate4-7 clearfix">
+                        <div class="plate4-7-1">
+                            <a href="#">
+                                <img src="images/section1/p_38-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-7-f">
+                            <div class="plate4-7-2">
+                                <a href="#">
+                                    <p class="text">富克斯特(Focusrite) Scarlett 2i2二代 专业录音 USB外置声卡 音频接口升级版</p>
+                                    <p class="price">￥<span>1039</span></p>
+                                    <img src="images/section1/201608060959440408442.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-7-2">
+                                <a href="#">
+                                    <p class="text">罗兰(Roland) Rubix 22 USB专业录音声卡 2进2出带双话放</p>
+                                    <p class="price">￥<span>1329</span></p>
+                                    <img src="images/section1/201705181552280136807.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-7-2">
+                                <a href="#">
+                                    <p class="text">RME 德国进口 Fireface UCX 电脑专业录音K歌声卡</p>
+                                    <p class="price">￥<span>10199</span></p>
+                                    <img src="images/section1/201303011737530765950.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-7-2">
+                                <a href="#">
+                                    <p class="text">罗兰(Roland) OCTA-CAPTURE UA-1010 专业录音外置USB声卡</p>
+                                    <p class="price">￥<span>3679</span></p>
+                                    <img src="images/section1/201112201551240459826.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-7-2">
+                                <a href="#">
+                                    <p class="text">RME Fireface UFX II 专业级录音外置USB声卡</p>
+                                    <p class="price">￥<span>15399</span></p>
+                                    <img src="images/section1/20170527102419037410.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-7-2">
+                                <a href="#">
+                                    <p class="text">Universal audio Apollo Twin MKII SOLO 2进6出雷电音频接口阿波罗录音声卡 (单核)</p>
+                                    <p class="price">￥<span>5699</span></p>
+                                    <img src="images/section1/201706281821340274552.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate4-8">
+                        <div class="plate4-8-1">
+                            <div class="plate4-8-t">
+                                <a href="#">
+                                    <img src="images/section1/201204021447130848835.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>罗兰</p>
+                            </a>
+                        </div>
+                        <div class="plate4-8-1">
+                            <div class="plate4-8-t">
+                                <a href="">
+                                    <img src="images/section1/201205211641320708609.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>Focusrite</p>
+                            </a>
+                        </div>
+                        <div class="plate4-8-1">
+                            <div class="plate4-8-t">
+                                <a href="">
+                                    <img src="images/section1/201306151216260722653.jpg" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>雅马哈</p>
+                            </a>
+                        </div>
+                        <div class="plate4-8-1">
+                            <div class="plate4-8-t">
+                                <a href="">
+                                    <img src="images/section1/201703141800410023840.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>RME</p>
+                            </a>
+                        </div>
+                        <div class="plate4-8-1">
+                            <div class="plate4-8-t">
+                                <a href="">
+                                    <img src="images/section1/20140815152342029160.jpg" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>Universal audio</p>
+                            </a>
+                        </div>
+                        <div class="plate4-8-1">
+                            <div class="plate4-8-t">
+                                <a href="">
+                                    <img src="images/section1/201311281500520142309.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>马头</p>
+                            </a>
+                        </div>
+                        <div class="plate4-8-1">
+                            <div class="plate4-8-gd">
+                                <a href="#">
+                                    <p class="plate4-8-gd1">更多 ></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 精选专业声卡结束 -->
+
+                <!-- 精选键盘 -->
+                <div>
+                    <div class="plate4-9-1">
+                        <div class="plate4-9">
+                            <img src="images/section1/a_37.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="plate4-10 clearfix">
+                        <div class="plate4-10-1">
+                            <a href="#">
+                                <img src="images/section1/a_39-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-10-f">
+                            <div class="plate4-10-2">
+                                <a href="#">
+                                    <p class="text">美奥多(M-AUDIO) keystation 61键 半配重MIDI键盘</p>
+                                    <p class="price">￥<span>1388</span></p>
+                                    <img src="images/section1/201709211003050691106.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-10-2">
+                                <a href="#">
+                                    <p class="text">罗兰(Roland) A-49 MIDI键盘 49键 (黑色)</p>
+                                    <p class="price">￥<span>1579</span></p>
+                                    <img src="images/section1/201603191500120976664.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-10-2">
+                                <a href="#">
+                                    <p class="text">美奥多(M-AUDIO) CODE-61 61键USB/MIDI键盘控制器</p>
+                                    <p class="price">￥<span>3388</span></p>
+                                    <img src="images/section1/201711031656550072422.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-10-2">
+                                <a href="#">
+                                    <p class="text">雅马哈(YAMAHA) MOXF8 音乐演奏88键全配重舞台合成器</p>
+                                    <p class="price">￥<span>8819</span></p>
+                                    <img src="images/section1/201604061433290230922.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-10-2">
+                                <a href="#">
+                                    <p class="text">美奥多(M-AUDIO) Oxygen 88 MIDI键盘 钢琴手感</p>
+                                    <p class="price">￥<span>4599</span></p>
+                                    <img src="images/section1/201302171628060440418.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-10-2">
+                                <a href="#">
+                                    <p class="text">诺维逊(Novation) launchpad MKⅡ mini控制器 dj打击垫 </p>
+                                    <p class="price">￥<span>878</span></p>
+                                    <img src="images/section1/201611221426140881199.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate4-11">
+                        <div class="plate4-11-1">
+                            <div class="plate4-11-t">
+                                <a href="#">
+                                    <img src="images/section1/201204021447130848835.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>罗兰</p>
+                            </a>
+                        </div>
+                        <div class="plate4-11-1">
+                            <div class="plate4-11-t">
+                                <a href="">
+                                    <img src="images/section1/201204021459080170153.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>KORG</p>
+                            </a>
+                        </div>
+                        <div class="plate4-11-1">
+                            <div class="plate4-11-t">
+                                <a href="">
+                                    <img src="images/section1/201204021452530468834.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>雅马哈</p>
+                            </a>
+                        </div>
+                        <div class="plate4-11-1">
+                            <div class="plate4-11-t">
+                                <a href="">
+                                    <img src="images/section1/201204021523530298295.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>诺维逊</p>
+                            </a>
+                        </div>
+                        <div class="plate4-11-1">
+                            <div class="plate4-11-t">
+                                <a href="">
+                                    <img src="images/section1/201204021521500957606.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>艾肯</p>
+                            </a>
+                        </div>
+                        <div class="plate4-11-1">
+                            <div class="plate4-11-t">
+                                <a href="">
+                                    <img src="images/section1/201204021454060023275.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>美奥多</p>
+                            </a>
+                        </div>
+                        <div class="plate4-11-1">
+                            <div class="plate4-11-gd">
+                                <a href="#">
+                                    <p class="plate4-11-gd1">更多 ></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 精选键盘结束 -->
+
+                <!-- 精选监听音箱 -->
+                <div>
+                    <div class="plate4-12-1">
+                        <div class="plate4-12">
+                            <img src="images/section1/a_43.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="plate4-13 clearfix">
+                        <div class="plate4-13-1">
+                            <a href="#">
+                                <img src="images/section1/a_44-11.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="plate4-13-f">
+                            <div class="plate4-13-2">
+                                <a href="#">
+                                    <p class="text">卡尔卡(KRK) 美国品牌Rokit5 G3/RP5G3 5寸有源专业录音室监听音箱（一对）</p>
+                                    <p class="price">￥<span>2599</span></p>
+                                    <img src="images/section1/2017062915485700004.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-13-2">
+                                <a href="#">
+                                    <p class="text">真力(GENELEC) 8040B 6.5寸二分频 双功放专业监听音箱 只</p>
+                                    <p class="price">￥<span>9828</span></p>
+                                    <img src="images/section1/201605031051560229401.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-13-2">
+                                <a href="#">
+                                    <p class="text">JBL NANO K5 录音棚工作室5寸有源近场监听音箱 多媒体书架HiFi音箱（只）</p>
+                                    <p class="price">￥<span>1588</span></p>
+                                    <img src="images/section1/201810100940130271967.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-13-2">
+                                <a href="#">
+                                    <p class="text">雅马哈(YAMAHA) 印尼进口 HS7 新白盆6.5寸监听音箱 黑色（对） </p>
+                                    <p class="price">￥<span>3499</span></p>
+                                    <img src="images/section1/201409271353060350841.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-13-2">
+                                <a href="#">
+                                    <p class="text">美奇(MACKIE) CR5BT 5寸有源监听音响 蓝牙音箱 （对）</p>
+                                    <p class="price">￥<span>1999</span></p>
+                                    <img src="images/section1/201712141600460175209.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="plate4-13-2">
+                                <a href="#">
+                                    <p class="text">纽曼(Neumann) KH120 5.5寸有源监听音箱（一对装）</p>
+                                    <p class="price">￥<span>15999</span></p>
+                                    <img src="images/section1/201406211606250199303.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate4-14">
+                        <div class="plate4-14-1">
+                            <div class="plate4-14-t">
+                                <a href="#">
+                                    <img src="images/section1/201204021506480803160.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>卡尔卡</p>
+                            </a>
+                        </div>
+                        <div class="plate4-14-1">
+                            <div class="plate4-14-t">
+                                <a href="">
+                                    <img src="images/section1/201204021509290564464.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>真力</p>
+                            </a>
+                        </div>
+                        <div class="plate4-14-1">
+                            <div class="plate4-14-t">
+                                <a href="">
+                                    <img src="images/section1/201204021452530468834.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>雅马哈</p>
+                            </a>
+                        </div>
+                        <div class="plate4-14-1">
+                            <div class="plate4-14-t">
+                                <a href="">
+                                    <img src="images/section1/201304151111520394125.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>亚当</p>
+                            </a>
+                        </div>
+                        <div class="plate4-14-1">
+                            <div class="plate4-14-t">
+                                <a href="">
+                                    <img src="images/section1/201307231821180051814.jpg" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>丹拿</p>
+                            </a>
+                        </div>
+                        <div class="plate4-14-1">
+                            <div class="plate4-14-t">
+                                <a href="">
+                                    <img src="images/section1/201809061200380612701.gif" alt="">
+                                </a>
+                            </div>
+                            <a href="">
+                                <p>美奇</p>
+                            </a>
+                        </div>
+                        <div class="plate4-14-1">
+                            <div class="plate4-14-gd">
+                                <a href="#">
+                                    <p class="plate4-14-gd1">更多 ></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 精选监听音箱结束 -->
+
+
+                <!-- 其他热卖单品 -->
+                <div>
+                    <div class="plate4-15-1">
+                        <div class="plate4-15">
+                            <img src="images/section1/a_43.jpg" alt="">
+                        </div>
+                        <div class="plate4-16 clearfix">
+                            <ul class="plate4-16-1 clearfix">
+                                <li>监听耳机</li>
+                                <li>专业话放</li>
+                                <li>专业耳放</li>
+                                <li>调音台</li>
+                                <li>效果器</li>
+                                <li>录音软件</li>
+                                <li>培训课程</li>
+                                <li>相关配件</li>
+                            </ul>
+                            <div class="plate4-16-2">
+                                <div class="plate4-16-z">
+                                    <div class="plate4-16-z1">
+                                        <a href="#">
+                                            <p class="text">铁三角(Audio-technica) ATH-M20x头戴式耳机 专业录音音乐K歌监听</p>
+                                            <p class="price">￥<span>338</span></p>
+                                            <img src="images/section1/201706291534530384665.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="plate4-16-z1">
+                                        <a href="#">
+                                            <p class="text">舒尔(SHURE) SRH440 录音级头戴式耳机</p>
+                                            <p class="price">￥<span>688</span></p>
+                                            <img src="images/section1/201302011610370650576.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="plate4-16-z1">
+                                        <a href="#">
+                                            <p class="text">爱科技(AKG) K271MKⅡ专业监听级高保真立体声耳罩式耳机</p>
+                                            <p class="price">￥<span>839</span></p>
+                                            <img src="images/section1/201706291518400956864.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="plate4-16-z1">
+                                        <a href="#">
+                                            <p class="text">得胜(TAKSTAR) PRO82 专业参考级监听耳机 (银色)</p>
+                                            <p class="price">￥<span>469</span></p>
+                                            <img src="images/section1/201704261159120338295.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="plate4-16-z1 clearm">
+                                        <a href="#">
+                                            <p class="text">拜亚动力(Beyerdynamic) DT770 PRO 专业监听头戴式耳机 (80Ω)</p>
+                                            <p class="price">￥<span>1488</span></p>
+                                            <img src="images/section1/201301241139270380208.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 其他热卖单品结束 -->
+
+            </div>
+        </div>
+        <!-- 精选系列结束 -->
+
+        <!-- 商用直播、配音设备专场 -->
+        <div class="plate5">
+            <!-- 标题块 -->
+            <div class="plate5-1">
+                <div class="container-z plate5-1-bj"></div>
+            </div>
+            <!-- 标题块结束 -->
+
+            <!-- 推荐专场 -->
+            <div class="plate5-2">
+                <div class="container-z">
+                    <div class="plate5-2-1">
+                        <img src="images/section1/gt_47.jpg" alt="">
+                    </div>
+                    <div class="plate5-2-2">
+                        <a href="#">
+                            <img src="images/section1/gt_l_12.jpg" alt="">
+                            <img src="images/section1/gt_l_14.jpg" alt="">
+                            <img src="images/section1/gt_l_18.jpg" alt="">
+                            <img src="images/section1/gt_l_28.jpg" alt="">
+                            <img src="images/section1/gt_l_16.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 推荐专场结束 -->
+        </div>
+        <!-- 商用直播、配音设备专场结束 -->
+
+    </div>
+    <!-- 主体内容结束 -->
+
+
+
+    <!-- 网站脚注区域开始 -->
+    <div class="footer">
+        <div class="foot-top">
+            <div class="container clearfix">
+                <a href="#">
+                    <img src="./images/shopCar/footer1.png" alt="正品保障">
+                    正品保障
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer2.png" alt="正品保障">
+                    闪电发货
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer3.png" alt="正品保障">
+                    货到付款
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer4.png" alt="正品保障">
+                    七天退换
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer5.png" alt="正品保障">
+                    售后无忧
+                </a>
+            </div>
+        </div>
+        <div class="foot-mid">
+            <div class="container clearfix">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="#">会员积分</a></dd>
+                    <dd><a href="#">网上订购</a></dd>
+                    <dd><a href="#">电话订购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">网站地图</a></dd>
+                    <dd><a href="#">手机触屏版</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于支付</dt>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于配送</dt>
+                    <dd><a href="#">音平配送</a></dd>
+                    <dd><a href="#">上门自提</a></dd>
+                    <dd><a href="#">包邮政策</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换政策</a></dd>
+                    <dd><a href="#">如何办理</a></dd>
+                    <dd><a href="#">开具发票</a></dd>
+                    <dd><a href="#">声卡调试</a></dd>
+                    <dd><a href="#">专业搭配</a></dd>
+                </dl>
+                <dl>
+                    <dt>申请合作</dt>
+                    <dd><a href="#">成为供应商</a></dd>
+                    <dd><a href="#">成为经销商</a></dd>
+                    <dd><a href="#">企业采购</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                    <dd><a href="#">成为微商</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">诚聘英才</a></dd>
+                    <dd><a href="#">公司简介</a></dd>
+                    <dd><a href="#">发展历程</a></dd>
+                </dl>
+                <div class="foot-mid-right">
+                    <p class="item1">客服电话</p>
+                    <p class="item2">400-700-3638</p>
+                    <p class="item3">服务时间：08:30 - 23:00</p>
+                    <a href="#" class="item4">在线咨询</a>
+                    <img src="./images/shopCar/contact.png" alt="联系我们">
+                </div>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <div class="container">
+                <p class="foot-title">音平商城 —— 大型正品音乐设备网购商城</p>
+                <p class="our-promise">
+                    增值电信业务经营许可证：&nbsp;
+                    <a href="#">粤B2-20110237</a> /
+                    <a href="#">粤ICP备11032710号-1</a> /
+                    <a href="#">粤公网安备 44130202000152号</a>
+                </p>
+                <p class="our-property">
+                    © 2011-2019 音平公司版权所有，并保留所有权利（
+                    <a href="#">著作权及商标声明</a>
+                    ）。 特聘律师团：广东斯明律师事务所
+                </p>
+                <p class="our-imgs">
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom1.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom2.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom3.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom4.png" alt="">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 网站脚注区域结束 -->
+
+
+    <!-- 右侧固定的侧边栏 -->
+    <div class="slideBar">
+        <div class="cont">
+
+            <!-- 侧边栏的左侧导航区域 -->
+            <div class="left">
+                <ul class="list">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="user"></span>
+                        </a>
+                        <div class="user-box">
+                            <div class="top">
+                                <img src="./images/slideBar/default-photo.jpg" alt="用户头像">
+                                <div class="user-msg">
+                                    <p>用户名:<i class="user-name"></i></p>
+                                    <p>级别:<i class="user-level"></i></p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <button>我的订单</button>
+                                <button>我的收藏</button>
+                            </div>
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="contact"></span>
+                        </a>
+                        <div class="contact-box">
+                            <div class="top">
+                                <img src="./images/slideBar/contact.png" alt="">
+                                <p>
+                                    <a class="inline-contact">在线客服</a>
+                                </p>
+                                <p class="inline-time">在线时间: 08:30 - 23:00</p>
+                            </div>
+                            <div class="mid">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p class="serve-phone">400 700 3638</p>
+                                <p class="serve-time">服务时间: 08:00 - 23:00</p>
+                            </div>
+                            <div class="bottom">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p>微信客服扫一扫</p>
+                                <img class="wechat-scan" src="./images/slideBar/wechat-scan1.jpg" alt="">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="shopCar">
+                        <a href="javascript:void(0);">
+                            <span class="shopCar"></span>
+                            <span class="title">购物车</span>
+                            <span class="shop-amount">10</span>
+                        </a>
+                        <div class="shopCar-box-parent">
+                            <div class="shopCar-box">
+                                <div class="cont">
+                                    <p class="close-lunbo"></p>
+                                    <div class="add-suc-model">
+                                        <img src="./images/slideBar/addCart_success.png" alt="添加成功">
+                                        <p class="one">成功加入购物车!</p>
+                                        <p>购物车保留时间有限，建议您尽快结算!</p>
+                                    </div>
+                                    <p class="tip-msg">达人购物车都有啥</p>
+                                    <div class="my02-lunbo1">
+                                        <div class="viewport1">
+                                            <div class="imgWrap-1">
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="btn-01-prev btns"></div>
+                                        <div class="btn-01-next btns"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="my-money"></span>
+                        </a>
+                        <div class="money-box">
+                            我的资产
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="advice"></span>
+                        </a>
+                        <div class="advice-box">
+                            投诉建议
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="scan">
+                    <span></span>
+                    <div class="scan-box">
+                        <img src="./images/slideBar/weixin_code.jpg" alt="">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="returnTop">
+                    <span></span>
+                    <div class="returnTop-box">
+                        返回顶部
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 侧边栏的右侧购物车区域 -->
+            <div class="right">
+                <div class="top clearfix">
+                    <p>
+                        <img class="car" src="./images/slideBar/right_car.png" alt="">
+                        <span>购物车</span>
+                        <img class="close" src="./images/slideBar/right_close.png" alt="">
+                    </p>
+                </div>
+                <div class="mid">
+
+                    <!-- 商品列表 -->
+                    <ul class="item">
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="empty">
+                        <img src="./images/slideBar/cartIcon.png" alt="">
+                        <p>购物车里空空如也 , 赶紧去逛逛吧~</p>
+                        <a href="#">去首页看看</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p class="one">
+                        <span class="selectAll">
+                            <input type="checkbox"><span>全选</span>
+                        </span>
+                        <span class="already-select">
+                            已选 <span class="total">0</span> 件商品
+                        </span>
+                        <span class="total-money">
+                            共计<em> ￥ </em><span>0.00</span>
+                        </span>
+                    </p>
+                    <a href="#">去购物车结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧固定的侧边栏结束 -->
+
+
+    <script src="js/lib/jquery-3.3.1.js"></script>
+    <script src="./js/lib/fly.js"></script>
+    <script src="./js/slideBar.js"></script>
+    <script src="js/head.js"></script>
+    <script src="js/section1.js"></script>
+</body>
+
+</html>

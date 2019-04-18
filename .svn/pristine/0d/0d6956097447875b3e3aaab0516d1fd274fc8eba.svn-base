@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="css/section3.css">
+</head>
+
+<body>
+    <!-- 网站头部 -->
+    <div class="header">
+        <!-- 顶栏图 -->
+        <div class="top-ad">
+            <a href=""><div class="ad-img"></div></a>
+        </div>
+        <!-- 欢迎登陆列 -->
+        <div class="top-info">
+            <div class="top clearfix">
+                <div class="left">
+                    <span class="left-wincome">您好！欢迎来到音平商城！</span>
+                    <span class="left-login">
+                        [
+                        <a href="">请登录 </a>
+                        &nbsp;|&nbsp;
+                        <a href=""> 免费注册</a>
+                        ]
+                    </span>
+                </div>
+
+                <ul class="right clearfix">
+                    <li class="li-top li1">
+                        <a href="">我的音平</a><img class="img1" src="images/img5/banner4.png" alt="">
+                        <ul class="right-list">
+                            <li><a href="">我的单子</a></li>
+                            <li><a href="">我的收藏</a></li>
+                            <li><a href="">我要评价</a></li>
+                            <li class="li-finally"><a href="">我的优惠券<span> 0</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="li2">
+                        <a href="">我的购物车</a><div class="img2"><div>0</div></div>
+                    </li>
+                    <li class="li3">
+                        <a href="">企业购物</a>
+                    </li>
+                    <li class="li4">
+                        <img src="images/img5/onlinekefu-1.0.3.gif" alt=""><a href="">客服服务</a><img class="img1" src="images/img5/banner4.png" alt="">
+                        <div class="telephone">
+                            <div class="mail clearfix">
+                                <div class="contact">
+                                    <a href=""><p class="p1">在线客服</p></a>   
+                                    <p class="p2">在线时间：8:30 23:00</p>
+                                </div>
+                            </div>
+                            <div class="mobile"></div>
+                            <div class="wechat"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- login搜索 -->
+        <div class="center">
+            <div class="login clearfix">
+                <div class="login-img1"><img src="images/img5/logo.png" alt=""></div>
+                <div class="login-img2"><img src="images/img5/201812241750420823961.gif" alt=""></div>
+                <div class="search-box">
+                    <div class="search clearfix">
+                        <input type="text" class="search-left" value="">
+                        <!-- <input type="submit" class="search-right" value="搜索"> -->
+                        <div class="search-right">搜索</div>
+                    </div>
+                    <ul class="search-list clearfix">
+                        <li><a href="">K歌直播声卡</a></li>
+                        <li><a href="">录音声卡</a></li>
+                        <li><a href="">电容麦</a></li>
+                        <li><a href="">监听音箱</a></li>
+                        <li><a href="">吉他</a></li>
+                        <li><a href="">调音台</a></li>
+                        <li><a href="">RME声卡</a></li>
+                        <li><a href="">菜维特</a></li>
+                    </ul>
+                </div>
+                <div class="search-img clearfix">
+                    <div class="search-img1"><img src="images/img5/wx_code-1.0.1.jpg" alt=""></div>
+                    <a href=""><div class="search-img2"></div></a>
+                </div>
+            </div>
+        </div>
+        <!-- 商品列表 -->
+        <div class="bottom clearfix">
+            <div class="left clearfix">
+                <a href="">
+                    <div class="bottom-left">全部商品分类</div>
+                </a>
+                <ul class="left-list">
+                    <li>
+                        <div class=" list-top">
+                            <a href="">声卡</a>
+                            <a href="">调音台</a>
+                            <a href="">控制器</a>
+                        </div>
+                        <div class=" list-bottom">
+                            <a href="">K歌声卡</a>
+                            <a href="">专业声卡</a>
+                            <a href="">调音台</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=" list-top">
+                            <a href="">声卡</a>
+                            <a href="">调音台</a>
+                            <a href="">控制器</a>
+                        </div>
+                        <div class=" list-bottom">
+                            <a href="">K歌声卡</a>
+                            <a href="">专业声卡</a>
+                            <a href="">调音台</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=" list-top">
+                            <a href="">声卡</a>
+                            <a href="">调音台</a>
+                            <a href="">控制器</a>
+                        </div>
+                        <div class=" list-bottom">
+                            <a href="">K歌声卡</a>
+                            <a href="">专业声卡</a>
+                            <a href="">调音台</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=" list-top">
+                            <a href="">声卡</a>
+                            <a href="">调音台</a>
+                            <a href="">控制器</a>
+                        </div>
+                        <div class=" list-bottom">
+                            <a href="">K歌声卡</a>
+                            <a href="">专业声卡</a>
+                            <a href="">调音台</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=" list-top">
+                            <a href="">声卡</a>
+                            <a href="">调音台</a>
+                            <a href="">控制器</a>
+                        </div>
+                        <div class=" list-bottom">
+                            <a href="">K歌声卡</a>
+                            <a href="">专业声卡</a>
+                            <a href="">调音台</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=" list-top">
+                            <a href="">声卡</a>
+                            <a href="">调音台</a>
+                            <a href="">控制器</a>
+                        </div>
+                        <div class=" list-bottom">
+                            <a href="">K歌声卡</a>
+                            <a href="">专业声卡</a>
+                            <a href="">调音台</a>
+                        </div>
+                    </li>
+                    <li class="li-bottom">
+                        <div class=" list-top">
+                            <a href="">声卡</a>
+                            <a href="">调音台</a>
+                            <a href="">控制器</a>
+                        </div>
+                        <div class=" list-bottom">
+                            <a href="">K歌声卡</a>
+                            <a href="">专业声卡</a>
+                            <a href="">调音台</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="bottom-right clearfix">
+                    <li><a href="">网站首页</a></li>
+                    <li><a href="">套装方案</a></li>
+                    <li><a href="">活动专区</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 网站主体 -->
+    <div class="content">
+        <div class="container">
+
+        </div>
+    </div>
+
+    <!-- 网站脚注 -->
+    <div class="footer">
+        <div class="container">
+
+        </div>
+    </div>
+
+
+    <script src="js/lib/jquery-3.3.1.js"></script>
+    <script src="js/section3.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="css/goodsList.css">
+    <script src="js/lib/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <!-- head开始 -->
+    <div class="head">
+        <!-- top-ad开始 -->
+        <div class="top-ad">
+            <div></div>
+        </div>
+        <!-- top-ad结束 -->
+        <!-- nav开始 -->
+        <div class="nav clearfix">
+            <div class="nav-box clearfix">
+                <div class="nav-Left  clearfix">
+                    <p><span>您好！欢迎来到音平商城！</span></p>
+                    <p><a href="#">请登陆</a></p>
+                    <p><a href="#">免费注册</a></p>
+                </div>
+                <div class="nav-Right">
+                    <div class="nav-right clearfix">
+                        <p class="bgimg-1 bgimg">
+                            <a href="#">我的音平</a>
+                            <img src="images/goodsList/banner4.png" alt="">
+                        </p>
+                        <p class="bgimg-2 bgimg">
+                            <a href="#">我的购物车</a>
+                            
+                        </p>
+                        <p class="bgimg-3 bgimg"><a href="#">企业采购</a></p>
+                        <p class="bgimg-4 bgimg">
+                            <a href="#">客服服务</a>
+                            <img src="images/goodsList/banner4.png" alt="">
+                        </p>
+                        <p class="nav-item"><span>0</span></p>   
+                        <div class="subnav-1">
+                            <p class="subnav-p"><a href="#">我的订单</a></p>
+                            <p class="subnav-p"><a href="#">我的收藏</a></p>
+                            <p class="subnav-p"><a href="#">我要评价</a></p>
+                            <p class="subnav-p1"><a href="#">我的优惠券：<span>0</span></a></p>
+                        </div>
+                        <div class="subnav-2">
+                            <div class="sub1">
+                                <P class="sub1-p"><a href="#">在线客服</a></P>
+                                <p>在线时间：08:30 - 23:00</p>
+                            </div>
+                            <div class="sub2">
+                                <img src="images/goodsList/pngCA9QL66J.png" alt="" class="sub-left">
+                                <b class="sub-p1">400 700 3638</b>
+                                <p>服务时间：08:30 - 23:00</p>   
+                            </div>
+                            <div class="sub3">
+                                <img src="images/goodsList/wechat-icon-1.0.0.png" alt="" class="sub3-img sub-left">
+                                <img src="images/goodsList/wechatqr-1.0.0.jpg" alt="" class="sub-right">
+                                <p>微信客服 扫一扫</p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nav结束-->
+
+    </div>
+    <script src="js/goodsList.js"></script>
+</body>
+</html>

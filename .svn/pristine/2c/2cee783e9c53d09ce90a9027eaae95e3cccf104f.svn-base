@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="css/goodsList.css">
+    <script src="js/lib/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <div class="head">
+        <div class="top-ad">
+            <div></div>
+        </div>
+        <div class="nav">
+            <div class="navLeft  clearfix">
+                <p><span>您好！欢迎来到音平商城！</span></p>
+                <p><a href="#">请登陆</a></p>
+                <p><a href="#">免费注册</a></p>
+            </div>
+            <div class="navRight">
+                <p><a href="#">我的音平</a></p>
+                <p><a href="#">我的购物车</a></p>
+                <p><a href="#">企业采购</a></p>
+                <p><a href="#">客服服务</a></p>
+                <div class="subnav_1">
+                    <p><a href="#">我的订单</a></p>
+                    <p><a href="#">我的收藏</a></p>
+                    <p><a href="#">我要评价</a></p>
+                    <p><a href="#">我的优惠券：</a></p>
+                </div>
+                <div class="subnav_2">
+                    <img src="images/goodsList/ingge-1.0.1.png" alt="">
+                    <p><a href="#">在线客服</a></p>
+                    <p>在线时间：08:30 - 23:00</p>
+                    <img src="images/goodsList/1211.png" alt="">
+                    <p>400&nbsp;700&nbsp;3638&nbsp;</p>
+                    <p>服务时间：08:30 - 23:00</p>
+                    <img src="images/goodsList/wechat-icon-1.0.0.png" alt="">
+                    <p>微信客服扫一扫</p>
+                    <img src="images/goodsList/wechatqr-1.0.0.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

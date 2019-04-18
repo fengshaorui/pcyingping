@@ -1,0 +1,181 @@
+.clearfix:after{
+    clear: both;
+    content: '';
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+.clearfix{
+    zoom:1;
+}
+ .head .top-ad{
+    width: 1903px;
+    background-color: #ce121a;
+}
+.head .top-ad div{
+    width: 1200px;
+    min-width: 1200px;
+    height: 100px;
+    margin: 0 auto; 
+    background: url(../images/goodsList/top-ad.jpg) no-repeat 0 0;
+}
+.nav{
+    width: 1903px;
+    border-bottom: 2px solid #dfdbdb;
+}
+.nav-box{
+    width: 1200px;
+    margin: 0 auto;
+    /* border:1px solid red; */
+}
+.nav-Left{
+    float: left;
+}
+.nav-Left p{
+    float: left;
+    font-size: 12px;
+    margin-right: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+.nav-Left p a {
+    color: #ff6600;
+}
+.nav-Left p span {
+    color: #666666;
+}
+.nav-Right{
+   float: right;
+}
+.nav-Right .bgimg{
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    margin-left: 45px;
+    font-size: 12px;
+}
+.nav-right p:hover a{
+    color:  #ff6600;
+}
+.nav-Right .bgimg-1{
+    padding-left: 13px;
+    background: url(../images/goodsList/22-1.png) no-repeat 0 15px;
+}
+.nav-Right .bgimg-2{
+    padding-left: 15px;
+    background: url(../images/goodsList/my-cart.png) no-repeat 0 13px;
+}
+.nav-Right .bgimg-3{
+    padding-left: 15px;
+    background: url(../images/goodsList/banner2.png) no-repeat 0 13px;
+}
+.nav-Right .bgimg-4{
+    padding-left: 19px;
+    background: url(../images/goodsList/onlinekefu-1.0.3.gif) no-repeat 0 10px;
+}
+.nav-right{
+    position: relative;
+}
+.nav-right .subnav-1{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    width: 110px;
+    border: 1px solid #d4d2d2;
+    font-size: 12px;
+    background-color: #fff;
+    display: none;
+}
+.nav-right .subnav-1 .subnav-p{
+    height: 39px;
+    line-height: 39px;
+    padding-left: 10px;
+    border-bottom: 1px solid #d4d2d2;
+}
+.nav-right .subnav-1 .subnav-p1{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.nav-right .subnav-1 span{
+    color: #ff6600;
+}
+.subnav-2{
+    position: absolute;
+    right: 0;
+    top: 41px;
+    width: 208px;
+    padding:10px 25px 0;
+    border: 1px solid #d4d2d2;
+    background-color: #fff;
+    display: none;
+}
+.subnav-2 p{
+    font-size: 12px;
+    color: #666666;
+}
+.subnav-2 .sub1{
+    height: 130px;
+    overflow: hidden;
+    border-bottom: 1px solid #d4d2d2;
+    background: url(../images/goodsList/ingge-1.0.1.png) no-repeat 0 0;
+}
+.subnav-2 .sub1 p{
+    font-size: 14px;
+    margin-left: 30px;
+}
+.subnav-2 .sub1-p{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ff6600;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 110px !important;
+}
+.subnav-2 .sub1-p a{
+    line-height: 30px;
+    margin-left: 12px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.subnav-2 .sub2{
+    height: 60px;
+    padding-top: 20px;
+    border-bottom: 1px solid  #d4d2d2;
+}
+.subnav-2 .sub-p1{
+    font-size: 20px;
+    color: #ff6600;
+}
+.subnav-2 .sub-left{   
+    float: left;
+    margin:0 10px;
+}
+.subnav-2 .sub-right{
+    float: right;
+    margin-left: 8px;
+}
+.subnav-2 .sub3{
+    height: 80px;
+    padding-top: 20px;
+}
+.sub3 p{
+    margin-top: 20px;
+}
+.sub3 .sub3-img{
+    margin-top: 20px;
+}
+.nav-right .nav-item{
+    width: 13px;
+    height: 15px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 45% 45% 45% 0;
+    background-color: #ff6600;
+    position: absolute;
+    left: 245px;
+    top: 2px;
+}

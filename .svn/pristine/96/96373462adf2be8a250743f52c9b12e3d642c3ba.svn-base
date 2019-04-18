@@ -1,0 +1,10 @@
+<<<<<<< .mine
+<?php
+ phpinfo();
+?><?php
+ phpinfo();
+?>||||||| .r0
+=======
+<?php
+ phpinfo();
+?>>>>>>>> .r64

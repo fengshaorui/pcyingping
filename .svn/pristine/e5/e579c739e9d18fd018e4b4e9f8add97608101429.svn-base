@@ -1,0 +1,205 @@
+$(function () {
+    var shopDetail = (function ($) {
+
+        var imgWrap = $(".navbar .imgWrap1");
+        var index = 0;
+        var tiem1;
+
+
+
+        // 小轮播2
+        function lunbo2(){
+            var imgWrap = $(".main .imgWrap2");
+            imgWrap.width( imgWrap.children().length * 70 );
+            var maxValue = ( imgWrap.children().length - 5 ) * 70;
+
+            imgWrap.children().mouseover(function(){
+                $(this).addClass("active").siblings().removeClass("active");
+            });
+
+
+            $(".main .prev").click(function(){
+                var marginLeft = parseInt( imgWrap.css("marginLeft") );
+
+                if( marginLeft >= 0 ){
+                    imgWrap.stop(true, true).animate( {marginLeft:"0"}, 500);
+                }else{
+                    imgWrap.stop(true, true).animate( {marginLeft:"+=70"}, 500);
+                }
+            });
+            
+            $(".main .next").click(function(){
+                var marginLeft = parseInt( imgWrap.css("marginLeft") );
+                if( marginLeft <=  -maxValue ){
+                    imgWrap.stop(true, true).animate( {marginLeft: -maxValue}, 500);
+                }else{
+                    imgWrap.stop(true, true).animate( {marginLeft:"-=70"}, 500);
+                }
+            });
+        }
+
+
+        // 处理分类导航(AJAX异步请求)的函数
+        function handleTypeNav(){
+            $(".navbar .item-box .jsonp-box li").hover(
+                function(){
+                    $(this).addClass("active").siblings().removeClass("active");
+                    if( $(this).data("flag") ){
+                        return;
+                    }else{
+                        $(this).data("flag", "1");
+                        handleNavAjax( $(this).index(), $(this) );
+                    }
+                },
+                function(){
+                    
+                }
+            );
+        }
+
+        // 分类导航部分发送AJAX请求的函数
+        function handleNavAjax( index, currentObj ){
+            $.post("./api/index-api/listgoods.php", { index: index }, function( data ){
+                createNavHtmlModel( data, currentObj );
+            }, "json");
+        }
+
+        // 动态生成nav中每一项中的内容，添加到html结构中
+        function createNavHtmlModel( data, currentObj ){
+
+            // 生成内容盒子
+            var contBox = $("<div>");
+            contBox.addClass("cont-box");
+            contBox.addClass("clearfix");
+
+            // 生成内容盒子的左侧区域
+            var contBoxLeft = $("<div>");
+            contBoxLeft.addClass("cont-box-left");
+
+            // 生成内容盒子的右侧区域
+            var contBoxRight = $("<div>");
+            contBoxRight.addClass("cont-box-right");
+
+
+            createContLeftModel( data, contBoxLeft );
+            createContRightModel( data["imgs"], contBoxRight );
+
+            contBox.append( contBoxLeft );
+            contBox.append( contBoxRight );
+
+            currentObj.append( contBox );
+            
+        }
+
+        // 生成内容左侧区域的布局
+        function createContLeftModel( data, contBoxLeft ){
+            
+            $.each( data, function( key, value){
+                if( key !== "imgs"){
+                    var dlItem = $("<dl>");
+                    dlItem.addClass("clearfix");
+                    dlItem.html("<dt>"+ key +"</dt>");
+                    var ddObj = $("<dd>");
+                    for( var i = 0; i < value.length; i++ ){
+                        var aObj = $("<a>");
+                        aObj.attr("href", "#");
+                        aObj.html( value[i] );
+                        ddObj.append( aObj );
+                    }
+                    dlItem.append( ddObj );
+                    contBoxLeft.append( dlItem );
+                }
+            });
+        }   
+
+        // 生成右侧内容的布局
+        function createContRightModel( data, contBoxRight ){
+            var dlOne = $('<dl class="ad-wrap"><dt>套装分类</dt></dl>');
+            var dlTwo = $('<dl class="imgWrap"><dt>品牌精选</dt></dl>');
+            var ddOne = $("<dd>");
+            var ddTwo = $("<dd>");
+            var strOne = "";
+            var strTwo = "";
+            for( var i = 0; i < data.length; i++ ){
+                // console.log( data[i] );
+                strOne += '<a href="#">录音编曲</a>';
+                strTwo += '<a href="#"><img src="./images/index/'+ data[i] +'" alt="提示文字" width="80" height="40"/></a>';
+            }
+            strOne += '<a href="#">录音编曲</a>';
+            strOne += '<a href="#">录音编曲</a>';
+
+            ddOne.html( strOne );
+            ddTwo.html( strTwo );
+
+            dlOne.append( ddOne );
+            dlTwo.append( ddTwo );
+
+            contBoxRight.append( dlOne );
+            contBoxRight.append( dlTwo );
+        }
+
+
+        // 导航区域右侧的小轮播图入口
+        function smallLunbo() {
+            handleToDownBtn();
+            handleToUpBtn();
+            handleAutoMove();
+        }
+
+        // 点击向上箭头时，向下滑动轮播
+        function handleToUpBtn() {
+            $(".navbar .to-up").click(function () {
+                index--;
+                if (index < 0) {
+                    index = 2;
+                    imgWrap.css("marginTop", -3 * 35);
+                }
+                imgWrap.stop(true, true).animate({ marginTop: -index * 35 }, 350);
+            });
+        }
+
+        // 点击向下箭头时，向下滑动轮播
+        function handleToDownBtn() {
+            $(".navbar .to-down").click(function () {
+                index++;
+                if (index > 3) {
+                    imgWrap.css("marginTop", 0);
+                    index = 1;
+                }
+                imgWrap.stop(true, true).animate({ marginTop: -index * 35 }, 350);
+            });
+        }
+
+        // 小轮播图自动轮播
+        function handleAutoMove(){
+            tiem1 = setInterval( doAutoMove, 2500);
+            $(".navbar .navbar-right").hover(function(){
+                clearInterval( tiem1 );
+            }, function(){
+                tiem1 = setInterval( doAutoMove, 2500);
+            });
+        }
+
+        // 自动轮播的处理函数
+        function doAutoMove(){
+            $(".navbar .to-down").trigger("click");
+        }
+
+        return {
+            handleTypeNav: handleTypeNav,
+            smallLunbo: smallLunbo,
+            lunbo2: lunbo2
+        }
+
+    })(jQuery);
+
+    // 分类导航程序入口
+    shopDetail.handleTypeNav();
+
+    // 小轮播程序入口
+    shopDetail.smallLunbo();
+
+    // 第二个小轮播
+    shopDetail.lunbo2();
+
+});

@@ -1,0 +1,2134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="./css/slideBar.css">
+    <link rel="stylesheet" href="css/page-footer.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/section2.css">
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <!-- top-ad开始 -->
+    <div class="top-ad">
+        <div class="top-ad-mid"></div>
+    </div>
+    <!-- top-ad结束 -->
+
+    <!-- nav开始 -->
+    <div class="nav">
+        <div class="nav-mid clearfix">
+            <div class="nav-mid-left">
+                <span>您好！欢迎来到音平商城！</span>
+                <span class="ready"><a href="login.html">请登录</a></span>
+                <span class="ready"><a href="regist.html">免费注册</a></span>
+            </div>
+            <div class="nav-mid-right clearfix">
+
+                <div class="right-one">
+                    <span class="my-yinping">我的音平<img src="images/index/bottom-arrow.png" /></span>
+                    <div class="right-one-hid">
+                        <span>我的订单</span>
+                        <span>我的收藏</span>
+                        <span>我要评价</span>
+                        <span>我的优惠劵 0</span>
+                    </div>
+                </div>
+                <div class="right-two">
+                    <a href="shopCar.html"></a><span class="my-cart">我的购物车</a></span>
+                    <div class="cart-tips"><span>0</span></div>
+                </div>
+                <div class="right-three">
+                    <span class="my-qiye">企业采购</span>
+                </div>
+                <div class="right-four">
+                    <span class="my-kefu">客服服务<img src="images/index/bottom-arrow.png" /></span>
+                    <div class="right-four-hid">
+                        <div class="hid-list-one">
+                            <span class="title">在线客服</span>
+                            <p>在线时间:8:30-23:00</p>
+                        </div>
+                        <div class="hid-list-two">
+                            <span>400 700 3638</span>
+                            <p>服务时间：08:30 - 23:00</p>
+                        </div>
+                        <div class="hid-list-three">
+                            <img src="images/index/wechat-icon-1.0.0.png">
+                            <span>微信客服扫一扫</span>
+                            <img src="images/index/wechatqr-1.0.0.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nav结束 -->
+
+    <!-- top-list开始 -->
+    <div class="top">
+        <div class="top-mid">
+            <div class="top-mid-up clearfix">
+                <img src="images/index/logo.png" />
+                <img src="images/index/top-list1.gif" />
+                <div class="search clearfix">
+                    <input type="text" />
+                    <span>搜索</span>
+                    <ul class="clearfix">
+                        <li><a href="#" title="k歌直播声卡">k歌直播声卡</a></li>
+                        <li><a href="#" title="录音声卡">录音声卡</a></li>
+                        <li><a href="#" title="电容麦">电容麦</a></li>
+                        <li><a href="#" title="监听音箱">监听音箱</a></li>
+                        <li><a href="#" title="吉他">吉他</a></li>
+                        <li><a href="#" title="音响">音响</a></li>
+                        <li><a href="#" title="RME声卡">RME声卡</a></li>
+                        <li><a href="#" title="莱维特">莱维特</a></li>
+                    </ul>
+                </div>
+                <div class="small-icon">
+                    <img src="images/index/small-icon1.png" class="small-icon-one">
+                    <img src="images/index/wx_code-1.0.1.jpg" class="hid-icon">
+                    <img src="images/index/small-icon.png">
+                </div>
+            </div>
+            <div class="top-mid-down clearfix">
+                <div class="all-list">全部商品分类
+
+                </div>
+
+
+                <div class="list-item">
+                    <ul class="clearfix">
+                        <li><a href="index.php">网站首页</a></li>
+                        <li><a href="navList1.htm">套装方案</a></li>
+                        <li><a href="navList2.htm">活动专区</a></li>
+                        <li><a href="#">品牌专区</a></li>
+                        <li><a href="#">音平资迅</a></li>
+                        <li><a href="#">音平乐享</a></li>
+                        <li><a href="#">音师傅</a></li>
+                    </ul>
+                </div>
+                <div class="small-loop clearfix">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="arrow">
+                        <img src="images/index/arrow-top.png" class="arrow-top">
+                        <img src="images/index/bottom-arrow.png" class="arrow-bottom">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top-list结束 -->
+
+    <!-- banner-list开始 -->
+    <div class="banner">
+        <div class="container-z">
+
+
+            <div class="banner-mid clearfix">
+                <div class="banner-list">
+                    <ul>
+                        <li class="list">
+                            <p class="list-title">
+                                <span>声卡</span>
+                                <span>调音台</span>
+                                <span>控制器</span>
+                            </p>
+                            <p class="list-item">
+                                <span>K歌声卡</span>
+                                <span>专业声卡</span>
+                                <span>调音台</span>
+                            </p>
+                        </li>
+                        <li class="list">
+                            <p class="list-title">
+                                <span>麦克风</span>
+                                <span>耳机</span>
+                                <span>扩音器</span>
+                            </p>
+                            <p class="list-item">
+                                <span>电容麦</span>
+                                <span>无线麦</span>
+                                <span>音乐耳机</span>
+                            </p>
+                        </li>
+                        <li class="list">
+                            <p class="list-title">
+                                <span>音箱</span>
+                                <span>功放</span>
+                                <span>家庭影院</span>
+                            </p>
+                            <p class="list-item">
+                                <span>KTV功放</span>
+                                <span>监听音箱</span>
+                                <span>舞台音箱</span>
+                            </p>
+                        </li>
+                        <li class="list">
+                            <p class="list-title">
+                                <span>键盘</span>
+                                <span>吉他</span>
+                                <span>贝斯</span>
+                            </p>
+                            <p class="list-item">
+                                <span>MIDI键盘</span>
+                                <span>民谣吉他</span>
+                                <span>架子鼓</span>
+                            </p>
+                        </li>
+                        <li class="list">
+                            <p class="list-title">
+                                <span>影视录音</span>
+                                <span>点歌机</span>
+                                <span>播放器</span>
+                            </p>
+                            <p class="list-item">
+                                <span>录音机</span>
+                                <span>一体点歌机</span>
+                                <span>触摸屏</span>
+                            </p>
+                        </li>
+                        <li class="list">
+                            <p class="list-title">
+                                <span>话放</span>
+                                <span>耳放</span>
+                                <span>效果器</span>
+                            </p>
+                            <p class="list-item">
+                                <span>模拟话放</span>
+                                <span>专业耳放</span>
+                                <span>吉他效果器</span>
+                            </p>
+                        </li>
+                        <li class="list last">
+                            <p class="list-title">
+                                <span>配件</span>
+                                <span>软件</span>
+                                <span>声卡调试</span>
+                            </p>
+                            <p class="list-item">
+                                <span>麦克风支架</span>
+                                <span>摄像头</span>
+                                <span>录音软件</span>
+                            </p>
+                        </li>
+                        <li class="list-hid">
+                            <div class="right">
+                                <div class="right-top">
+                                    <p>套装分类</p>
+                                    <span>录音编曲 &gt;</span>
+                                    <span>网络直播 &gt;</span>
+                                    <span>手机直播 &gt;</span>
+                                    <span>演出音响 &gt;</span>
+                                    <span>家庭KTV &gt;</span>
+                                    <span>影视录音 &gt;</span>
+                                    <span>乐器设备 &gt;</span>
+                                    <span>音乐欣赏 &gt;</span>
+                                    <span>会议工程 &gt;</span>
+                                    <span>家庭影院 &gt;</span>
+                                </div>
+                                <div class="right-bottom">
+                                    <p>品牌精选</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner-list结束 -->
+    <!-- 头部结束 -->
+
+    <!-- 主体内容 -->
+    <div class="content">
+        <!-- 广告 -->
+        <div class="ad"></div>
+        <!-- 广告结束 -->
+        <!-- 主体 -->
+        <div class="main">
+            <div class="container">
+                <!-- 手风琴效果 -->
+                <div class="main1">
+                    <ul>
+                        <li class="main1-1">
+                            <div class="list1">
+                                <p>电脑K歌直播</p>
+                                <img src="images/section2/t1.png" alt="">
+                            </div>
+                            <div class="list1-h">
+                                <div class="f">
+                                    <div class="list1-h-1">
+                                        <p>电脑K歌直播</p>
+                                    </div>
+                                    <button class="btn">GO</button>
+                                    <div class="text">
+                                        <p>K歌 喊麦 直播 录音<br>教育培训 有声小说录制</p>
+                                    </div>
+                                </div>
+                                <div class="img">
+                                    <img src="images/section2/t1.png" alt="">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="main1-1">
+                            <div class="list1">
+                                <p>手机K歌直播</p>
+                                <img src="images/section2/t2.png" alt="">
+                            </div>
+                            <div class="list1-h">
+                                <div class="f">
+                                    <div class="list1-h-1">
+                                        <p>电脑K歌直播</p>
+                                    </div>
+                                    <button class="btn">GO</button>
+                                    <div class="text">
+                                        <p>K歌 喊麦 直播 录音<br>教育培训 有声小说录制</p>
+                                    </div>
+                                </div>
+                                <div class="img">
+                                    <img src="images/section2/t2.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="main1-1">
+                            <div class="list1">
+                                <p>户外演出直播</p>
+                                <img src="images/section2/t3.png" alt="">
+                            </div>
+                            <div class="list1-h">
+                                <div class="f">
+                                    <div class="list1-h-1">
+                                        <p>电脑K歌直播</p>
+                                    </div>
+                                    <button class="btn">GO</button>
+                                    <div class="text">
+                                        <p>K歌 喊麦 直播 录音<br>教育培训 有声小说录制</p>
+                                    </div>
+                                </div>
+                                <div class="img">
+                                    <img src="images/section2/t3.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="main1-1">
+                            <div class="list1">
+                                <p>游戏电竞直播</p>
+                                <img src="images/section2/t4.png" alt="">
+                            </div>
+                            <div class="list1-h">
+                                <div class="f">
+                                    <div class="list1-h-1">
+                                        <p>电脑K歌直播</p>
+                                    </div>
+                                    <button class="btn">GO</button>
+                                    <div class="text">
+                                        <p>K歌 喊麦 直播 录音<br>教育培训 有声小说录制</p>
+                                    </div>
+                                </div>
+                                <div class="img">
+                                    <img src="images/section2/t4.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="main1-1">
+                            <div class="list1">
+                                <p>商用、电商购物直播</p>
+                                <img src="images/section2/t5.png" alt="">
+                            </div>
+                            <div class="list1-h">
+                                <div class="f">
+                                    <div class="list1-h-1">
+                                        <p>电脑K歌直播</p>
+                                    </div>
+                                    <button class="btn">GO</button>
+                                    <div class="text">
+                                        <p>K歌 喊麦 直播 录音<br>教育培训 有声小说录制</p>
+                                    </div>
+                                </div>
+                                <div class="img">
+                                    <img src="images/section2/t5.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- main2 -->
+                <div class="main2">
+                    <a href="#">
+                        <img src="images/section2/bz-01.jpg" alt="">
+                        <img src="images/section2/bz-02.jpg" alt="">
+                        <img src="images/section2/bz-03.jpg" alt="">
+                    </a>
+                </div>
+                <!-- 电脑k歌喊麦直播 -->
+                <div class="main3 clearfix">
+                    <div class="main3-1">
+                        <a href="">
+                            <img src="images/section2/a1.jpg" alt="">
+                            <img src="images/section2/a2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main3-2 clearfix">
+                        <a href="">
+                            <div class="main3-2-1">
+                                <div class="price">
+                                    <p>￥<span class="pri">1369.00</span></p>
+                                    <p>套装优惠144元</p>
+                                </div>
+                            </div>
+                            <div class="main3-2-2">
+                                <div class="price">
+                                    <p>￥<span class="pri">3559.00</span></p>
+                                    <p>套装优惠396元</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="main3-3">
+                        <div class="main3-3-1">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/a5.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>创新A5声卡搭配得胜K550P麦克风<br>电脑主播K歌喊麦声卡套装YY荔枝</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">1558.00</span></p>
+                                        <p>一对一调试</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>性价比之选</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main3-3-2">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/a6.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>富克斯特2i2声卡搭配得胜K820麦克<br>风 录音套装</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">2599.00</span></p>
+                                        <p>套装优惠165</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>颜值实力并存</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main3-3-3">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/a7.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>森海塞尔 MK4搭配 Babyface Pro<br>声卡 单人录音套装</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">9399.00</span></p>
+                                        <p>套装优惠572</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>性价比之选</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main3-3-4">
+                            <ul class="tab">
+                                <li>热销推荐</li>
+                                <li>相关配件</li>
+                            </ul>
+                            <div class="tab-con">
+                                <ul>
+                                    <li>
+                                        <img src="images/section2/x1.jpg" alt="">
+                                        <p class="text">艾肯MOBILE·U VST声卡搭配得胜PC-K850 麦克风 电脑手机直播K歌声卡套装 抖音快手主播直播录音设备全套</p>
+                                        <p class="price">￥<span>3629.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/x2.jpg" alt="">
+                                        <p class="text">得胜K200麦克风搭配客所思K30声卡 电脑主播K歌喊麦声卡套装 YY繁星主播直播录音设备全套</p>
+                                        <p class="price">￥<span>699.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/x3.jpg" alt="">
+                                        <p class="text">艾肯(iCON) Utrack VST外置声卡搭配得胜PC-K820麦克风 电脑主播K歌喊麦声卡套装
+                                            YY繁星主播直播录音设备全套</p>
+                                        <p class="price">￥<span>2575.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/x4.jpg" alt="">
+                                        <p class="text">雅马哈UR242声卡搭配MK4麦克风 网K套装</p>
+                                        <p class="price">￥<span>5778.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/x5.jpg" alt="">
+                                        <p class="text">艾肯MOBILE·U VST声卡搭配莱维特 MTP LIVE麦克风 网K套装</p>
+                                        <p class="price">￥<span>3962.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/x6.jpg" alt="">
+                                        <p class="text">艾肯 MOBILE·U VST 声卡搭配舒尔 PGA27麦克风 网K直播套装</p>
+                                        <p class="price">￥<span>3594.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/x7.jpg" alt="">
+                                        <p class="text">客所思KX-2声卡搭配得胜K120麦克风黄金色 网K套装</p>
+                                        <p class="price">￥<span>735.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/x8.jpg" alt="">
+                                        <p class="text">雅马哈UR12声卡搭配得胜PC-K550P麦克风 录音套装</p>
+                                        <p class="price">￥<span>1739.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/x9.jpg" alt="">
+                                        <p class="text">罗兰Rubix 24声卡搭配得胜PC-K850麦克风 专业录音套装</p>
+                                        <p class="price">￥<span>3895.00</span></p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 电脑k歌喊麦直播结束 -->
+                <!-- 手机K歌直播 -->
+                <div class="main4 clearfix">
+                    <div class="main4-1">
+                        <a href="">
+                            <img src="images/section2/b1.jpg" alt="">
+                            <img src="images/section2/b2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main4-2 clearfix">
+                        <a href="">
+                            <div class="main4-2-1">
+                                <div class="price">
+                                    <p>￥<span class="pri">1399.00</span></p>
+                                    <p>套装优惠141元</p>
+                                </div>
+                            </div>
+                            <div class="main4-2-2">
+                                <div class="price">
+                                    <p>￥<span class="pri">999.00</span></p>
+                                    <p>套装优惠116元</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="main4-3">
+                        <div class="main4-3-1">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/b5.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>艾肯MOBILE·U VST声卡搭配Blue<br> EN CORE 300麦克风 电脑手机直播K歌声卡套装 抖音快手主播直播录音设备全套</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">3838.00</span></p>
+                                        <p>一对一调试</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>抖音YY网红同款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main4-3-2">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/b6.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>莱维特STREAM 4x5声卡搭配莱维特LCT 240 PRO麦克风 电脑手机直播K歌声卡套装 抖音快手主播直播录音设备全套</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">4619.00</span></p>
+                                        <p>套装优惠666</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>网红主播热推</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main4-3-3">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/b7.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>RME Babyface Pro声卡搭配森海塞尔MK4麦克风 电脑手机直播K歌声卡套装 虎牙映客抖音主播直播录音设备全套</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">9659.00</span></p>
+                                        <p>套装优惠581</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>高品质手机直播</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main4-3-4">
+                            <ul class="tab">
+                                <li>热销推荐</li>
+                                <li>相关配件</li>
+                            </ul>
+                            <div class="tab-con">
+                                <ul>
+                                    <li>
+                                        <img src="images/section2/y1.jpg" alt="">
+                                        <p class="text">客所思KX-2声卡搭配得胜K28麦克风 电脑手机直播K歌声卡套装 抖音快手主播直播录音设备全套</p>
+                                        <p class="price">￥<span>399.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y2.jpg" alt="">
+                                        <p class="text">森然播吧二代电音版声卡搭配舒尔PGA 48-LC麦克风 手机直播K歌声卡套装 抖音美拍主播直播录音设备全套</p>
+                                        <p class="price">￥<span>1055.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y3.jpg" alt="">
+                                        <p class="text">RME Babyface Pro声卡搭配纽曼U87 Ai麦克风 电脑手机直播K歌声卡套装 抖音快手主播直播录音设备全套</p>
+                                        <p class="price">￥<span>30362.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y4.jpg" alt="">
+                                        <p class="text">得胜PH130麦克风搭配音平H60耳塞 手机K歌直播套装 唱吧全民K歌唱歌设备全套</p>
+                                        <p class="price">￥<span>827.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y5.jpg" alt="">
+                                        <p class="text">艾肯MOBILE·U MINI VST声卡搭配得胜PC-K220麦克风 电脑手机直播K歌声卡套装 美拍快手主播直播录音设备全套</p>
+                                        <p class="price">￥<span>1455.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y6.jpg" alt="">
+                                        <p class="text">艾肯MICU vst声卡搭配 得胜K550P麦克风 手机K歌套装</p>
+                                        <p class="price">￥<span>1869.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y7.jpg" alt="">
+                                        <p class="text">客所思KX6声卡搭配莱维特LCT 240 PRO麦克风 电脑手机直播K歌声卡套装 快手映客主播直播录音设备全套</p>
+                                        <p class="price">￥<span>3285.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y8.jpg" alt="">
+                                        <p class="text">森然播吧二代电音版声卡搭配Blue E300麦克风 手机K歌直播套装</p>
+                                        <p class="price">￥<span>3006.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y9.jpg" alt="">
+                                        <p class="text">客所思FX5声卡搭配得胜K58麦克风 手机K歌套装</p>
+                                        <p class="price">￥<span>1085.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y10.jpg" alt="">
+                                        <p class="text">雅马哈AG06调音台搭配得胜K800麦克风 手机直播K歌声卡套装 抖音快手主播直播录音设备全套</p>
+                                        <p class="price">￥<span>2918.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/y11.jpg" alt="">
+                                        <p class="text">艾肯Upod pro声卡搭配得胜PC-K810麦克风 手K网络直播套装</p>
+                                        <p class="price">￥<span>2300.00</span></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 手机K歌直播结束 -->
+
+                <!-- 户外演出直播 -->
+                <div class="main5 clearfix">
+                    <div class="main5-1">
+                        <a href="">
+                            <img src="images/section2/c1.jpg" alt="">
+                            <img src="images/section2/c2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main5-2 clearfix">
+                        <a href="">
+                            <div class="main5-2-1">
+                                <div class="price">
+                                    <p>￥<span class="pri">6164.00</span></p>
+                                    <p>官方保修</p>
+                                </div>
+                            </div>
+                            <div class="main5-2-2">
+                                <div class="price">
+                                    <p>￥<span class="pri">5491.00</span></p>
+                                    <p>官方保修</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="main5-3">
+                        <div class="main5-3-1">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/c5.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>罗兰(Roland) CUBE-STREET搭配舒尔SM58s麦克风 户外现场弹唱套装 抖音主播直播设备全套</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">2838.00</span></p>
+                                        <p>官方保修</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>抖音网红同款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main5-3-2">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/c6.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>得胜XR-210FX调音台搭配莱维特MTP LIVE麦克风 户外吉他弹唱手机直播套装 抖音主播直播设备全套</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">9221.00</span></p>
+                                        <p>官方保修</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>弹唱路演高品质</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main5-3-3">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/c7.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>雅马哈MG12XU调音台搭配舒尔Beta 58A麦克风 户外直播套装 现场弹唱主播直播设备全套</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">19052.00</span></p>
+                                        <p>官方保修</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>网红连音社同款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main5-3-4">
+                            <ul class="tab">
+                                <li>热销推荐</li>
+                                <li>相关配件</li>
+                            </ul>
+                            <div class="tab-con">
+                                <ul>
+                                    <li>
+                                        <img src="images/section2/z1.jpg" alt="">
+                                        <p class="text">客所思KX-2 传奇版声卡搭配舒尔SM58s麦克风 户外直播套装</p>
+                                        <p class="price">￥<span>2897.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/z2.jpg" alt="">
+                                        <p class="text">渔夫Loudbox mini音箱搭配森海塞尔E825s麦克风 户外现场弹唱套装</p>
+                                        <p class="price">￥<span>3067.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/z3.jpg" alt="">
+                                        <p class="text">雅马哈MG12XU调音台搭配森海塞尔E945麦克风 户外直播套装 现场主播直播设备全套</p>
+                                        <p class="price">￥<span>8912.00</span></p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 户外演出直播结束 -->
+
+                <!-- 游戏电竞直播 -->
+                <div class="main6 clearfix">
+                    <div class="main6-1">
+                        <a href="">
+                            <img src="images/section2/e1.jpg" alt="">
+                            <img src="images/section2/e2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main6-2 clearfix">
+                        <a href="">
+                            <div class="main6-2-1">
+                                <div class="price">
+                                    <p>￥<span class="pri">1288.00</span></p>
+                                    <p>官方保修</p>
+                                </div>
+                            </div>
+                            <div class="main6-2-2">
+                                <div class="price">
+                                    <p>￥<span class="pri">1724.00</span></p>
+                                    <p>官方保修</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="main6-3">
+                        <div class="main6-3-1">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/e5.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>铁三角ATR2500麦克风搭配音平H60耳机 K歌录音游戏电竞直播套装</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">687.00</span></p>
+                                        <p>官方保修</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>直播入门必备</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main6-3-2">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/e6.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>莱维特DGT260麦克风搭配音平H60耳塞 K歌录音游戏电竞直播套装</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">3679.00</span></p>
+                                        <p>官方保修</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>网红主播同款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main6-3-3">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/e7.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>创新SB Recon3D声卡搭配得胜K58麦克风 K歌录音游戏电竞直播套装</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">1197.00</span></p>
+                                        <p>官方保修</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>游戏主播利器</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main6-3-4">
+                            <ul class="tab">
+                                <li>热销推荐</li>
+                                <li>相关配件</li>
+                            </ul>
+                            <div class="tab-con">
+                                <ul>
+                                    <li>
+                                        <img src="images/section2/w1.jpg" alt="">
+                                        <p class="text">雅马哈AG06调音台搭配得胜PC-K850麦克风 电脑主播K歌喊麦声卡套装 YY熊猫主播直播录音设备全套</p>
+                                        <p class="price">￥<span>3504.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/w2.jpg" alt="">
+                                        <p class="text">莱维特STREAM 4x5声卡搭配莱维特LCT 240 PRO麦克风 电脑手机直播K歌声卡套装 抖音快手主播直播录音设备全套</p>
+                                        <p class="price">￥<span>4619.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/w3.jpg" alt="">
+                                        <p class="text">创新Sound Blaster Z声卡搭配得胜PC-K220麦克风 电脑主播K歌喊麦声卡套装 YY繁星主播游戏直播录音设备全套</p>
+                                        <p class="price">￥<span>1926.00</span></p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 游戏电竞直播结束 -->
+
+                <!-- 商用 电商购物直播 -->
+                <div class="main7 clearfix">
+                    <div class="main7-1">
+                        <a href="">
+                            <img src="images/section2/f1.jpg" alt="">
+                            <img src="images/section2/f2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main7-2 clearfix">
+                        <a href="">
+                            <div class="main7-2-1">
+                                <div class="price">
+                                    <p>￥<span class="pri">4255.00</span></p>
+                                    <p>一对一调试服务</p>
+                                </div>
+                            </div>
+                            <div class="main7-2-2">
+                                <div class="price">
+                                    <p>￥<span class="pri">5476.00</span></p>
+                                    <p>一对一调试服务</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="main7-3">
+                        <div class="main7-3-1">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/f5.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>森然播吧二代电音版声卡搭配得胜铍头士TS-2280耳机 手机直播套装</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">805.00</span></p>
+                                        <p>官方保修</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>简便户外直播</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main7-3-2">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/f6.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>森然播吧二代电音版搭配得胜PC-K810 电容麦克风 手机K歌套装</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">2132.00</span></p>
+                                        <p>一对一调试</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>达人导购直播</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main7-3-3">
+                            <a href="#">
+                                <div class="pro1">
+                                    <img src="images/section2/f7.png" alt="">
+                                </div>
+                                <div class="pro2">
+                                    <p>得胜XR-210FX调音台搭配得胜TS-7220无线麦克风 电脑手机直播K歌套装</p>
+                                </div>
+                                <div class="pro3">
+                                    <div class="price">
+                                        <p>￥<span class="pri">2910.00</span></p>
+                                        <p>一对一调试</p>
+                                    </div>
+                                </div>
+                                <div class="pro4">
+                                    <p>现场演讲直播</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="main7-3-4">
+                            <ul class="tab">
+                                <li>热销推荐</li>
+                                <li>相关配件</li>
+                            </ul>
+                            <div class="tab-con">
+                                <ul>
+                                    <li>
+                                        <img src="images/section2/p1.jpg" alt="">
+                                        <p class="text">RME Babyface Pro声卡搭配森海塞尔MK4麦克风 电脑手机直播K歌声卡套装 虎牙映客抖音主播直播录音设备全套</p>
+                                        <p class="price">￥<span>9950.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/p2.jpg" alt="">
+                                        <p class="text">艾肯MOBILE·U VST声卡搭配莱维特 MTP LIVE麦克风 网K套装</p>
+                                        <p class="price">￥<span>3962.00</span></p>
+                                    </li>
+                                    <li>
+                                        <img src="images/section2/p3.jpg" alt="">
+                                        <p class="text">RME Fireface UCX 声卡搭配莱维特LCT 940麦克风 网络直播套装</p>
+                                        <p class="price">￥<span>34991.00</span></p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 商用 电商购物直播结束 -->
+
+                <!-- 麦克风热销推荐 -->
+                <div class="main8">
+                    <div class="main8-1">
+                        <img class="top" src="images/section2/wk-title-mkfTj-1.0.0.jpg" alt="">
+                        <a href="">
+                            <img src="images/section2/moreBtn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main8-2 clearfix">
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m1.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K850 电容式录音麦克风 直播K歌录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m2.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 240 PRO 专业录音直播麦克风 (黑色)</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1899.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m3.jpg" alt="">
+                                <div class="pro">
+                                    <p>森海塞尔 MK4 电容式录音麦克风 工作室/录音获奖产品</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">2428.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m4.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K820 金杯 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1199.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m5.jpg" alt="">
+                                <div class="pro">
+                                    <p>舒尔 PGA27 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1680.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m6.jpg" alt="">
+                                <div class="pro">
+                                    <p>纽曼 德国进口 U87 Ai 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">22999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m7.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 MTP LIVE 现场王手持电容麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m8.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K810 电容麦克风 直播K歌录音麦克风 (白色) </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1099.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m9.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K550P 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m10.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue EN CORE 300 电容式手持麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m11.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 940 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">23000.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m12.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue 美国品牌 Baby Bottle SL(小奶瓶/小瓶子)电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">3799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="arrow">
+                            <a class="pro_left"></a>
+                            <a class="pro_right"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 麦克风热销推荐结束 -->
+
+                <!-- 声卡热销推荐 -->
+                <div class="main9">
+                    <div class="main9-1">
+                        <img class="top" src="images/section2/wk-title-mkfTj-1.0.0.jpg" alt="">
+                        <a href="">
+                            <img src="images/section2/moreBtn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main9-2 clearfix">
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m1.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K850 电容式录音麦克风 直播K歌录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m2.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 240 PRO 专业录音直播麦克风 (黑色)</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1899.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m3.jpg" alt="">
+                                <div class="pro">
+                                    <p>森海塞尔 MK4 电容式录音麦克风 工作室/录音获奖产品</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">2428.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m4.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K820 金杯 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1199.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m5.jpg" alt="">
+                                <div class="pro">
+                                    <p>舒尔 PGA27 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1680.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m6.jpg" alt="">
+                                <div class="pro">
+                                    <p>纽曼 德国进口 U87 Ai 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">22999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m7.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 MTP LIVE 现场王手持电容麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m8.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K810 电容麦克风 直播K歌录音麦克风 (白色) </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1099.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m9.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K550P 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m10.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue EN CORE 300 电容式手持麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m11.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 940 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">23000.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main9-2-1">
+                                <img src="images/section2/m12.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue 美国品牌 Baby Bottle SL(小奶瓶/小瓶子)电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">3799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="arrow">
+                            <a class="pro_left"></a>
+                            <a class="pro_right"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 声卡热销推荐结束 -->
+
+                <!-- 耳机热销推荐 -->
+                <div class="main8">
+                    <div class="main8-1">
+                        <img class="top" src="images/section2/wk-title-mkfTj-1.0.0.jpg" alt="">
+                        <a href="">
+                            <img src="images/section2/moreBtn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main8-2 clearfix">
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m1.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K850 电容式录音麦克风 直播K歌录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m2.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 240 PRO 专业录音直播麦克风 (黑色)</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1899.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m3.jpg" alt="">
+                                <div class="pro">
+                                    <p>森海塞尔 MK4 电容式录音麦克风 工作室/录音获奖产品</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">2428.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m4.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K820 金杯 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1199.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m5.jpg" alt="">
+                                <div class="pro">
+                                    <p>舒尔 PGA27 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1680.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m6.jpg" alt="">
+                                <div class="pro">
+                                    <p>纽曼 德国进口 U87 Ai 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">22999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m7.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 MTP LIVE 现场王手持电容麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m8.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K810 电容麦克风 直播K歌录音麦克风 (白色) </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1099.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m9.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K550P 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m10.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue EN CORE 300 电容式手持麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m11.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 940 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">23000.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m12.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue 美国品牌 Baby Bottle SL(小奶瓶/小瓶子)电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">3799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="arrow">
+                            <a class="pro_left"></a>
+                            <a class="pro_right"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 耳机热销推荐结束 -->
+
+                <!-- 常用配件推荐 -->
+                <div class="main8">
+                    <div class="main8-1">
+                        <img class="top" src="images/section2/wk-title-mkfTj-1.0.0.jpg" alt="">
+                        <a href="">
+                            <img src="images/section2/moreBtn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main8-2 clearfix">
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m1.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K850 电容式录音麦克风 直播K歌录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m2.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 240 PRO 专业录音直播麦克风 (黑色)</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1899.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m3.jpg" alt="">
+                                <div class="pro">
+                                    <p>森海塞尔 MK4 电容式录音麦克风 工作室/录音获奖产品</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">2428.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m4.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K820 金杯 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1199.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m5.jpg" alt="">
+                                <div class="pro">
+                                    <p>舒尔 PGA27 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1680.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m6.jpg" alt="">
+                                <div class="pro">
+                                    <p>纽曼 德国进口 U87 Ai 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">22999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m7.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 MTP LIVE 现场王手持电容麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m8.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K810 电容麦克风 直播K歌录音麦克风 (白色) </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1099.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m9.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K550P 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m10.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue EN CORE 300 电容式手持麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m11.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 940 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">23000.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m12.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue 美国品牌 Baby Bottle SL(小奶瓶/小瓶子)电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">3799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="arrow">
+                            <a class="pro_left"></a>
+                            <a class="pro_right"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 常用配件推荐结束 -->
+
+                <!-- 声卡调试推荐 -->
+                <div class="main8">
+                    <div class="main8-1">
+                        <img class="top" src="images/section2/wk-title-mkfTj-1.0.0.jpg" alt="">
+                        <a href="">
+                            <img src="images/section2/moreBtn.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="main8-2 clearfix">
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m1.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K850 电容式录音麦克风 直播K歌录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m2.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 240 PRO 专业录音直播麦克风 (黑色)</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1899.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m3.jpg" alt="">
+                                <div class="pro">
+                                    <p>森海塞尔 MK4 电容式录音麦克风 工作室/录音获奖产品</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">2428.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m4.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K820 金杯 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1199.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m5.jpg" alt="">
+                                <div class="pro">
+                                    <p>舒尔 PGA27 电容式录音麦克风</p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1680.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m6.jpg" alt="">
+                                <div class="pro">
+                                    <p>纽曼 德国进口 U87 Ai 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">22999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m7.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 MTP LIVE 现场王手持电容麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m8.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K810 电容麦克风 直播K歌录音麦克风 (白色) </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1099.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m9.jpg" alt="">
+                                <div class="pro">
+                                    <p>得胜 PC-K550P 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">699.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m10.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue EN CORE 300 电容式手持麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">1999.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m11.jpg" alt="">
+                                <div class="pro">
+                                    <p>莱维特 LCT 940 电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">23000.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="main8-2-1">
+                                <img src="images/section2/m12.jpg" alt="">
+                                <div class="pro">
+                                    <p>Blue 美国品牌 Baby Bottle SL(小奶瓶/小瓶子)电容式录音麦克风 </p>
+                                </div>
+                                <div class="price">
+                                    <p>￥<span class="pri">3799.00</span></p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="arrow">
+                            <a class="pro_left"></a>
+                            <a class="pro_right"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 声卡调试推荐结束 -->
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- 主体内容结束 -->
+
+
+    <!-- 网站脚注区域开始 -->
+    <div class="footer">
+        <div class="foot-top">
+            <div class="container clearfix">
+                <a href="#">
+                    <img src="images/section1/ingge-1.0.1.png" alt="" data-src="./images/shopCar/footer1.png" alt="正品保障">
+                    正品保障
+                </a>
+                <a href="#">
+                    <img src="images/section1/ingge-1.0.1.png" alt="" data-src="./images/shopCar/footer2.png" alt="正品保障">
+                    闪电发货
+                </a>
+                <a href="#">
+                    <img src="images/section1/ingge-1.0.1.png" alt="" data-src="./images/shopCar/footer3.png" alt="正品保障">
+                    货到付款
+                </a>
+                <a href="#">
+                    <img src="images/section1/ingge-1.0.1.png" alt="" data-src="./images/shopCar/footer4.png" alt="正品保障">
+                    七天退换
+                </a>
+                <a href="#">
+                    <img src="images/section1/ingge-1.0.1.png" alt="" data-src="./images/shopCar/footer5.png" alt="正品保障">
+                    售后无忧
+                </a>
+            </div>
+        </div>
+        <div class="foot-mid">
+            <div class="container clearfix">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="#">会员积分</a></dd>
+                    <dd><a href="#">网上订购</a></dd>
+                    <dd><a href="#">电话订购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">网站地图</a></dd>
+                    <dd><a href="#">手机触屏版</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于支付</dt>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于配送</dt>
+                    <dd><a href="#">音平配送</a></dd>
+                    <dd><a href="#">上门自提</a></dd>
+                    <dd><a href="#">包邮政策</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换政策</a></dd>
+                    <dd><a href="#">如何办理</a></dd>
+                    <dd><a href="#">开具发票</a></dd>
+                    <dd><a href="#">声卡调试</a></dd>
+                    <dd><a href="#">专业搭配</a></dd>
+                </dl>
+                <dl>
+                    <dt>申请合作</dt>
+                    <dd><a href="#">成为供应商</a></dd>
+                    <dd><a href="#">成为经销商</a></dd>
+                    <dd><a href="#">企业采购</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                    <dd><a href="#">成为微商</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">诚聘英才</a></dd>
+                    <dd><a href="#">公司简介</a></dd>
+                    <dd><a href="#">发展历程</a></dd>
+                </dl>
+                <div class="foot-mid-right">
+                    <p class="item1">客服电话</p>
+                    <p class="item2">400-700-3638</p>
+                    <p class="item3">服务时间：08:30 - 23:00</p>
+                    <a href="#" class="item4">在线咨询</a>
+                    <img src="./images/shopCar/contact.png" alt="联系我们">
+                </div>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <div class="container">
+                <p class="foot-title">音平商城 —— 大型正品音乐设备网购商城</p>
+                <p class="our-promise">
+                    增值电信业务经营许可证：&nbsp;
+                    <a href="#">粤B2-20110237</a> /
+                    <a href="#">粤ICP备11032710号-1</a> /
+                    <a href="#">粤公网安备 44130202000152号</a>
+                </p>
+                <p class="our-property">
+                    © 2011-2019 音平公司版权所有，并保留所有权利（
+                    <a href="#">著作权及商标声明</a>
+                    ）。 特聘律师团：广东斯明律师事务所
+                </p>
+                <p class="our-imgs">
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom1.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom2.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom3.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom4.png" alt="">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 网站脚注区域结束 -->
+
+
+    <!-- 右侧固定的侧边栏 -->
+    <div class="slideBar">
+        <div class="cont">
+
+            <!-- 侧边栏的左侧导航区域 -->
+            <div class="left">
+                <ul class="list">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="user"></span>
+                        </a>
+                        <div class="user-box">
+                            <div class="top">
+                                <img src="./images/slideBar/default-photo.jpg" alt="用户头像">
+                                <div class="user-msg">
+                                    <p>用户名:<i class="user-name"></i></p>
+                                    <p>级别:<i class="user-level"></i></p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <button>我的订单</button>
+                                <button>我的收藏</button>
+                            </div>
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="contact"></span>
+                        </a>
+                        <div class="contact-box">
+                            <div class="top">
+                                <img src="./images/slideBar/contact.png" alt="">
+                                <p>
+                                    <a class="inline-contact">在线客服</a>
+                                </p>
+                                <p class="inline-time">在线时间: 08:30 - 23:00</p>
+                            </div>
+                            <div class="mid">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p class="serve-phone">400 700 3638</p>
+                                <p class="serve-time">服务时间: 08:00 - 23:00</p>
+                            </div>
+                            <div class="bottom">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p>微信客服扫一扫</p>
+                                <img class="wechat-scan" src="./images/slideBar/wechat-scan1.jpg" alt="">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="shopCar">
+                        <a href="javascript:void(0);">
+                            <span class="shopCar"></span>
+                            <span class="title">购物车</span>
+                            <span class="shop-amount">10</span>
+                        </a>
+                        <div class="shopCar-box-parent">
+                            <div class="shopCar-box">
+                                <div class="cont">
+                                    <p class="close-lunbo"></p>
+                                    <div class="add-suc-model">
+                                        <img src="./images/slideBar/addCart_success.png" alt="添加成功">
+                                        <p class="one">成功加入购物车!</p>
+                                        <p>购物车保留时间有限，建议您尽快结算!</p>
+                                    </div>
+                                    <p class="tip-msg">达人购物车都有啥</p>
+                                    <div class="my02-lunbo1">
+                                        <div class="viewport1">
+                                            <div class="imgWrap-1">
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="btn-01-prev btns"></div>
+                                        <div class="btn-01-next btns"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="my-money"></span>
+                        </a>
+                        <div class="money-box">
+                            我的资产
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="advice"></span>
+                        </a>
+                        <div class="advice-box">
+                            投诉建议
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="scan">
+                    <span></span>
+                    <div class="scan-box">
+                        <img src="./images/slideBar/weixin_code.jpg" alt="">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="returnTop">
+                    <span></span>
+                    <div class="returnTop-box">
+                        返回顶部
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 侧边栏的右侧购物车区域 -->
+            <div class="right">
+                <div class="top clearfix">
+                    <p>
+                        <img class="car" src="./images/slideBar/right_car.png" alt="">
+                        <span>购物车</span>
+                        <img class="close" src="./images/slideBar/right_close.png" alt="">
+                    </p>
+                </div>
+                <div class="mid">
+
+                    <!-- 商品列表 -->
+                    <ul class="item">
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="empty">
+                        <img src="./images/slideBar/cartIcon.png" alt="">
+                        <p>购物车里空空如也 , 赶紧去逛逛吧~</p>
+                        <a href="#">去首页看看</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p class="one">
+                        <span class="selectAll">
+                            <input type="checkbox"><span>全选</span>
+                        </span>
+                        <span class="already-select">
+                            已选 <span class="total">0</span> 件商品
+                        </span>
+                        <span class="total-money">
+                            共计<em> ￥ </em><span>0.00</span>
+                        </span>
+                    </p>
+                    <a href="#">去购物车结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧固定的侧边栏结束 -->
+
+
+    <script src="js/lib/jquery-3.3.1.js"></script>
+    <script src="./js/lib/fly.js"></script>
+    <script src="./js/slideBar.js"></script>
+    <script src="js/head.js"></script>
+    <script src="js/section2.js"></script>
+</body>
+
+</html>

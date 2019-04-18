@@ -1,0 +1,311 @@
+$(function () {
+    var G_myFun = (function ($) {
+        // 请求接口
+        function sousuojiekou() {
+            $(".head-middle-text").keyup(function () {
+
+                var valuess = $(this).val()
+                $.ajax({
+                    type: "get",
+                    url: "https://www.ingping.com/search/solrCheck?",
+                    data: {
+                        term: valuess
+                    },
+                    dataType: 'jsonp',
+                    //    async: true, 
+                    success: function (data) {
+                        console.log(data);
+                        var liStr = "";
+                        $(".head-middle-seek ul").html("");
+                        for (var i = 0; i < data.length; i++) {
+                            $(".head-middle-seek").show();
+                            liStr += "<li>" + data[i] + "</li>";
+                        }
+                        $(".head-middle-seek ul").append(liStr);
+                    }
+                })
+
+            })
+        };
+        // 商品分类隐藏兰
+        function hoverHdo(obj) {
+            obj.hover(
+                function () {
+                    $(this).children().eq(1).show();
+                },
+                function () {
+                    $(this).children().eq(1).hide();
+                }
+            );
+        }
+        // 商品分类隐藏栏右侧
+        function hoverPll(obj) {
+            obj.hover(
+                function () {
+                    $(this).children().eq(2).show();
+                    // $(this).css({"background":"white"});
+                    $(this).addClass("active");
+                    if ($(this).data("flag")) {
+                        return;
+                    } else {
+                        $(this).data("flag", true);
+                        var addDiv = $(this);
+                        $.ajax({
+                            type: "post",
+                            url: "api/index-api/listgoods.php",
+                            data: { index: $(this).index() },
+                            dataType: 'json',
+                            success: function (data) {
+                                // 生成内容的大盒子
+                                // console.log(data);
+                                var contentbox = $("<div>");
+                                contentbox.addClass("product-list-3 clearfix");
+                                addDiv.append(contentbox);
+                                // 生成内容的小盒子
+                                var smallbox = $("<div>");
+                                smallbox.addClass("pop clearfix");
+                                contentbox.append(smallbox);
+                                // 生成内容左边的盒子
+                                var ltbox = $("<div>");
+                                ltbox.addClass("product-list-left clearfix");
+                                smallbox.append(ltbox);
+                                // 生成右边盒子
+                                var lrbox = $("<div>");
+                                lrbox.addClass("product-list-right");
+                                smallbox.append(lrbox);
+                                // 生成右边上部盒子
+                                var lrtbox = $("<div>");
+                                lrtbox.addClass("product-list-right-top");
+                                lrbox.append(lrtbox);
+                                // 生成右边下部盒子
+                                var lrdbox = $("<div>");
+                                lrdbox.addClass("product-list-right-down");
+                                lrbox.append(lrdbox);
+
+                                $.each(data, function (key, value) {
+                                    if (key !== "imgs") {
+                                        // 生成类
+                                        var pllbox = $("<div>");
+                                        pllbox.addClass("product-list-fenlei clearfix");
+                                        var aObj = $("<a>");
+                                        aObj.attr("href", "#");
+                                        aObj.html(key);
+                                        pllbox.append(aObj);
+                                        ltbox.append(pllbox);
+                                        // 生成类列表
+                                        var plobox = $("<div>");
+                                        plobox.addClass("product-list-one clearfix")
+                                        for (var i = 0; i < value.length; i++) {
+                                            var aObj = $("<a>");
+                                            aObj.attr("href", "#");
+                                            aObj.html(value[i]);
+                                            plobox.append(aObj);
+                                        }
+                                        ltbox.append(plobox);
+
+                                    } else {
+                                        var strText = ["录音编曲 >", "网络主播 >", "手机直播 >", "演出音响 >", "家庭KTV >", "影视录音 >", "乐器设备 >", "音乐欣赏 >"]
+                                        var dlTop = $('<dl><dt>套装分类</dt></dl>');
+                                        var dlDown = $('<dl><dt>品牌精选</dt></dl>');
+                                        var ddTop = $("<dd>");
+                                        var ddDown = $("<dd>");
+                                        var strOne = "";
+                                        var strTwo = "";
+                                        for (var j = 0; j < data.imgs.length; j++) {
+                                            strOne += '<a href="#">' + strText[j] + '</a>';
+                                            strTwo += '<a href="#"><img src="images/index/' + data.imgs[j] + '" alt="提示文字"/></a>';
+                                        }
+                                        strOne += '<a href="#">会议工程 ></a>';
+                                        strOne += '<a href="#">家庭影院 ></a>';
+
+                                        ddTop.html(strOne);
+                                        ddDown.html(strTwo);
+
+                                        dlTop.append(ddTop);
+                                        dlDown.append(ddDown);
+
+                                        lrtbox.append(dlTop);
+                                        lrdbox.append(dlDown);
+                                    }
+
+                                });
+                            }
+                        })
+                    }
+                },
+                function () {
+                    $(this).children().eq(2).hide();
+                    $(this).removeClass("active");
+                    //  $(this).css({"background":"rgba(50, 50, 50, 0.1)",});
+                }
+            );
+        }
+        // 改变小轮播上箭头颜色
+        function hoverup(obj) {
+            obj.hover(
+                function () {
+                    $(this).css({
+                        "backgroundImage": "url(images/navList1/uph.png)"
+                    })
+                },
+                function () {
+                    $(this).css({
+                        "backgroundImage": "url(images/navList1/upb.png)"
+                    })
+                }
+            )
+        }
+        // 改变小轮播下箭头颜色
+        function hoverdown(obj) {
+            obj.hover(
+                function () {
+                    $(this).css({
+                        "backgroundImage": "url(images/navList1/downh.png)"
+                    })
+                },
+                function () {
+                    $(this).css({
+                        "backgroundImage": "url(images/navList1/downb.png)"
+                    })
+                }
+            )
+
+        }
+        // 小轮播
+        function banner(obj, obj1, obj2) {
+            obj.children().eq(0).clone("true").appendTo(".head-down-three-L ul");
+            var imgH = obj.children().eq(0).innerHeight(),
+                len = obj.children().length,
+                imgX = 0;
+            obj2.click(function () {
+                xia();
+            })
+            function xia() {
+                imgX++;
+                if (imgX == len) {
+                    imgX = 1;
+                    obj.css({ marginTop: 0 })
+                }
+                obj.stop(true, true).animate({ marginTop: -imgX * imgH });
+            }
+            obj1.click(function () {
+
+                if (imgX <= 0) {
+                    imgX = len - 1;
+                    obj.css({ marginTop: -imgX * imgH })
+                }
+                imgX--;
+                obj.stop(true, true).animate({ marginTop: -imgX * imgH });
+            })
+            // 悬浮停止
+            obj.parent().hover(
+                function () {
+                    if (tim) {
+                        clearInterval(tim);
+                    }
+                },
+                function () {
+                    tim = setInterval(xia, 2000);
+                }
+            )
+            // 自动播放
+            var tim = setInterval(xia, 2000);
+        }
+        // 图片懒加载
+        function lazypic() {
+            $("img").each(function () {
+                var arrSrc = $(this).attr("src");
+                $(this).data("lazySrc", arrSrc);
+                $(this).attr("src", "images/navList1/lazypic.gif");
+            })
+            loading();
+            $(window).scroll(function () {
+                loading();
+            })
+            function loading() {
+                var windowHeight = $(window).height();
+                var scrollHeight = $(window).scrollTop();
+                var len = $("img").length;
+                for (var i = 0; i < len; i++) {
+                    var offsetTop = $("img").eq(i).offset().top;
+                    if (offsetTop - (windowHeight + scrollHeight) < 10) {
+                        var arr = $("img").eq(i).data("lazySrc");
+                        $("img").eq(i).attr("src", arr);
+                    }
+                }
+            }
+        }
+
+        function addTheme(){
+            $(window).scroll(function(){
+                var winH = $(window).height();
+                console.log(winH);
+                var rowTop = $(".row").offset().top+$(".row").innerHeight();
+                console.log(rowTop);
+                var scrollTop = $(window).scrollTop();
+                console.log(scrollTop);
+                var Bval = $(".bodyer .time-limit-text").contents().filter(function(){return this.nodeType == 3;}).text();
+                // var pa = /^[\s]*/;
+                // var num = Bval.replace(pa,'');
+                // console.log(num)
+                if(winH+scrollTop>=rowTop){
+                  
+                    $.ajax({
+                        type:"post",
+                        url:'api/navList2.php',
+                        data:{
+                            type:"主题专场"
+                            // type:$(".woca").val()
+                        },
+                        dataType:"json",
+                        success: function (data) {
+                            console.log(data)
+                            // 生成row div
+                            // var row = 
+                            // for(var i = 0 ;i<data.length;i++){
+                                
+                            // }
+                        }
+                    });
+                    console.log(Bval)
+                }
+                
+            })
+        }
+        return {
+            // 商品分类隐藏兰
+            hoverHdo: hoverHdo,
+            // 商品分类隐藏栏右侧
+            hoverPll: hoverPll,
+            // 改变小轮播上箭头颜色
+            hoverup: hoverup,
+            // 改变小轮播下箭头颜色
+            hoverdown: hoverdown,
+            // 小轮播
+            banner: banner,
+            // 顶部搜索栏
+            sousuojiekou: sousuojiekou,
+            // 图片懒加载
+            lazypic: lazypic,
+
+            addTheme: addTheme
+        }
+
+    })(jQuery);
+    // 商品分类隐藏兰
+    G_myFun.hoverHdo($(".head-down-one"));
+    // 商品分类隐藏栏右侧
+    G_myFun.hoverPll($(".product-list-li"));
+    // 改变小轮播下箭头颜色
+    G_myFun.hoverdown($(".head-down-three-R-down"));
+    // 改变小轮播上箭头颜色
+    G_myFun.hoverup($(".head-down-three-R-up"));
+    // 轮播图
+    G_myFun.banner($(".head-down-three-L ul"), $(".head-down-three-R-up"), $(".head-down-three-R-down"));
+    // 顶部搜索栏
+    G_myFun.sousuojiekou();
+// 图片懒加载
+    G_myFun.lazypic();
+
+    G_myFun.addTheme();
+});

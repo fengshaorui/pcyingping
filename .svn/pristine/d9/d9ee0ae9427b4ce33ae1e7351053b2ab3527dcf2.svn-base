@@ -1,0 +1,82 @@
+$(function () {
+    var shopDetail = (function ($) {
+
+        var imgWrap = $(".navbar .imgWrap1");
+        var index = 0;
+        var tiem1;
+
+
+
+        // 处理分类导航的函数
+        function handleTypeNav(){
+            $(".navbar .item-box .jsonp-box li").hover(
+                function(){
+                    $(this).addClass("active").siblings().removeClass("active");
+                },
+                function(){
+                    
+                }
+            );
+        }
+
+
+        // 导航区域右侧的小轮播图入口
+        function smallLunbo() {
+            handleToDownBtn();
+            handleToUpBtn();
+            handleAutoMove();
+        }
+
+        // 点击向上箭头时，向下滑动轮播
+        function handleToUpBtn() {
+            $(".navbar .to-up").click(function () {
+                index--;
+                if (index < 0) {
+                    index = 2;
+                    imgWrap.css("marginTop", -3 * 35);
+                }
+                imgWrap.stop(true, true).animate({ marginTop: -index * 35 }, 350);
+            });
+        }
+
+        // 点击向下箭头时，向下滑动轮播
+        function handleToDownBtn() {
+            $(".navbar .to-down").click(function () {
+                index++;
+                if (index > 3) {
+                    imgWrap.css("marginTop", 0);
+                    index = 1;
+                }
+                imgWrap.stop(true, true).animate({ marginTop: -index * 35 }, 350);
+            });
+        }
+
+        // 小轮播图自动轮播
+        function handleAutoMove(){
+            tiem1 = setInterval( doAutoMove, 2500);
+            $(".navbar .navbar-right").hover(function(){
+                clearInterval( tiem1 );
+            }, function(){
+                tiem1 = setInterval( doAutoMove, 2500);
+            });
+        }
+
+        // 自动轮播的处理函数
+        function doAutoMove(){
+            $(".navbar .to-down").trigger("click");
+        }
+
+        return {
+            handleTypeNav: handleTypeNav,
+            smallLunbo: smallLunbo
+        }
+
+    })(jQuery);
+
+    // 分类导航程序入口
+    shopDetail.handleTypeNav();
+
+    // 小轮播程序入口
+    shopDetail.smallLunbo();
+
+});

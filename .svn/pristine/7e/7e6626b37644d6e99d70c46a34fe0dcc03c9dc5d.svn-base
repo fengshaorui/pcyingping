@@ -1,0 +1,1691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="css/slideBar.css">
+    <link rel="stylesheet" href="css/page-footer.css">
+    <link rel="stylesheet" href="css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navList1.css">
+</head>
+
+<body>
+    <!-- 广告 开始-->
+    <div class="advertis">
+        <div class="advertising container">
+            <a href="#" title="双旦钜惠，跨年狂欢"></a>
+        </div>
+    </div>
+    <!-- 广告 结束-->
+    <!-- 头部登陆 开始-->
+    <!-- 登陆注册 -->
+    <div class="head">
+        <div class="container head-top clearfix">
+            <div class="head-top-1">
+                <span class="head-one">你好，欢迎来到音平商城！</span>[<span class="head-two"><a href="#">请登录</a></span>|<span
+                    class="head-three"><a href="#">免费注册</a></span>]
+            </div>
+            <!-- 我的音平等四个标签 -->
+            <div class="head-top-2">
+                <ul>
+                    <li class="head-top-3  head-top-list">
+                        <a href="#">我的音平<img src="images/navList1/banner4.png" alt=""></a>
+                        <ul class="head-top-ul">
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">我的收藏</a></li>
+                            <li><a href="#">我的评价</a></li>
+                            <li><a href="#">我的优惠券</a></li>
+                        </ul>
+                    </li>
+                    <li class="head-top-4 head-top-list"><a href="#">我的购物车</a></li>
+                    <li class="head-top-5 head-top-list"><a href="#">企业采购</a></li>
+                    <li class="head-top-6 head-top-list">
+                        <a href="#">客服服务<img src="images/navList1/banner4.png" alt=""></a>
+                        <div class="head-top-6-one">
+                            <div class="head-top-6-two">
+                                <p class="head-top-6-p1"><a href="#">我的客服</a></p>
+                                <p class="head-top-6-p2">在线时间：08:30 - 23:00</p>
+                            </div>
+                            <div class="head-top-6-three">
+                                <p class="head-top-6-p3">400 700 3638</p>
+                                <p class="head-top-6-p2">服务时间：08:30 - 23:00</p>
+                            </div>
+                            <div class="head-top-6-four">
+                                <div class="head-top-6-div1"><img src="images/navList1/wechat-icon-1.0.0.png" alt=""></div>
+                                <div class="head-top-6-div2">微信客服<br>扫一扫</div>
+                                <div class="head-top-6-div3"><img src="images/navList1/wechatqr-1.0.0.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- logo  搜索框-->
+
+    <div class="head-middle clearfix">
+        <div class="head-middle-list container">
+            <div class="head-middle-one"></div>
+            <div class="head-middle-two"></div>
+            <div class="head-middle-three">
+                <div class="head-middle-three-top">
+                    <input type="text" placeholder="得胜PH130手机麦" class="head-middle-text"><input type="submit" value="搜索"
+                        class="head-middle-btn">
+                </div>
+                <div class="head-middle-three-down">
+                    <ul>
+                        <li><a href="#">K歌直播声卡</a></li>
+                        <li><a href="#">录音声卡</a></li>
+                        <li><a href="#">电容麦</a></li>
+                        <li><a href="#">监听音箱</a></li>
+                        <li><a href="#">调音台</a></li>
+                        <li><a href="#">吉他</a></li>
+                        <li><a href="#">RME声卡</a></li>
+                        <li><a href="#">莱维特</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="head-middle-four">
+                <div class="head-middle-four-left">
+                    <div class="head-middle-four-left-div"></div>
+                </div>
+                <div class="head-middle-four-right"><a href="#"> </a></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 商品分类 -->
+
+    <div class="head-down clearfix">
+        <div class="head-down-list container">
+            <div class="head-down-one">
+                <a href="#"class="product">全部商品分类</a>
+                <div class="product-list clearfix">
+                    <ul>
+                        <li class="product-list-li clearfix">
+                            <div class="product-list-1 clearfix">
+                                <a href="#">声卡</a>
+                                <a href="#">调音台</a>
+                                <a href="#">控制器</a>
+                            </div>
+                            <div class="product-list-2 clearfix">
+                                <a href="#">K歌声卡</a>
+                                <a href="#">专业声卡</a>
+                                <a href="#">调音台</a>
+                            </div>
+                            <div class="product-list-3 clearfix">
+                                <div class="pop clearfix">
+                                    <div class="product-list-left clearfix">
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-list-right">
+                                        <div class="product-list-right-top">
+                                            <dl>
+                                                <dt>套装分类</dt>
+                                                <a href="#">录音编曲 ></a>
+                                                <a href="#">网络主播 ></a>
+                                                <a href="#">手机直播 ></a>
+                                                <a href="#">演出音响 ></a>
+                                                <a href="#">家庭KTV ></a>
+                                                <a href="#">影视录音 ></a>
+                                                <a href="#">乐器设备 ></a>
+                                                <a href="#">音乐欣赏 ></a>
+                                                <a href="#">会议工程 ></a>
+                                                <a href="#">家庭影院 ></a>
+                                            </dl>
+                                        </div>
+                                        <div class="product-list-right-down">
+                                            <dl>
+                                                <dt>品牌精选</dt>
+                                                <dd>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-list-li clearfix">
+                            <div class="product-list-1 clearfix">
+                                <a href="#">声卡</a>
+                                <a href="#">调音台</a>
+                                <a href="#">控制器</a>
+                            </div>
+                            <div class="product-list-2 clearfix">
+                                <a href="#">K歌声卡</a>
+                                <a href="#">专业声卡</a>
+                                <a href="#">调音台</a>
+                            </div>
+                            <div class="product-list-3 clearfix">
+                                <div class="pop clearfix">
+                                    <div class="product-list-left clearfix">
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-list-right">
+                                        <div class="product-list-right-top">
+                                            <dl>
+                                                <dt>套装分类</dt>
+                                                <a href="#">录音编曲 ></a>
+                                                <a href="#">网络主播 ></a>
+                                                <a href="#">手机直播 ></a>
+                                                <a href="#">演出音响 ></a>
+                                                <a href="#">家庭KTV ></a>
+                                                <a href="#">影视录音 ></a>
+                                                <a href="#">乐器设备 ></a>
+                                                <a href="#">音乐欣赏 ></a>
+                                                <a href="#">会议工程 ></a>
+                                                <a href="#">家庭影院 ></a>
+                                            </dl>
+                                        </div>
+                                        <div class="product-list-right-down">
+                                            <dl>
+                                                <dt>品牌精选</dt>
+                                                <dd>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-list-li clearfix">
+                            <div class="product-list-1 clearfix">
+                                <a href="#">声卡</a>
+                                <a href="#">调音台</a>
+                                <a href="#">控制器</a>
+                            </div>
+                            <div class="product-list-2 clearfix">
+                                <a href="#">K歌声卡</a>
+                                <a href="#">专业声卡</a>
+                                <a href="#">调音台</a>
+                            </div>
+                            <div class="product-list-3 clearfix">
+                                <div class="pop clearfix">
+                                    <div class="product-list-left clearfix">
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-list-right">
+                                        <div class="product-list-right-top">
+                                            <dl>
+                                                <dt>套装分类</dt>
+                                                <a href="#">录音编曲 ></a>
+                                                <a href="#">网络主播 ></a>
+                                                <a href="#">手机直播 ></a>
+                                                <a href="#">演出音响 ></a>
+                                                <a href="#">家庭KTV ></a>
+                                                <a href="#">影视录音 ></a>
+                                                <a href="#">乐器设备 ></a>
+                                                <a href="#">音乐欣赏 ></a>
+                                                <a href="#">会议工程 ></a>
+                                                <a href="#">家庭影院 ></a>
+                                            </dl>
+                                        </div>
+                                        <div class="product-list-right-down">
+                                            <dl>
+                                                <dt>品牌精选</dt>
+                                                <dd>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-list-li clearfix">
+                            <div class="product-list-1 clearfix">
+                                <a href="#">声卡</a>
+                                <a href="#">调音台</a>
+                                <a href="#">控制器</a>
+                            </div>
+                            <div class="product-list-2 clearfix">
+                                <a href="#">K歌声卡</a>
+                                <a href="#">专业声卡</a>
+                                <a href="#">调音台</a>
+                            </div>
+                            <div class="product-list-3 clearfix">
+                                <div class="pop clearfix">
+                                    <div class="product-list-left clearfix">
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-list-right">
+                                        <div class="product-list-right-top">
+                                            <dl>
+                                                <dt>套装分类</dt>
+                                                <a href="#">录音编曲 ></a>
+                                                <a href="#">网络主播 ></a>
+                                                <a href="#">手机直播 ></a>
+                                                <a href="#">演出音响 ></a>
+                                                <a href="#">家庭KTV ></a>
+                                                <a href="#">影视录音 ></a>
+                                                <a href="#">乐器设备 ></a>
+                                                <a href="#">音乐欣赏 ></a>
+                                                <a href="#">会议工程 ></a>
+                                                <a href="#">家庭影院 ></a>
+                                            </dl>
+                                        </div>
+                                        <div class="product-list-right-down">
+                                            <dl>
+                                                <dt>品牌精选</dt>
+                                                <dd>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-list-li clearfix">
+                            <div class="product-list-1 clearfix">
+                                <a href="#">声卡</a>
+                                <a href="#">调音台</a>
+                                <a href="#">控制器</a>
+                            </div>
+                            <div class="product-list-2 clearfix">
+                                <a href="#">K歌声卡</a>
+                                <a href="#">专业声卡</a>
+                                <a href="#">调音台</a>
+                            </div>
+                            <div class="product-list-3 clearfix">
+                                <div class="pop clearfix">
+                                    <div class="product-list-left clearfix">
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-list-right">
+                                        <div class="product-list-right-top">
+                                            <dl>
+                                                <dt>套装分类</dt>
+                                                <a href="#">录音编曲 ></a>
+                                                <a href="#">网络主播 ></a>
+                                                <a href="#">手机直播 ></a>
+                                                <a href="#">演出音响 ></a>
+                                                <a href="#">家庭KTV ></a>
+                                                <a href="#">影视录音 ></a>
+                                                <a href="#">乐器设备 ></a>
+                                                <a href="#">音乐欣赏 ></a>
+                                                <a href="#">会议工程 ></a>
+                                                <a href="#">家庭影院 ></a>
+                                            </dl>
+                                        </div>
+                                        <div class="product-list-right-down">
+                                            <dl>
+                                                <dt>品牌精选</dt>
+                                                <dd>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-list-li clearfix">
+                            <div class="product-list-1 clearfix">
+                                <a href="#">声卡</a>
+                                <a href="#">调音台</a>
+                                <a href="#">控制器</a>
+                            </div>
+                            <div class="product-list-2 clearfix">
+                                <a href="#">K歌声卡</a>
+                                <a href="#">专业声卡</a>
+                                <a href="#">调音台</a>
+                            </div>
+                            <div class="product-list-3 clearfix">
+                                <div class="pop clearfix">
+                                    <div class="product-list-left clearfix">
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-list-right">
+                                        <div class="product-list-right-top">
+                                            <dl>
+                                                <dt>套装分类</dt>
+                                                <a href="#">录音编曲 ></a>
+                                                <a href="#">网络主播 ></a>
+                                                <a href="#">手机直播 ></a>
+                                                <a href="#">演出音响 ></a>
+                                                <a href="#">家庭KTV ></a>
+                                                <a href="#">影视录音 ></a>
+                                                <a href="#">乐器设备 ></a>
+                                                <a href="#">音乐欣赏 ></a>
+                                                <a href="#">会议工程 ></a>
+                                                <a href="#">家庭影院 ></a>
+                                            </dl>
+                                        </div>
+                                        <div class="product-list-right-down">
+                                            <dl>
+                                                <dt>品牌精选</dt>
+                                                <dd>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-list-li clearfix">
+                            <div class="product-list-1 clearfix">
+                                <a href="#">声卡</a>
+                                <a href="#">调音台</a>
+                                <a href="#">控制器</a>
+                            </div>
+                            <div class="product-list-2 clearfix">
+                                <a href="#">K歌声卡</a>
+                                <a href="#">专业声卡</a>
+                                <a href="#">调音台</a>
+                            </div>
+                            <div class="product-list-3 clearfix">
+                                <div class="pop clearfix">
+                                    <div class="product-list-left clearfix">
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                        <div class="product-list-fenlei">
+                                            <a href="#">音响配件</a>
+                                        </div>
+                                        <div class="product-list-one">
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架11</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                            <a href="#">音响支架</a><span>/</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-list-right">
+                                        <div class="product-list-right-top">
+                                            <dl>
+                                                <dt>套装分类</dt>
+                                                <a href="#">录音编曲 ></a>
+                                                <a href="#">网络主播 ></a>
+                                                <a href="#">手机直播 ></a>
+                                                <a href="#">演出音响 ></a>
+                                                <a href="#">家庭KTV ></a>
+                                                <a href="#">影视录音 ></a>
+                                                <a href="#">乐器设备 ></a>
+                                                <a href="#">音乐欣赏 ></a>
+                                                <a href="#">会议工程 ></a>
+                                                <a href="#">家庭影院 ></a>
+                                            </dl>
+                                        </div>
+                                        <div class="product-list-right-down">
+                                            <dl>
+                                                <dt>品牌精选</dt>
+                                                <dd>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                    <a href="#"><img src="images/navList1/789.gif" alt=""></a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="head-down-two">
+                <ul>
+                    <li><a href="#">网站首页</a></li>
+                    <li><a href="#">套装方案</a>
+
+                    </li>
+                    <li><a href="#">活动专区</a></li>
+                    <li><a href="#">品牌专区</a></li>
+                    <li><a href="#">音平咨询</a></li>
+                    <li><a href="#">音乐乐享</a></li>
+                    <li><a href="#">音师傅</a></li>
+                </ul>
+            </div>
+            <div class="head-down-three">
+                <div class="head-down-three-L">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="images/navList1/banner1.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/navList1/banner2.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/navList1/banner3.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="head-down-three-R">
+                    <div class="head-down-three-R-up"></div>
+                    <div class="head-down-three-R-down"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 商品分类 结束-->
+
+    <!-- body 上部分 -->
+    <!-- 套装分类 -->
+    <div class="bady-bg1">
+        <div class="bady-bg2 container"></div>
+    </div>
+    <div class="all-body">
+        <div class="body-top container">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li>〉</li>
+                <li><a href="#">录音编曲</a></li>
+                <li>〉</li>
+                <li>按销量从高到低</li>
+            </ul>
+        </div>
+        <div class="bady-bg2 container"></div>
+        <div class="microphone-list container">
+            <a href="#" class="microphone-list-one">
+                <i class="icon iconfont">
+                </i>
+                录音编曲
+            </a>
+            <a href="#">
+                <i class="iconfont  ">
+
+                </i>
+                网络主播
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                手机直播
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                演出音响
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                家庭KTV
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                影视录音
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                乐器设备
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                音乐欣赏
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                会议工程
+            </a>
+            <a href="#">
+                <i class="icon iconfont">
+
+                </i>
+                家庭影院
+            </a>
+        </div>
+
+        <!-- 热卖 -->
+        <div class="hot-sale container clearfix">
+            <div class="hot-sale-style">
+                <div class="hot-sale-recommendation">
+                    <span>热卖</span><br>
+                    <span>推荐</span>
+                </div>
+            </div>
+            <div class="hot-sale-show">
+                <div class="hot-sale-list">
+                    <a href="#">
+                        <img src="images/navList1/list1.jpg" alt="RME Fireface UCX声卡搭配爱科技C414XLII麦克风   专业录音套装">
+                    </a>
+                    <div class="hot-sale-list1">
+                        <a href="#">
+                            RME Fireface UCX声卡搭配爱科技C414XLII麦克风 专业录音套装
+                        </a><br>
+                        <strong>
+                            ￥ 3895.00
+                        </strong>
+                        <div class="hot-sale-buy">
+                            <a href="#">立即抢购</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hot-sale-list">
+                    <a href="#">
+                        <img src="images/navList1/list1.jpg" alt="RME Fireface UCX声卡搭配爱科技C414XLII麦克风   专业录音套装">
+                    </a>
+                    <div class="hot-sale-list1">
+                        <a href="#">
+                            RME Fireface UCX声卡搭配爱科技C414XLII麦克风 专业录音套装
+                        </a><br>
+                        <strong>
+                            ￥ 3895.00
+                        </strong>
+                        <div class="hot-sale-buy">
+                            <a href="#">立即抢购</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hot-sale-list">
+                    <a href="#">
+                        <img src="images/navList1/list1.jpg" alt="RME Fireface UCX声卡搭配爱科技C414XLII麦克风   专业录音套装">
+                    </a>
+                    <div class="hot-sale-list1">
+                        <a href="#">
+                            RME Fireface UCX声卡搭配爱科技C414XLII麦克风 专业录音套装
+                        </a><br>
+                        <strong>
+                            ￥ 3895.00
+                        </strong>
+                        <div class="hot-sale-buy">
+                            <a href="#">立即抢购</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 套装产品部分 -->
+        <div class="suit-top container clearfix">
+            <div class="classify">
+                <a href="#" class="classify1">销量<span class="fa fa-arrow-up"></span></a>
+                <a href="#">价格<span></span></a>
+                <a href="#">新品<span></span></a>
+                <a href="#">优惠<span></span></a>
+            </div>
+            <div class="screen">
+                <span>￥</span><input type="text" name=""><span>-￥</span><input type="text" name=""> <a href="#">筛选</a>
+            </div>
+            <div class="search">
+                <input type="text" name=""><a href="">搜索</a>
+            </div>
+            <div class="service">
+                <div></div>
+                <a href="#">专业客服导购</a>
+            </div>
+        </div>
+
+        <div class="suit-list-pandect container clearfix">
+            <div class="suit-list clearfix">
+                <div class="suit-list1 clearfix">
+                    <div class="suit-list1-pic">
+                        <img src="images/navList1/123.jpg" alt="">
+                    </div>
+                    <div class="suit-list1-introduce">
+                        <a href="#">富克斯特2i2声卡搭配得胜K820麦克风 录音套装</a>
+                        <p><span>套装标签:</span><a href="#">单人录像套装</a></p>
+                        <p><span>推荐理由:</span>&nbsp;&nbsp;&nbsp;&nbsp;小额预算配置 颜值与性能兼具，麦克风及声卡均为性价比的口碑产品、操作简单方便、稳定性佳
+                            适用于音乐翻唱、小说录制、广告配音等</p>
+                    </div>
+                </div>
+                <div class="suit-list2 clearfix">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="suit-list-price clearfix">
+                <div class="suit-list-promotion"></div>
+                <div class="suit-list-save">
+                    <p class="lisheng-price">整装立减300元</p>
+                    <p class="old-price">￥5900.00</p>
+                </div>
+                <div class="suit-list-operation">
+                    <p class="new-price">
+                        <span>套装价:</span>
+                        ￥5600.00
+                    </p>
+                    <p class="shopping-trolley">
+                        <a href="#">
+                            加入购物车
+                        </a>
+                    </p>
+                    <p class="detailed-list">
+                        套装清单：共5件
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="suit-list-pandect container clearfix">
+            <div class="suit-list clearfix">
+                <div class="suit-list1 clearfix">
+                    <div class="suit-list1-pic">
+                        <img src="images/navList1/123.jpg" alt="">
+                    </div>
+                    <div class="suit-list1-introduce">
+                        <a href="#">富克斯特2i2声卡搭配得胜K820麦克风 录音套装</a>
+                        <p><span>套装标签:</span><a href="#">单人录像套装</a></p>
+                        <p><span>推荐理由:</span>&nbsp;&nbsp;&nbsp;&nbsp;小额预算配置 颜值与性能兼具，麦克风及声卡均为性价比的口碑产品、操作简单方便、稳定性佳
+                            适用于音乐翻唱、小说录制、广告配音等</p>
+                    </div>
+                </div>
+                <div class="suit-list2 clearfix">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="suit-list-price clearfix">
+                <div class="suit-list-promotion"></div>
+                <div class="suit-list-save">
+                    <p class="lisheng-price">整装立减300元</p>
+                    <p class="old-price">￥5900.00</p>
+                </div>
+                <div class="suit-list-operation">
+                    <p class="new-price">
+                        <span>套装价:</span>
+                        ￥5600.00
+                    </p>
+                    <p class="shopping-trolley">
+                        <a href="#">
+                            加入购物车
+                        </a>
+                    </p>
+                    <p class="detailed-list">
+                        套装清单：共5件
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="suit-list-pandect container clearfix">
+            <div class="suit-list clearfix">
+                <div class="suit-list1 clearfix">
+                    <div class="suit-list1-pic">
+                        <img src="images/navList1/123.jpg" alt="">
+                    </div>
+                    <div class="suit-list1-introduce">
+                        <a href="#">富克斯特2i2声卡搭配得胜K820麦克风 录音套装</a>
+                        <p><span>套装标签:</span><a href="#">单人录像套装</a></p>
+                        <p><span>推荐理由:</span>&nbsp;&nbsp;&nbsp;&nbsp;小额预算配置 颜值与性能兼具，麦克风及声卡均为性价比的口碑产品、操作简单方便、稳定性佳
+                            适用于音乐翻唱、小说录制、广告配音等</p>
+                    </div>
+                </div>
+                <div class="suit-list2 clearfix">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="suit-list-price clearfix">
+                <div class="suit-list-promotion"></div>
+                <div class="suit-list-save">
+                    <p class="lisheng-price">整装立减300元</p>
+                    <p class="old-price">￥5900.00</p>
+                </div>
+                <div class="suit-list-operation">
+                    <p class="new-price">
+                        <span>套装价:</span>
+                        ￥5600.00
+                    </p>
+                    <p class="shopping-trolley">
+                        <a href="#">
+                            加入购物车
+                        </a>
+                    </p>
+                    <p class="detailed-list">
+                        套装清单：共5件
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="suit-list-pandect container clearfix">
+            <div class="suit-list clearfix">
+                <div class="suit-list1 clearfix">
+                    <div class="suit-list1-pic">
+                        <img src="images/navList1/123.jpg" alt="">
+                    </div>
+                    <div class="suit-list1-introduce">
+                        <a href="#">富克斯特2i2声卡搭配得胜K820麦克风 录音套装</a>
+                        <p><span>套装标签:</span><a href="#">单人录像套装</a></p>
+                        <p><span>推荐理由:</span>&nbsp;&nbsp;&nbsp;&nbsp;小额预算配置 颜值与性能兼具，麦克风及声卡均为性价比的口碑产品、操作简单方便、稳定性佳
+                            适用于音乐翻唱、小说录制、广告配音等</p>
+                    </div>
+                </div>
+                <div class="suit-list2 clearfix">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/navList1/124.jpg" alt="">
+                            </a>
+                            <div>
+                                <p>￥1618&nbsp;<span>x1</span></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="suit-list-price clearfix">
+                <div class="suit-list-promotion"></div>
+                <div class="suit-list-save">
+                    <p class="lisheng-price">整装立减300元</p>
+                    <p class="old-price">￥5900.00</p>
+                </div>
+                <div class="suit-list-operation">
+                    <p class="new-price">
+                        <span>套装价:</span>
+                        ￥5600.00
+                    </p>
+                    <p class="shopping-trolley">
+                        <a href="#">
+                            加入购物车
+                        </a>
+                    </p>
+                    <p class="detailed-list">
+                        套装清单：共5件
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页码 -->
+        <div class="page-number-list container clearfix">
+            <a href="#" class="page-number">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <i>...</i>
+        </div>
+    </div>
+
+
+    <!-- 专场 -->
+
+
+    <div class="special-performance">
+        <div class="special-performance-pic container">
+            <a href="#"><img src="images/navList1/zhuanchang.jpg" alt=""></a>
+        </div>
+
+        <div class="good-special-performance  container">
+            <p class="">
+                精选活动专场
+                <a href="#">
+                    更多专场 &gt;</a>
+                </a>
+            </p>
+        </div>
+        <div class="special-performance-list container clearfix">
+            <ul>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+                <li>
+                    <i></i>
+                    <span>录音编曲专场</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 网站脚注区域开始 -->
+    <div class="footer">
+        <div class="foot-top">
+            <div class="container clearfix">
+                <a href="#">
+                    <img src="./images/shopCar/footer1.png" alt="正品保障">
+                    正品保障
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer2.png" alt="正品保障">
+                    闪电发货
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer3.png" alt="正品保障">
+                    货到付款
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer4.png" alt="正品保障">
+                    七天退换
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer5.png" alt="正品保障">
+                    售后无忧
+                </a>
+            </div>
+        </div>
+        <div class="foot-mid">
+            <div class="container clearfix">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="#">会员积分</a></dd>
+                    <dd><a href="#">网上订购</a></dd>
+                    <dd><a href="#">电话订购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">网站地图</a></dd>
+                    <dd><a href="#">手机触屏版</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于支付</dt>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于配送</dt>
+                    <dd><a href="#">音平配送</a></dd>
+                    <dd><a href="#">上门自提</a></dd>
+                    <dd><a href="#">包邮政策</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换政策</a></dd>
+                    <dd><a href="#">如何办理</a></dd>
+                    <dd><a href="#">开具发票</a></dd>
+                    <dd><a href="#">声卡调试</a></dd>
+                    <dd><a href="#">专业搭配</a></dd>
+                </dl>
+                <dl>
+                    <dt>申请合作</dt>
+                    <dd><a href="#">成为供应商</a></dd>
+                    <dd><a href="#">成为经销商</a></dd>
+                    <dd><a href="#">企业采购</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                    <dd><a href="#">成为微商</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">诚聘英才</a></dd>
+                    <dd><a href="#">公司简介</a></dd>
+                    <dd><a href="#">发展历程</a></dd>
+                </dl>
+                <div class="foot-mid-right">
+                    <p class="item1">客服电话</p>
+                    <p class="item2">400-700-3638</p>
+                    <p class="item3">服务时间：08:30 - 23:00</p>
+                    <a href="#" class="item4">在线咨询</a>
+                    <img src="./images/shopCar/contact.png" alt="联系我们">
+                </div>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <div class="container">
+                <p class="foot-title">音平商城 —— 大型正品音乐设备网购商城</p>
+                <p class="our-promise">
+                    增值电信业务经营许可证：&nbsp;
+                    <a href="#">粤B2-20110237</a> /
+                    <a href="#">粤ICP备11032710号-1</a> /
+                    <a href="#">粤公网安备 44130202000152号</a>
+                </p>
+                <p class="our-property">
+                    © 2011-2019 音平公司版权所有，并保留所有权利（
+                    <a href="#">著作权及商标声明</a>
+                    ）。 特聘律师团：广东斯明律师事务所
+                </p>
+                <p class="our-imgs">
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom1.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom2.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom3.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom4.png" alt="">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 网站脚注区域结束 -->
+
+    <!-- 右侧固定的侧边栏 -->
+    <div class="slideBar">
+        <div class="cont">
+
+            <!-- 侧边栏的左侧导航区域 -->
+            <div class="left">
+                <ul class="list">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="user"></span>
+                        </a>
+                        <div class="user-box">
+                            <div class="top">
+                                <img src="./images/slideBar/default-photo.jpg" alt="用户头像">
+                                <div class="user-msg">
+                                    <p>用户名:<i class="user-name"></i></p>
+                                    <p>级别:<i class="user-level"></i></p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <button>我的订单</button>
+                                <button>我的收藏</button>
+                            </div>
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="contact"></span>
+                        </a>
+                        <div class="contact-box">
+                            <div class="top">
+                                <img src="./images/slideBar/contact.png" alt="">
+                                <p>
+                                    <a class="inline-contact">在线客服</a>
+                                </p>
+                                <p class="inline-time">在线时间: 08:30 - 23:00</p>
+                            </div>
+                            <div class="mid">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p class="serve-phone">400 700 3638</p>
+                                <p class="serve-time">服务时间: 08:00 - 23:00</p>
+                            </div>
+                            <div class="bottom">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p>微信客服扫一扫</p>
+                                <img class="wechat-scan" src="./images/slideBar/wechat-scan1.jpg" alt="">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="shopCar">
+                        <a href="javascript:void(0);">
+                            <span class="shopCar"></span>
+                            <span class="title">购物车</span>
+                            <span class="shop-amount">10</span>
+                        </a>
+                        <div class="shopCar-box-parent">
+                            <div class="shopCar-box">
+                                <div class="cont">
+                                    <p class="close-lunbo"></p>
+                                    <div class="add-suc-model">
+                                        <img src="./images/slideBar/addCart_success.png" alt="添加成功">
+                                        <p class="one">成功加入购物车!</p>
+                                        <p>购物车保留时间有限，建议您尽快结算!</p>
+                                    </div>
+                                    <p class="tip-msg">达人购物车都有啥</p>
+                                    <div class="my02-lunbo1">
+                                        <div class="viewport1">
+                                            <div class="imgWrap-1">
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="btn-01-prev btns"></div>
+                                        <div class="btn-01-next btns"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="my-money"></span>
+                        </a>
+                        <div class="money-box">
+                            我的资产
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="advice"></span>
+                        </a>
+                        <div class="advice-box">
+                            投诉建议
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="scan">
+                    <span></span>
+                    <div class="scan-box">
+                        <img src="./images/slideBar/weixin_code.jpg" alt="">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="returnTop">
+                    <span></span>
+                    <div class="returnTop-box">
+                        返回顶部
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 侧边栏的右侧购物车区域 -->
+            <div class="right">
+                <div class="top clearfix">
+                    <p>
+                        <img class="car" src="./images/slideBar/right_car.png" alt="">
+                        <span>购物车</span>
+                        <img class="close" src="./images/slideBar/right_close.png" alt="">
+                    </p>
+                </div>
+                <div class="mid">
+
+                    <!-- 商品列表 -->
+                    <ul class="item">
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="empty">
+                        <img src="./images/slideBar/cartIcon.png" alt="">
+                        <p>购物车里空空如也 , 赶紧去逛逛吧~</p>
+                        <a href="#">去首页看看</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p class="one">
+                        <span class="selectAll">
+                            <input type="checkbox"><span>全选</span>
+                        </span>
+                        <span class="already-select">
+                            已选 <span class="total">0</span> 件商品
+                        </span>
+                        <span class="total-money">
+                            共计<em> ￥ </em><span>0.00</span>
+                        </span>
+                    </p>
+                    <a href="#">去购物车结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧固定的侧边栏结束 -->
+
+
+    <script src="./js/lib/jquery-3.3.1.js"></script>
+    <script src="./js/lib/fly.js"></script>
+    <script src="./js/slideBar.js"></script>
+    <script src="js/navList1.js"></script>
+</body>
+
+</html>

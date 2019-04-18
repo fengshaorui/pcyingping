@@ -1,0 +1,643 @@
+/* 网页header区域开始 */
+.header{
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #EDEEF0;
+    background-color: #FCFCFC;
+    font-family: "Microsoft YaHei", SimSun;
+    font-size: 12px;
+}
+.header .container, .footer .container{
+    width: 1210px;
+}
+
+/* 网页header左侧区域开始 */
+.header .left{
+    float: left;
+    height: 100%;
+    /* background-color: blue; */
+}
+.header .left span.login-info{
+    color: #666;
+}
+.header .left span.login-tip{
+    color: #ddd;
+}
+.header .left span.login-tip a{
+    color: #ff6600;
+}
+.header .left span.login-tip a:hover{
+    text-decoration: underline;
+}
+/* 网页header左侧区域结束 */
+
+/* 网页header右侧区域开始 */
+.header .right{
+    float: right;
+    height: 100%;
+}
+.header .right .list li{
+    float: left;
+    position: relative;
+}
+.header .right .list li:hover > a{
+    color: #ff6600;
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+}
+.header .right .list li  a{
+    display: block;
+    height: 14px;
+    line-height: 16px;
+    padding: 10px 20px;
+    border: 1px solid #fcfcfc;
+    color: black;
+}
+.header .right .list li  a i{
+    font-size: 12px;
+}
+.header .right .list li .my-msg{
+    position: absolute;
+    left: 0;
+    top: 36px;
+    width: 122px;
+    background-color: white;
+    display: none;
+}
+.header .right .list li .my-msg a{
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+}
+.header .right .list li .my-msg a:hover{
+    color: #ff6600;
+}
+.header .right .my-yinping:hover .my-msg{
+    display: block;
+}
+.header .right .contact-gif{
+    vertical-align: middle;
+}
+.header .right .contact-box{
+    position: absolute;
+    right: 0;
+    top: 36px;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+    background-color: white;
+    display: none;
+    z-index: 10;
+}
+.header .contact-box .top{
+    position: relative;
+    height: 130px;
+    padding: 0 10px;
+}
+.header .contact-box .top img{
+    width: 100px;
+}
+.header .right .contact-box .top a{
+    position: absolute;
+    right: 43px;
+    top: 43px;
+    background-color: #ff6600;
+    font-size: 14px;
+    height: 14px;
+    border: none !important;
+    border-radius: 30px;
+    color: white !important;
+    padding: 8px 10px !important;
+    text-align: center;
+    line-height: 14px;
+}
+.header .right .contact-box .top span{
+    position: absolute;
+    left: 50px;
+    bottom: 18px;
+    color: #666;
+    font-size: 12px;
+}
+.header .right .contact-box .mid{
+    height: 90px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+.header .right .contact-box .mid-l{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    background: url("../images/slideBar/phone.png") no-repeat center center;
+}
+.header .right .contact-box .mid-r{
+    float: left;
+    height: 60px;
+    margin-top: 15px;
+}
+.header .right .contact-box .mid-r p.one{
+    height: 30px;
+    color: #ff6600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.header .right .contact-box .mid-r p.two{
+    height: 30px;
+    color: #666;
+    font-size: 12px;
+    line-height: 30px;
+}
+.header .right .contact-box .bottom{
+    height: 75px;
+    padding: 10px;
+}
+.header .right .contact-box .bottom img.one{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-top: 8px;
+}
+.header .right .contact-box .bottom p{
+    float: left;
+    color: #666;
+    font-size: 12px;
+    width: 50px;
+    height: 30px;
+    line-height: 15px;
+    margin: 23px 3px 0 10px;
+}
+.header .right .contact-box .bottom img.two{
+    float: left;
+    height: 75px;
+    width: 75px;
+}
+.header .right .contact:hover .contact-box{
+    display: block;
+}
+/* 网页header右侧区域结束 */
+
+
+/* 网页brand-box区域开始 */
+.brand-box{
+    width: 990px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+.brand-box > a{
+    float: left;
+    width: 220px;
+    height: 75px;
+}
+.brand-box > a img{
+    width: 100%;
+    height: 100%;
+}
+.brand-box > ul{
+    float: right;
+    height: 48px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.brand-box > ul li{
+    height: 100%;
+    margin-right: -7px;
+}
+/* 网页brand-box区域结束 */
+
+/* 购物车区域开始 */
+.shop-box{
+    width: 990px;
+    margin: 0 auto;
+}
+
+/* 购物车没有商品时，显示的内容开始 */
+.shop-box .shop-empty{
+    width: 100%;
+    height: 218px;
+    margin: 30px 0;
+    position: relative;
+    display: none;
+}
+.shop-box .shop-empty .cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -159px;
+    margin-top: -24px;
+    height: 48px;
+    width: 318px;
+}
+.shop-box .shop-empty .cont img{
+    float: left;
+    height: 46px;
+    width: 42px;
+    margin-top: 1px;
+}
+.shop-box .shop-empty .cont p{
+    float: right;
+    width: 265px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.shop-box .shop-empty .cont a{
+    color: #38d;
+    cursor: pointer;
+}
+.shop-box .shop-empty .cont a:hover{
+    text-decoration: underline;
+}
+/* 购物车没有商品时，显示的内容结束 */
+
+/* 购物车有商品时，显示的内容开始 */
+.shop-box .shop-list{
+    width: 100%;
+}
+.shop-box .shop-list > h3{
+    color: red;
+    margin-bottom: 10px;
+}
+.shop-box .shop-list > div.tr{
+    padding: 20px; 
+    height: 80px;
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+    line-height: 68px;
+    background-color: #FFFBF0;
+}
+.shop-box .shop-list > div.t-head{
+    height: 34px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.shop-box .shop-list > div.tr .td{
+    float: left;
+    height: 80px;
+    line-height: 80px;
+}
+.shop-box .shop-list > div.t-head .td{
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+    color: #999999;
+}
+.shop-box .shop-list > div.t-head .td.td2{
+    font-size: 12px;
+    color: black;
+}
+.shop-box .shop-list > div.t-head .td.td3{
+   line-height: 24px;
+}
+.shop-box .shop-list > div.t-head .td.td5{
+    text-align: center;
+}
+.shop-box .shop-list > div.t-head .td.td6{
+   color: #999999;
+}
+.shop-box .shop-list > div.t-head .td.td7{
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+}
+
+.shop-box .shop-list > div.tr .td1{
+    width: 30px;
+}
+.shop-box .shop-list > div.tr .td2{
+    width: 80px;
+    font-size: 16px;
+}
+.shop-box .shop-list > div.tr .td2 img{
+    width: 78px;
+    height: 78px;
+    border: 1px solid #eaeaea;
+}
+.shop-box .shop-list > div.tr .td3{
+    width: 345px;
+    margin: 0 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+.shop-box .shop-list > div.tr .td4{
+    width: 100px;
+    margin: 0 20px 0 0;
+    font-weight: bolder;
+}
+.shop-box .shop-list > div.tr .td5{
+    width: 85px;
+}
+.shop-box .shop-list > div.tr .td5 div{
+    float: left;
+    height: 18px;
+    margin-top: 30px;
+    line-height: 18px;
+    border: 1px solid #bcbcbc;
+}
+.shop-box .shop-list > div.tr .td5 div.left-reduce, .shop-box .shop-list > div.tr .td5 div.right-add{
+    width: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.shop-box .shop-list > div.tr .td5 div.mid-count{
+    border-right:none;
+    border-left: none;
+    width: 45px;
+    text-align: center;
+}
+.shop-box .shop-list > div.tr .td6{
+    width: 125px;
+    color: #ff4400;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.shop-box .shop-list > div.tr .td7{
+    width: 90px;
+    line-height: 1;
+    box-sizing: border-box;
+    padding: 25px 0;
+    font-size: 12px;
+}
+.shop-box .shop-list > div.tr .td7 p{
+    height: 20px;
+    line-height: 20px;
+}
+.shop-box .shop-list > div.tr input{
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+}
+.shop-box .shop-list hr{
+    border: 1px solid #eaeaea;
+}
+
+/* 商品信息底部区域开始 */
+.shop-box .shop-list .t-footer{
+    border: 1px solid #eaeaea;
+    padding: 20px;
+    margin-top: 20px;
+    height: 80px;
+    box-sizing: border-box;
+}
+.shop-box .shop-list .t-footer > div{
+    float: left;
+    line-height: 38px;
+    height: 38px;
+    font-size: 12px;
+}
+.shop-box .shop-list .t-footer .td1{
+    width: 30px; 
+    line-height: 38px;
+}
+.shop-box .shop-list .t-footer .td1 input{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.shop-box .shop-list .t-footer .td2{
+   width: 30px;  
+}
+.shop-box .shop-list .t-footer .td3{
+    width: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.shop-box .shop-list .t-footer .td3:hover{
+    color: #ff4400;
+}
+.shop-box .shop-list .t-footer .td3 img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.shop-box .shop-list .t-footer .td4{
+    width: 80px;
+    margin-left: 10px;
+}
+.shop-box .shop-list .t-footer .td4 span{
+    font-size: 16px;
+    color: #ff4400;
+}
+.shop-box .shop-list .t-footer .td5{
+    width: 150px;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 130px;
+}
+.shop-box .shop-list .t-footer .td6{
+    width: 27px;
+}
+.shop-box .shop-list .t-footer .td6 img{
+    width: 27px;
+    vertical-align: middle;
+}
+.shop-box .shop-list .t-footer .td7{
+    width: 100px;
+    line-height: 20px;
+    text-align: center;
+}
+.shop-box .shop-list .t-footer .td7 span{
+    font-size: 16px;
+    color: #ff4400;
+}
+.shop-box .shop-list .t-footer .td8{
+    width: 150px;
+    line-height: 20px;
+    text-align: center;
+}
+.shop-box .shop-list .t-footer .td8 span{
+    font-size: 16px;
+    color: #ff4400;
+}
+.shop-box .shop-list .t-footer .td9{
+    float: right;
+    margin-right: -20px;
+    margin-top: -19px;
+    width: 120px;
+    height: 78px;
+}
+.shop-box .shop-list .t-footer .td9 a{
+    display: block;
+    text-align: center;
+    background-color: #e50007;
+    color: #fff;
+    font-size: 18px;
+    line-height: 78px;
+    height: 100%;
+}
+/* 商品信息底部区域结束 */
+
+/* 省钱小提示区域开始 */
+.shop-box .shop-list > div.tip-msg{
+    margin: 20px 0;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px;
+    border: 1px dashed #ff6600;
+}
+.shop-box .shop-list > div.tip-msg img{
+    vertical-align: middle;
+    width: 16px;
+}
+.shop-box .shop-list > div.tip-msg span{
+    margin-left: 25px;
+}
+/* 省钱小提示区域结束 */
+
+/* 购物车有商品时，显示的内容结束 */
+
+/* 购物车区域结束 */
+
+/* tab切换区域开始 */
+.tab-hover{
+    width: 990px;
+    height: 420px;
+    margin: 0 auto;
+    border-bottom: solid 2px #999999;
+}
+.tab-hover ul{
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+.tab-hover ul li{
+    float: left;
+}
+.tab-hover li{
+    width: 134px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: -1px;
+    border-bottom: 2px solid transparent;
+}
+.tab-hover li a{
+    display: inline-block;
+    height: 100%;
+    line-height: 49px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+}
+
+.tab-hover .cont{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 990px;
+    padding: 20px 0;
+    display: none;
+}
+
+/* 当前激活li的样式 */
+.tab-hover li.active{
+    border-bottom: 2px solid #ff6600;
+}
+.tab-hover li.active > a{
+    color: #ff6600;
+}
+.tab-hover li.active div.cont{
+    display: block;
+}
+/* 当前激活li的样式结束 */
+
+.tab-hover .cont .item{
+    float: left;
+    width: 180px;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+    margin-right: 18px; 
+}
+.tab-hover .cont .item a.img{
+    display: block;
+    width: 160px;
+    height: 160px;
+}
+.tab-hover .cont .item img{
+    width: 160px;
+    height: 160px;
+}
+.tab-hover .cont .item a.brief-one{
+    display: block;
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.tab-hover .cont .item p{
+    color: #ff6600;
+}
+.tab-hover .cont .item a.add-to-shopCar{
+    display: block;
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    line-height: 30px;
+    border: 1px solid #999;
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.tab-hover .cont .item a.add-to-shopCar:hover{
+   color: #ff6600;
+}
+/* tab切换区域结束 */
+
+/* 关于我的购物车区域开始 */
+.about-myCar{
+    width: 990px;
+    margin: 15px auto;
+    padding: 0 20px;
+    height: 110px;
+    box-sizing: border-box;
+    color: #959595;
+    border: solid 1px #eee;
+}
+.about-myCar p.car-about-title{
+    font-weight: 800;
+    font-size: 13px;
+}
+.about-myCar ol.about-left{
+    float: left;
+    width: 605px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.about-myCar ol.about-left li{
+    font-size: 12px;
+    list-style-type: decimal;
+    margin: 3px 0;
+}
+.about-myCar ol.about-left a{
+    color: #36c;
+}
+.about-myCar div.about-right{
+    float: right;
+    font-size: 12px;
+    width: 144px;
+}
+.about-myCar div.about-right a{
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 40px;
+    color: #ff6600;
+    font-size: 14px;
+    margin-top: 15px;
+    border: 1px solid #ff6600;
+}
+.about-myCar div.about-right a i{
+    font-size: 16px;
+}
+/* 关于我的购物车区域结束 */

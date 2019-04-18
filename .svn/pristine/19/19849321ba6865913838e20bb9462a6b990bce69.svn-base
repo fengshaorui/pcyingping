@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lib/init.css">
+    <link rel="stylesheet" href="./css/slideBar.css">
+    <link rel="stylesheet" href="css/page-footer.css">
+    <link rel="stylesheet" href="css/section4.css">
+</head>
+
+<body>
+    <!-- 网站头部 -->
+    <div class="header">
+        <!-- 顶栏图 -->
+        <div class="top-ad">
+            <a href="">
+                <div class="ad-img"></div>
+            </a>
+        </div>
+        <!-- 欢迎登陆列 -->
+        <div class="top-info">
+            <div class="top clearfix">
+                <div class="left">
+                    <span class="left-wincome">您好！欢迎来到音平商城！</span>
+                    <span class="left-login">
+                        [
+                        <a href="">请登录 </a>
+                        &nbsp;|&nbsp;
+                        <a href=""> 免费注册</a>
+                        ]
+                    </span>
+                </div>
+
+                <ul class="right clearfix">
+                    <li class="li-top li1">
+                        <a href="">我的音平</a><img class="img1" src="images/img5/banner4.png" alt="">
+                        <ul class="right-list">
+                            <li><a href="">我的单子</a></li>
+                            <li><a href="">我的收藏</a></li>
+                            <li><a href="">我要评价</a></li>
+                            <li class="li-finally"><a href="">我的优惠券<span> 0</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="li2">
+                        <a href="">我的购物车</a>
+                        <div class="img2">
+                            <div>0</div>
+                        </div>
+                    </li>
+                    <li class="li3">
+                        <a href="">企业购物</a>
+                    </li>
+                    <!-- =================悬停出现在线客服 -->
+                    <li class="li4">
+                        <img src="images/img5/onlinekefu-1.0.3.gif" alt=""><a href="">客服服务</a><img class="img1" src="images/img5/banner4.png"
+                            alt="">
+                        <div class="telephone">
+                            <div class="mail clearfix">
+                                <div class="contact">
+                                    <a href="">
+                                        <p class="p1">在线客服</p>
+                                    </a>
+                                    <p class="p2">在线时间：8:30 23:00</p>
+                                </div>
+                            </div>
+                            <div class="mobile clearfix">
+                                <div class="contImg"><img src="images/img5/1211.png" alt=""></div>
+                                <div class="contTim">
+                                    <p class="p1">400 700 3638</p>
+                                    <p class="p2">服务时间：8:30 23:00</p>
+                                </div>
+                            </div>
+                            <div class="wechat clearfix">
+                                <div class="left"><img src="images/img5/wechat-icon-1.0.0.png" alt=""></div>
+                                <div class="middle">
+                                    <p class="p1">微信客服</p>
+                                    <p>扫一扫</p>
+                                </div>
+                                <div class="right"><img src="images/img5/wechatqr-1.0.0.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- login搜索 -->
+        <div class="center">
+            <div class="login clearfix">
+                <div class="login-img1"><img src="images/img5/logo.png" alt=""></div>
+                <div class="login-img2"><img src="images/img5/201812241750420823961.gif" alt=""></div>
+                <div class="search-box">
+                    <div class="search clearfix">
+                        <input type="text" class="search-left" value="" placeholder="audio-technica">
+
+                        <ul class="search-information"></ul>
+                        <!-- <div class="search-right">搜索</div> -->
+                        <input type="submit" class="search-right" value="搜索">
+                    </div>
+
+                    <ul class="search-list clearfix">
+                        <li><a href="">K歌直播声卡</a></li>
+                        <li><a href="">录音声卡</a></li>
+                        <li><a href="">电容麦</a></li>
+                        <li><a href="">监听音箱</a></li>
+                        <li><a href="">吉他</a></li>
+                        <li><a href="">调音台</a></li>
+                        <li><a href="">RME声卡</a></li>
+                        <li><a href="">菜维特</a></li>
+                    </ul>
+                </div>
+                <div class="search-img clearfix">
+                    <div class="search-img1"><img src="images/img5/wx_code-1.0.1.jpg" alt=""></div>
+                    <a href="">
+                        <div class="search-img2"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 商品列表 -->
+        <div class="bottom clearfix">
+            <div class="left clearfix">
+                <a href="">
+                    <div class="bottom-left">全部商品分类</div>
+                </a>
+                <ul class="left-list">
+                    <li class="list-li">
+                        <div class="list-box">
+                            <div class=" list-top">
+                                <a href="">声卡</a>
+                                <a href="">调音台</a>
+                                <a href="">控制器</a>
+                            </div>
+                            <div class=" list-bottom">
+                                <a href="">K歌声卡</a>
+                                <a href="">专业声卡</a>
+                                <a href="">调音台</a>
+                            </div>
+                        </div>
+                        <div class="box-hide clearfix">
+                            <ul class="hide-left">
+                            </ul>
+                            <ul class="hide-right">
+                                <li class="hide-top">
+                                    <p>声卡</p>
+                                    <ul class="clearfix">
+                                        <li><a href="">录音编曲&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">网络主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">手机主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">演出音响&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭KTV&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">影视录音&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">乐器设备&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">音乐欣赏&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">会议工程&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭影院&nbsp;>&nbsp;</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hide-bottom">
+                                    <p>品牌精选</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-li">
+                        <div class="list-box">
+                            <div class=" list-top">
+                                <a href="">麦克风</a>
+                                <a href="">耳机</a>
+                                <a href="">扩音器</a>
+                            </div>
+                            <div class=" list-bottom">
+                                <a href="">电容麦</a>
+                                <a href="">无线麦</a>
+                                <a href="">音乐耳机</a>
+                            </div>
+                        </div>
+                        <div class="box-hide clearfix">
+                            <ul class="hide-left">
+                            </ul>
+                            <ul class="hide-right">
+                                <li class="hide-top">
+                                    <p>声卡</p>
+                                    <ul class="clearfix">
+                                        <li><a href="">录音编曲&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">网络主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">手机主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">演出音响&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭KTV&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">影视录音&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">乐器设备&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">音乐欣赏&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">会议工程&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭影院&nbsp;>&nbsp;</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hide-bottom">
+                                    <p>品牌精选</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-li">
+                        <div class="list-box">
+                            <div class=" list-top">
+                                <a href="">音响</a>
+                                <a href="">功放</a>
+                                <a href="">家庭影院</a>
+                            </div>
+                            <div class=" list-bottom">
+                                <a href="">KTV功效</a>
+                                <a href="">监听音箱</a>
+                                <a href="">舞台音响</a>
+                            </div>
+                        </div>
+                        <div class="box-hide clearfix">
+                            <ul class="hide-left">
+                            </ul>
+                            <ul class="hide-right">
+                                <li class="hide-top">
+                                    <p>声卡</p>
+                                    <ul class="clearfix">
+                                        <li><a href="">录音编曲&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">网络主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">手机主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">演出音响&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭KTV&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">影视录音&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">乐器设备&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">音乐欣赏&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">会议工程&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭影院&nbsp;>&nbsp;</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hide-bottom">
+                                    <p>品牌精选</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-li">
+                        <div class="list-box">
+                            <div class=" list-top">
+                                <a href="">键盘</a>
+                                <a href="">吉他</a>
+                                <a href="">贝斯</a>
+                            </div>
+                            <div class=" list-bottom">
+                                <a href="">MIDI键盘</a>
+                                <a href="">民谣吉他</a>
+                                <a href="">架子鼓</a>
+                            </div>
+                        </div>
+                        <div class="box-hide clearfix">
+                            <ul class="hide-left">
+                            </ul>
+                            <ul class="hide-right">
+                                <li class="hide-top">
+                                    <p>声卡</p>
+                                    <ul class="clearfix">
+                                        <li><a href="">录音编曲&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">网络主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">手机主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">演出音响&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭KTV&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">影视录音&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">乐器设备&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">音乐欣赏&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">会议工程&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭影院&nbsp;>&nbsp;</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hide-bottom">
+                                    <p>品牌精选</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-li">
+                        <div class="list-box">
+                            <div class=" list-top">
+                                <a href="">影视录音</a>
+                                <a href="">点歌机</a>
+                                <a href="">播放器</a>
+                            </div>
+                            <div class=" list-bottom">
+                                <a href="">录音机</a>
+                                <a href="">一体点歌机</a>
+                                <a href="">触摸屏</a>
+                            </div>
+                        </div>
+                        <div class="box-hide clearfix">
+                            <ul class="hide-left">
+                            </ul>
+                            <ul class="hide-right">
+                                <li class="hide-top">
+                                    <p>声卡</p>
+                                    <ul class="clearfix">
+                                        <li><a href="">录音编曲&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">网络主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">手机主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">演出音响&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭KTV&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">影视录音&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">乐器设备&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">音乐欣赏&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">会议工程&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭影院&nbsp;>&nbsp;</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hide-bottom">
+                                    <p>品牌精选</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-li">
+                        <div class="list-box">
+                            <div class=" list-top">
+                                <a href="">话放</a>
+                                <a href="">耳放</a>
+                                <a href="">效果器</a>
+                            </div>
+                            <div class=" list-bottom">
+                                <a href="">模拟话放</a>
+                                <a href="">专业耳放</a>
+                                <a href="">吉他效果</a>
+                            </div>
+                        </div>
+                        <div class="box-hide clearfix">
+                            <ul class="hide-left">
+                            </ul>
+                            <ul class="hide-right">
+                                <li class="hide-top">
+                                    <p>声卡</p>
+                                    <ul class="clearfix">
+                                        <li><a href="">录音编曲&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">网络主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">手机主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">演出音响&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭KTV&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">影视录音&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">乐器设备&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">音乐欣赏&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">会议工程&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭影院&nbsp;>&nbsp;</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hide-bottom">
+                                    <p>品牌精选</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-li">
+                        <div class="list-box list-box2">
+                            <div class=" list-top">
+                                <a href="">配件</a>
+                                <a href="">软件</a>
+                                <a href="">声卡调试</a>
+                            </div>
+                            <div class=" list-bottom">
+                                <a href="">麦克风支架</a>
+                                <a href="">摄像头</a>
+                                <a href="">录音软件</a>
+                            </div>
+                        </div>
+                        <div class="box-hide clearfix">
+                            <ul class="hide-left">
+                            </ul>
+                            <ul class="hide-right">
+                                <li class="hide-top">
+                                    <p>声卡</p>
+                                    <ul class="clearfix">
+                                        <li><a href="">录音编曲&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">网络主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">手机主播&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">演出音响&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭KTV&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">影视录音&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">乐器设备&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">音乐欣赏&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">会议工程&nbsp;>&nbsp;</a></li>
+                                        <li><a href="">家庭影院&nbsp;>&nbsp;</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hide-bottom">
+                                    <p>品牌精选</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="bottom-right clearfix">
+                    <li><a href="">网站首页</a></li>
+                    <li><a href="">套装方案</a></li>
+                    <li><a href="">活动专区</a></li>
+                </ul>
+            </div>
+            <!-- 放轮播图 -->
+            <div class="banner clearfix">
+                <ul class="banner-left">
+                    <li><a href=""><img src="images/img5/201710071909500143943.jpg" alt="" title="超级音雄"></a></li>
+                    <li><a href=""><img src="images/img5/201706161558540282640.jpg" alt="" title="电子发票"></a></li>
+                    <li><a href=""><img src="images/img5/201706161558410268436.jpg" alt="" title="调试服务"></a></li>
+
+                </ul>
+                <div class="banner-right">
+                    <div class="banner-shang"></div>
+                    <div class="banner-xia"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================网站主体 -->
+    <div class="content">
+        <!-- 第一块全图 -->
+        <div class="content-img">
+            <div class="a_img"></div>
+        </div>
+        <!-- 第二块年货 -->
+        <div class="discounts">
+            <div class="discounts-box">
+                <div class="discounts-img clearfix">
+                    <img src="images/img5/0f0007iyjoRTskbAFI8jHf.jpg" alt="">
+                </div>
+                <p class="explain">注：登录/注册后即可领取，优惠券在订单结算页面使用，活动时间：2018.12.25-2019.1.8</p>
+            </div>
+        </div>
+
+        <!-- 第四块热卖排行 -->
+        <div class="hot">
+            <div class="hot-box clearfix">
+                <div class="hot-title"><img src="images/img5/a_18.jpg" alt=""></div>
+                <div class="hot-bottom">
+                    <div class="left">
+                        <a href="">
+                            <div class="left-top"><img src="images/img5/a_20-2.jpg" alt=""></div>
+                        </a>
+                        <a href="">
+                            <div><img src="images/img5/a_24-02.jpg" alt=""></div>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="right-top clearfix">
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">百灵达(BEHRINGER) X1204USB 调音台 预设16种混响效果</p>
+                                    <p class="p2">￥1580</p>
+                                    <img src="images/img5/201209130945560967647.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">雅马哈(YAMAHA) S115V 专业舞台无源音箱(单只)</p>
+                                    <p class="p2">￥3159</p>
+                                    <img src="images/img5/201302271603320500565.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <p class="p1">山逊(SAMSON) Auro X15D 15寸 500瓦 有源舞台音箱（单只）</p>
+                                    <p class="p2">￥3558</p>
+                                    <img src="images/img5/20150227114755029746.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right-top clearfix">
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">得胜(TAKSTAR) G3 KTV/舞台演出UHF无线麦克风一拖二</p>
+                                    <p class="p2">￥2499</p>
+                                    <img src="images/img5/201802051752470752472.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">舒尔(SHURE) SV200C 动圈式人声麦克风</p>
+                                    <p class="p2">￥37179</p>
+                                    <img src="images/img5/201212011106240564110.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <p class="p1">莱维特(LEWITT) MTP LIVE 现场王手持电容麦克风</p>
+                                    <p class="p2">￥1799</p>
+                                    <img src="images/img5/201901111818461177531.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 麦克风 -->
+        <div class="phone" id="tab1">
+            <div class="phone-img"><img src="images/img5/a_33.jpg" alt=""></div>
+        </div>
+        <div class="hot hot2">
+            <div class="hot-box clearfix">
+                <div class="hot-bottom">
+                    <div class="left2">
+                        <a href="">
+                            <div class="left-top"><img src="images/img5/W-3.jpg" alt=""></div>
+                        </a>
+                        <a href="">
+                            <div class="left-top2"><img src="images/img5/a_32-1.jpg" alt=""></div>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="right-top clearfix">
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">森海塞尔(Sennheiser) E835S 动圈式人声演唱麦克风</p>
+                                    <p class="p2">￥819</p>
+                                    <img src="images/img5/201112191823340332145.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">纽曼(Neumann) KMS 105 电容式现场/录音麦克风（黑色）</p>
+                                    <p class="p2">￥4999</p>
+                                    <img src="images/img5/201703241004170717347.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <p class="p1">舒尔(SHURE) 墨西哥进口 Beta 58A 动圈式出色人声麦克风</p>
+                                    <p class="p2">￥1288</p>
+                                    <img src="images/img5/201901111846413884723.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right-top clearfix">
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">森海塞尔(Sennheiser) EW100-935G3 KTV/演出手持式无线动圈麦克风</p>
+                                    <p class="p2">￥6188</p>
+                                    <img src="images/img5/20130126145345026768.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">得胜(TAKSTAR) 金刚W80 KTV/演出手持式UHF无线动圈麦克风</p>
+                                    <p class="p2">￥1450</p>
+                                    <img src="images/img5/201406201756530238506.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <p class="p1">得胜(TAKSTAR) X7 HH KTV/演出手持式无线动圈麦克风</p>
+                                    <p class="p2">￥5979</p>
+                                    <img src="images/img5/201501301803350224547.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right-top clearfix">
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">得胜(TAKSTAR) TS-7220 KTV/演出手持式UHF无线动圈麦克风 (黑色)</p>
+                                    <p class="p2">￥689</p>
+                                    <img src="images/img5/201304131511380590747.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">咪宝(MIPRO) ACT-646 KTV/演出手持式无线动圈麦克风</p>
+                                    <p class="p2">￥7688</p>
+                                    <img src="images/img5/201604081421090668207.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <p class="p1">舒尔(SHURE) BLX188/PGA31 一拖二无线头戴话筒麦克风</p>
+                                    <p class="p2">￥84468</p>
+                                    <img src="images/img5/201709220951520034993.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hot-row clearfix">
+                    <div class="col-box">
+                        <div class="col">
+                            <a href="">有线麦克风</a>
+                        </div>
+                        <div class="col">
+                            <a href="">无线麦克风</a>
+                        </div>
+                        <div class="col">
+                            <a href="">领夹麦克风</a>
+                        </div>
+                        <div class="col">
+                            <a href="">头戴麦克风</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="brand">
+                    <div class="brand-box clearfix">
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201204021447480113997.gif" alt="">
+                                <p>舒尔</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201805251513070144171.gif" alt="">
+                                <p>森海塞尔</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                             <a href="">
+                                <img src="images/img5/201712181143390451354.gif" alt="">
+                                <p>得胜</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/20120406153611079582.gif" alt="">
+                                <p>爱科技</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201204061542140972552.gif" alt="">
+                                <p>咪宝</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201211291637040818474.gif" alt="">
+                                <p>菜维特</p>
+                            </a>
+                        </div>
+                        <div class="brand-more">
+                            <p>
+                                <a href="">更多&nbsp;>&nbsp;</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 调音台 -->
+        <div class="phone" id="tab2">
+            <div class="phone-img"><img src="images/img5/a_41a.jpg" alt=""></div>
+        </div>
+        <div class="hot hot2">
+            <div class="hot-box clearfix">
+                <div class="hot-bottom">
+                    <div class="left2">
+                        <a href="">
+                            <div class="left-top"><img src="images/img5/a_36-1.jpg" alt=""></div>
+                        </a>
+                        <a href="">
+                            <div class="left-top2"><img src="images/img5/a_38-2.jpg" alt=""></div>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="right-top clearfix">
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">雅马哈(YAMAHA) MG16XU 16路带效果器模拟 专业调音台</p>
+                                    <p class="p2">￥3199</p>
+                                    <img src="images/img5/201408131456590427692.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">百灵达(BEHRINGER) 1002fx 10路调音台</p>
+                                    <p class="p2">￥880</p>
+                                    <img src="images/img5/201303071617380091480.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <p class="p1">美奇(MACKIE) 1642-VLZ4 16路调音台</p>
+                                    <p class="p2">￥5399</p>
+                                    <img src="images/img5/201309290939340507578.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right-top clearfix">
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">声艺(Soundcraft) EFX12 12路带效果专业调音台</p>
+                                    <p class="p2">￥3680</p>
+                                    <img src="images/img5/201105171530030201473.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">得胜(TAKSTAR) XR-210FX 带效果USB调音台</p>
+                                    <p class="p2">￥1080</p>
+                                    <img src="images/img5/201301141508420073580.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <p class="p1">声艺(Soundcraft) FX16Ⅱ 16路/2立体声 专业调音台</p>
+                                    <p class="p2">￥5850</p>
+                                    <img src="images/img5/201410131141470104696.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right-top clearfix">
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">艾伦赫赛(Allen&Heath) ZED-24 大型调音台 24路演出专业调音台</p>
+                                    <p class="p2">￥5999</p>
+                                    <img src="images/img5/201311261434480917118.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="top1">
+                                    <p class="p1">美奇(MACKIE) DL806 8通道数字现场调音台 </p>
+                                    <p class="p2">￥5499</p>
+                                    <img src="images/img5/201309261823380231615.jpg" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <p class="p1">雅马哈(YAMAHA) 01V96I 数字录音调音台 16路数字调音台</p>
+                                    <p class="p2">￥14499</p>
+                                    <img src="images/img5/201406071801190293193.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brand-box clearfix">
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201204021452530468834.gif" alt="">
+                                <p>雅马哈</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201204021441150239796.gif" alt="">
+                                <p>百灵达</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201411211142090341625.gif" alt="">
+                                <p>声艺</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201701200932480474855.gif" alt="">
+                                <p>正品美奇</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201204021522510200871.gif" alt="">
+                                <p>Allen&Heath</p>
+                            </a>
+                        </div>
+                        <div class="brand-list">
+                            <a href="">
+                                <img src="images/img5/201712181143390451354.gif" alt="">
+                                <p>得胜</p>
+                            </a>
+                        </div>
+                        <div class="brand-more">
+                            <p>
+                                <a href="">更多&nbsp;>&nbsp;</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 演出音响 -->
+        <div class="phone" id="tab3">
+                <div class="phone-img"><img src="images/img5/a_41.jpg" alt=""></div>
+            </div>
+            <div class="hot hot2">
+                <div class="hot-box clearfix">
+                    <div class="hot-bottom">
+                        <div class="left2">
+                            <a href="">
+                                <div class="left-top"><img src="images/img5/a_43.jpg" alt=""></div>
+                            </a>
+                            <a href="">
+                                <div class="left-top2"><img src="images/img5/a_49-02.jpg" alt=""></div>
+                            </a>
+                        </div>
+                        <div class="right">
+                            <div class="right-top clearfix">
+                                <a href="">
+                                    <div class="top1">
+                                        <p class="p1">屁颠虫(HiFier) MC-091B 电容式苹果版手机直播K歌麦克风 (黑色)</p>
+                                        <p class="p2">￥129</p>
+                                        <img src="images/img5/201501030954110186773.jpg" alt="">
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="top1">
+                                        <p class="p1">舒尔(SHURE) MV5 电容式手机K歌数字麦克风 (灰色)</p>
+                                        <p class="p2">￥1868</p>
+                                        <img src="images/img5/201801261021290966827.jpg" alt="">
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div>
+                                        <p class="p1">得胜(TAKSTAR) PC-K550P 电容式录音麦克风</p>
+                                        <p class="p2">￥699</p>
+                                        <img src="images/img5/201707031453350562650.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="right-top clearfix">
+                                <a href="">
+                                    <div class="top1">
+                                        <p class="p1">Blue Yeti 雪怪专业电容话筒麦克风K歌录音直播USB直插麦克风 (金色)</p>
+                                        <p class="p2">￥1298</p>
+                                        <img src="images/img5/201601071803160147280.jpg" alt="">
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="top1">
+                                        <p class="p1">Blue EN CORE 300 电容式手持麦克风</p>
+                                        <p class="p2">￥1999</p>
+                                        <img src="images/img5/201502021013400941712.jpg" alt="">
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div>
+                                        <p class="p1">得胜(TAKSTAR) GX6 USB 立体声数字电容麦克风</p>
+                                        <p class="p2">￥889</p>
+                                        <img src="images/img5/201703141152490319986.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="right-top clearfix">
+                                <a href="">
+                                    <div class="top1">
+                                        <p class="p1">Blue Yeti 雪怪专业电容话筒麦克风K歌录音直播USB直插麦克风 (金色)</p>
+                                        <p class="p2">￥1298</p>
+                                        <img src="images/img5/201712181608440457314.jpg" alt="">
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="top1">
+                                        <p class="p1">Blue EN CORE 300 电容式手持麦克风</p>
+                                        <p class="p2">￥1999</p>
+                                        <img src="images/img5/201709291429320299304.jpg" alt="">
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div>
+                                        <p class="p1">得胜(TAKSTAR) GX6 USB 立体声数字电容麦克风</p>
+                                        <p class="p2">￥889</p>
+                                        <img src="images/img5/201408061115570178665.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="brand-box clearfix">
+                            <div class="brand-list">
+                                <a href="">
+                                    <img src="images/img5/201204021452530468834.gif" alt="">
+                                    <p>雅马哈</p>
+                                </a>
+                            </div>
+                            <div class="brand-list">
+                                <a href="">
+                                    <img src="images/img5/201204021530510083856.gif" alt="">
+                                    <p>JBL</p>
+                                </a>
+                            </div>
+                            <div class="brand-list">
+                                <a href="">
+                                    <img src="images/img5/201204021455270333302.gif" alt="">
+                                    <p>SAMSON</p>
+                                </a>
+                            </div>
+                            <div class="brand-list">
+                                <a href="">
+                                    <img src="images/img5/201204021441150239796.gif" alt="">
+                                    <p>百灵达</p>
+                                </a>
+                            </div>
+                            <div class="brand-list">
+                                <a href="">
+                                    <img src="images/img5/201204021447130848835.gif" alt="">
+                                    <p>Roland</p>
+                                </a>
+                            </div>
+                            <div class="brand-list">
+                                <a href="">
+                                    <img src="images/img5/201204021447270779628.gif" alt="">
+                                    <p>Laney</p>
+                                </a>
+                            </div>
+                            <div class="brand-more">
+                                <p>
+                                    <a href="">更多&nbsp;>&nbsp;</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- 第五块热卖通栏图和多列-->
+        <div class="choiceness-img" id="tab4">
+            <div class="img-box"></div>
+        </div>
+        <div class="choiceness">
+            <ul class="choiceness-list">
+                <li class="list-box list-box1">
+                    <a href="">
+                        <div class="list-img1 clearfix">
+                            <div class="purchase">
+                                ￥
+                                <span class="price ">999</span>
+                                <div class="btn">立即购买</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-box list-box2">
+                    <a href="">
+                        <div class="list-img1 list-img2 clearfix">
+                            <div class="purchase">
+                                ￥
+                                <span class="price ">999</span>
+                                <div class="btn">立即购买</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-box list-box3">
+                    <a href="">
+                        <div class="list-img1 list-img3 clearfix">
+                            <div class="purchase">
+                                ￥
+                                <span class="price ">999</span>
+                                <div class="btn">立即购买</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-box list-box4">
+                    <a href="">
+                        <div class="list-img1 list-img4 clearfix">
+                            <div class="purchase">
+                                ￥
+                                <span class="price ">999</span>
+                                <div class="btn">立即购买</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-box list-box5">
+                    <a href="">
+                        <div class="list-img1 list-img5 clearfix">
+                            <div class="purchase">
+                                ￥
+                                <span class="price ">999</span>
+                                <div class="btn">立即购买</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 更多手机直播套装链接 -->
+        <div class="more-box">
+            <p><a href="">查看更多套装&nbsp;>&nbsp;</a></p>
+        </div>
+        <!-- 第八块手机直播和相关设备 top且切换 -->
+        <div class="phone phone2">
+            <div class="phone-btn">
+                <ul class="btn-box clearfix">
+                    <li>效果器</li>
+                    <li>混音器</li>
+                    <li>机柜</li>
+                    <li>音响线材</li>
+                    <li>麦克风线材</li>
+                    <li>麦克风支架</li>
+                </ul>
+            </div>
+            <div class="phone-list clearfix">
+                <ul class="list-box">
+                    <li>
+                        <a href="">
+                            <div class="top1">
+                                <p class="p1">三基(3G Audio) DCM-2X 双核前级效果处理器</p>
+                                <p class="p2">￥1699</p>
+                                <img src="images/img5/tp1.jpg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="top1">
+                                <p class="p1">百灵达(BEHRINGER) MDX2600 压限器 限幅器</p>
+                                <p class="p2">￥1159</p>
+                                <img src="images/img5/tp2.jpg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="top1">
+                                <p class="p1">dbx AFS2 20点双通道反馈抑制器 先进的反馈抑制模块</p>
+                                <p class="p2">￥3599</p>
+                                <img src="images/img5/tp3.jpg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="top1">
+                                <p class="p1">dbx 231 舞台演出 双31段均衡器</p>
+                                <p class="p2">￥1799</p>
+                                <img src="images/img5/tp4.jpg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="top1">
+                                <p class="p1">TC Electronic M2000专业数字效果器</p>
+                                <p class="p2">￥7199</p>
+                                <img src="images/img5/tp5.jpg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 推荐专场 -->
+        <div class="plate5">
+            <div class="plate5-2">
+                <div class="container-z">
+                    <div class="plate5-2-1">
+                        <img src="images/section1/gt_47.jpg" alt="">
+                    </div>
+                    <div class="plate5-2-2">
+                        <a href="#">
+                            <img src="images/section1/gt_l_12.jpg" alt="">
+                            <img src="images/section1/gt_l_14.jpg" alt="">
+                            <img src="images/section1/gt_l_18.jpg" alt="">
+                            <img src="images/section1/gt_l_28.jpg" alt="">
+                            <img src="images/section1/gt_l_16.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 推荐专场结束 -->
+        <!-- 底部通栏图 -->
+        <a href="">
+            <div class="session-box"></div>
+        </a>
+    </div>
+
+    <!-- 网站脚注区域开始 -->
+    <div class="footer">
+        <div class="foot-top">
+            <div class="container clearfix">
+                <a href="#">
+                    <img src="./images/shopCar/footer1.png" alt="正品保障">
+                    正品保障
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer2.png" alt="正品保障">
+                    闪电发货
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer3.png" alt="正品保障">
+                    货到付款
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer4.png" alt="正品保障">
+                    七天退换
+                </a>
+                <a href="#">
+                    <img src="./images/shopCar/footer5.png" alt="正品保障">
+                    售后无忧
+                </a>
+            </div>
+        </div>
+        <div class="foot-mid">
+            <div class="container clearfix">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="#">会员积分</a></dd>
+                    <dd><a href="#">网上订购</a></dd>
+                    <dd><a href="#">电话订购</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">网站地图</a></dd>
+                    <dd><a href="#">手机触屏版</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于支付</dt>
+                    <dd><a href="#">常见问题</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于配送</dt>
+                    <dd><a href="#">音平配送</a></dd>
+                    <dd><a href="#">上门自提</a></dd>
+                    <dd><a href="#">包邮政策</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换政策</a></dd>
+                    <dd><a href="#">如何办理</a></dd>
+                    <dd><a href="#">开具发票</a></dd>
+                    <dd><a href="#">声卡调试</a></dd>
+                    <dd><a href="#">专业搭配</a></dd>
+                </dl>
+                <dl>
+                    <dt>申请合作</dt>
+                    <dd><a href="#">成为供应商</a></dd>
+                    <dd><a href="#">成为经销商</a></dd>
+                    <dd><a href="#">企业采购</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                    <dd><a href="#">成为微商</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">诚聘英才</a></dd>
+                    <dd><a href="#">公司简介</a></dd>
+                    <dd><a href="#">发展历程</a></dd>
+                </dl>
+                <div class="foot-mid-right">
+                    <p class="item1">客服电话</p>
+                    <p class="item2">400-700-3638</p>
+                    <p class="item3">服务时间：08:30 - 23:00</p>
+                    <a href="#" class="item4">在线咨询</a>
+                    <img src="./images/shopCar/contact.png" alt="联系我们">
+                </div>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <div class="container">
+                <p class="foot-title">音平商城 —— 大型正品音乐设备网购商城</p>
+                <p class="our-promise">
+                    增值电信业务经营许可证：&nbsp;
+                    <a href="#">粤B2-20110237</a> /
+                    <a href="#">粤ICP备11032710号-1</a> /
+                    <a href="#">粤公网安备 44130202000152号</a>
+                </p>
+                <p class="our-property">
+                    © 2011-2019 音平公司版权所有，并保留所有权利（
+                    <a href="#">著作权及商标声明</a>
+                    ）。 特聘律师团：广东斯明律师事务所
+                </p>
+                <p class="our-imgs">
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom1.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom2.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom3.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./images/shopCar/foot-bottom4.png" alt="">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 网站脚注区域结束 -->
+
+    <!-- 右侧固定的侧边栏 -->
+    <div class="slideBar">
+        <div class="cont">
+
+            <!-- 侧边栏的左侧导航区域 -->
+            <div class="left">
+                <ul class="list">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="user"></span>
+                        </a>
+                        <div class="user-box">
+                            <div class="top">
+                                <img src="./images/slideBar/default-photo.jpg" alt="用户头像">
+                                <div class="user-msg">
+                                    <p>用户名:<i class="user-name"></i></p>
+                                    <p>级别:<i class="user-level"></i></p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <button>我的订单</button>
+                                <button>我的收藏</button>
+                            </div>
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="contact"></span>
+                        </a>
+                        <div class="contact-box">
+                            <div class="top">
+                                <img src="./images/slideBar/contact.png" alt="">
+                                <p>
+                                    <a class="inline-contact">在线客服</a>
+                                </p>
+                                <p class="inline-time">在线时间: 08:30 - 23:00</p>
+                            </div>
+                            <div class="mid">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p class="serve-phone">400 700 3638</p>
+                                <p class="serve-time">服务时间: 08:00 - 23:00</p>
+                            </div>
+                            <div class="bottom">
+                                <img src="./images/slideBar/wechat-icon.png" alt="">
+                                <p>微信客服扫一扫</p>
+                                <img class="wechat-scan" src="./images/slideBar/wechat-scan1.jpg" alt="">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="shopCar">
+                        <a href="javascript:void(0);">
+                            <span class="shopCar"></span>
+                            <span class="title">购物车</span>
+                            <span class="shop-amount">10</span>
+                        </a>
+                        <div class="shopCar-box-parent">
+                            <div class="shopCar-box">
+                                <div class="cont">
+                                    <p class="close-lunbo"></p>
+                                    <div class="add-suc-model">
+                                        <img src="./images/slideBar/addCart_success.png" alt="添加成功">
+                                        <p class="one">成功加入购物车!</p>
+                                        <p>购物车保留时间有限，建议您尽快结算!</p>
+                                    </div>
+                                    <p class="tip-msg">达人购物车都有啥</p>
+                                    <div class="my02-lunbo1">
+                                        <div class="viewport1">
+                                            <div class="imgWrap-1">
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                                <a href="#">
+                                                    <img src="./images/slideBar/01.jpg" alt="" srcset="">
+                                                    <p class="tip-price">￥ 192.00</p>
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="btn-01-prev btns"></div>
+                                        <div class="btn-01-next btns"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="my-money"></span>
+                        </a>
+                        <div class="money-box">
+                            我的资产
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="advice"></span>
+                        </a>
+                        <div class="advice-box">
+                            投诉建议
+                            <div class="triangle"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="scan">
+                    <span></span>
+                    <div class="scan-box">
+                        <img src="./images/slideBar/weixin_code.jpg" alt="">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="returnTop">
+                    <span></span>
+                    <div class="returnTop-box">
+                        返回顶部
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 侧边栏的右侧购物车区域 -->
+            <div class="right">
+                <div class="top clearfix">
+                    <p>
+                        <img class="car" src="./images/slideBar/right_car.png" alt="">
+                        <span>购物车</span>
+                        <img class="close" src="./images/slideBar/right_close.png" alt="">
+                    </p>
+                </div>
+                <div class="mid">
+
+                    <!-- 商品列表 -->
+                    <ul class="item">
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <img src="./images/slideBar/01.jpg" alt="">
+                            <div class="brief">
+                                <div class="head">
+                                    <a class="pone">奥创(Alctron) MPF02 双层金属波纹麦克风录音防喷网</a>
+                                    <a href="javascript:void(0);" class="del"></a>
+                                </div>
+                                <div class="foot">
+                                    <div class="img-price">￥<span>192.00</span></div>
+                                    <div class="img-count">
+                                        <span class="reduce">-</span>
+                                        <span class="count">1</span>
+                                        <span class="add">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="empty">
+                        <img src="./images/slideBar/cartIcon.png" alt="">
+                        <p>购物车里空空如也 , 赶紧去逛逛吧~</p>
+                        <a href="#">去首页看看</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p class="one">
+                        <span class="selectAll">
+                            <input type="checkbox"><span>全选</span>
+                        </span>
+                        <span class="already-select">
+                            已选 <span class="total">0</span> 件商品
+                        </span>
+                        <span class="total-money">
+                            共计<em> ￥ </em><span>0.00</span>
+                        </span>
+                    </p>
+                    <a href="#">去购物车结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧固定的侧边栏区域结束 -->
+    <!-- 楼梯导航开始 -->
+    <div class="stairs">
+        <div class="top-img">
+            <img src="images/img5/xinxiang.png" alt="">
+        </div>
+        <ul class="stairs-box">
+            <li><a href="#tab1">演出麦克风</a></li>
+            <li><a href="#tab2">调音台</a></li>
+            <li><a href="#tab3">舞台音响</a></li>
+            <li><a href="#tab4">音响套装</a></li>
+            <li><a href="JavaScript:;"><img src="images/img5/qq2.png" alt=""></a></li>
+            <li><a href="JavaScript:;">收藏本页</a></li>
+            <li><a href="#">返回顶部</a></li>
+        </ul>
+        <div class="triangle "><a href=""><img src="images/img5/ditu.png" alt=""></a></div>
+    </div>
+
+
+
+    <script src="js/lib/jquery-3.3.1.js"></script>
+    <script src="./js/lib/fly.js"></script>
+    <script src="./js/slideBar.js"></script>
+    <script src="js/section4.js"></script>
+</body>
+
+</html>

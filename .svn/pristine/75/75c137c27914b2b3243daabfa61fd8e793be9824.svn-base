@@ -1,0 +1,27 @@
+//subnav hover
+$(function(){
+    $(".bgimg-1").hover(function(){
+        $(".bgimg-1").css({background:"url(images/goodsList/222131.png) no-repeat 0 15px"});
+        $(".subnav-1").show();
+    },function(){
+        $(".bgimg-1").css({background:"url(images/goodsList/22-1.png) no-repeat 0 15px"});
+        $(".subnav-1").hide();
+    });
+    $(".bgimg-2").hover(function(){
+        $(".bgimg-2").css({background:"url(images/goodsList/my-cart1.png) no-repeat 0 13px"});
+    },function(){
+        $(".bgimg-2").css({background:"url(images/goodsList/my-cart.png) no-repeat 0 13px"});
+    });
+    $(".bgimg-3").hover(function(){
+        $(".bgimg-3").css({background:"url(images/goodsList/12333.png) no-repeat 0 13px"});
+    },function(){
+        $(".bgimg-3").css({background:"url(images/goodsList/banner2.png) no-repeat 0 13px"});
+    });
+    $(".bgimg-4").hover(function(){
+        $(".subnav-2").show();
+    },function(){
+        $(".subnav-2").hide();
+    });
+    
+
+})

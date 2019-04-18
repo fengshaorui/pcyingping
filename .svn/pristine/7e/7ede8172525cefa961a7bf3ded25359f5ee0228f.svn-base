@@ -1,0 +1,9 @@
+//nav鼠标经过出现下拉列表框
+$(".right-one").hover(
+    function(){
+        $(".right-one-hid").show();
+    },
+    function(){
+        $(".right-one-hid").hide();
+    })
+

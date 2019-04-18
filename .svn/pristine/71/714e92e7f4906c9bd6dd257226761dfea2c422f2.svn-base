@@ -1,0 +1,57 @@
+<!doctype html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,user-scalable=1">
+     <title>zepto-touch事件---touch.js</title>
+     <style>
+        * { margin: 0; padding: 0;}
+        .box { width: 300px; height: 400px; background-color: orange; margin: 50px auto; }
+        p { height: 60px; margin: 20px; border: 1px solid #aaa;}
+     </style>
+ </head>
+ <body>
+     <div class="box">
+         <h4>touch事件*****</h4>
+         <p><span></span></p>
+         <p><span></span></p>
+         <p><span></span></p>
+         <p><span></span></p>
+         <p><span></span></p>
+     </div>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/touch.js"></script>
+     <script>
+
+    //  注意：swiper系列事件在手机模拟器不显示，必须在真机下调试
+            var i = 0;
+            $(".box").click(function(e){
+               $(this).find("span").eq(0).text("tap" + i++);
+            });
+
+            $(".box").swipeLeft(function(){
+               $(this).find("span").eq(1).text("swiperLeft");
+            });
+
+            $(".box").swipeRight(function(){
+               $(this).find("span").eq(2).text("swiperRight");
+            });
+
+            $(".box").swipeUp(function(e){
+               $(this).find("span").eq(3).text("swiperUp");
+            });
+
+            $(".box").swipeDown(function(e){
+               $(this).find("span").eq(4).text("swiperDown");
+            });
+
+            // 阻止浏览器默认行为
+            $(".box").get(0).ontouchmove = function(e){
+                e.preventDefault();
+            };
+
+
+     </script>
+ </body>
+ </html> 

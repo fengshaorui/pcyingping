@@ -1,0 +1,150 @@
+/*header开始*/
+.header .header-mid{
+    width: 1100px;
+    margin:0 auto;
+    padding-top:30px;
+}
+.header .header-mid .left{
+    float:left;
+    margin-top:-10px;
+}
+.header .header-mid .right{
+    float:right;
+}
+.header .header-mid .right ul{
+    margin-top:15px;
+    float:right;
+} 
+.header .header-mid .right ul li{
+    float:left;
+    cursor: pointer;
+}
+/*content 样式开始*/
+.content{
+    height: 575px;
+    background-color:#0194E2;
+    padding-top:45px;
+}
+.content .box{
+    width: 380px;
+    left:65%;
+    top:50px;
+    margin:0 auto;
+}
+.content .box .title{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+.content .box .regist-box{
+    width: 310px;
+    height: 360px;
+    background-color:white;
+    margin-top:25px;
+    border-radius: 2px;
+    padding:20px 35px;
+}
+.content .box .regist-box span.tips{
+    font-size: 18px;
+    color:#666666;
+    margin:0 auto;
+}
+.content .box .regist-box form p{
+    margin-top:15px;
+}
+.content .box .regist-box form input{
+    width: 310px;
+    height: 43px;
+    border:1px solid #E6E6E6;
+    outline:none;
+    padding-left:10px;
+}
+::-webkit-input-placeholder { 
+　　color:#C2C2C2;
+}
+.content .box .regist-box form .slide-block{
+    width: 322px;
+    height: 32px;
+    background-color:#E8E8E8;
+    margin-top:15px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 2px;
+    position: relative;
+}
+.content .box .regist-box form .slide-block .hid-block{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 0px;
+    height: 32px;
+    background-color:#7AC23C;
+}
+.content .box .regist-box form .slide-block .block{
+    width: 40px;
+    height: 32px;
+    border:1px solid #CCCCCC;
+    background-color:white;
+    cursor: move;
+    position: absolute;
+    top:0;
+    left:0;
+
+}
+.content .box .regist-box .regist,
+.content .box .regist-box .go-login,
+.content .box .regist-box form span.next{
+    display: inline-block;
+    width: 320px;
+    height: 45px;
+    border:1px solid #E6E6E6;
+    text-align: center;
+    line-height: 45px;
+    margin-top:15px;
+    font-size: 16px;
+    color:#7C7C7C;
+}
+.content .box .regist-box form span.next{
+    background-color:#E0E0E0;
+}
+.content .box .regist-box form span.next:hover{
+    background-color:#D6D6D6;
+}
+.content .box .regist-box .go-login a:link{
+    color:#7C7C7C;
+}
+.content .box .regist-box .go-login a:visited{
+    color:#7C7C7C;
+}
+.content .box .regist-box .go-login a:hover{
+    color:#7C7C7C;
+}
+.content .box .regist-box .go-login a:active{
+    color:#7C7C7C;
+}
+
+
+.footer{
+    text-align: center;
+    color:#999999;
+    font-size: 12px;
+    margin-top:80px;
+}
+.footer .line{
+    margin:0 10px;
+}
+.footer p{
+    margin-top:10px;
+}
+.footer p a:link{
+    color:#7C7C7C;
+}
+.footer p a:visited{
+    color:#7C7C7C;
+}
+.footer p a:hover{
+    color:#333333;
+}
+.footer p a:active{
+    color:#7C7C7C;
+}

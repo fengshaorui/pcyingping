@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>滑动方向</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style>
+        * { margin: 0; padding: 0;}
+        .box { width: 300px; height: 1000px; background-color: orange; margin: 50px auto; padding-top: 150px;}
+        p {border: 1px solid #000; height: 50px;} 
+</style>
+</head>
+<body>
+    <div class="box">
+         <h4>滑动方向</h4>
+         <p><span></span></p>
+         <p><span></span></p>
+         <p><span></span></p>
+         <p><span></span></p>
+         
+     </div>
+    <script>
+        var boxobj=document.querySelector('.box');
+        var span = document.querySelectorAll('span');
+
+        var startPx,startPy,disX, disY, 
+            offsetVal = 40;
+            
+        boxobj.addEventListener("touchstart", function(e){
+            startPx=e.touches[0].clientX;
+            startPy=e.touches[0].clientY;
+        }, false);
+
+        boxobj.addEventListener("touchmove",function(e){
+            e.preventDefault();
+            disX=e.touches[0].clientX-startPx;
+            disY=e.touches[0].clientY-startPy;
+
+            if(e.touches[0].clientX>startPx && Math.abs(disX)>offsetVal && Math.abs(disX)>Math.abs(disY))  
+                span[0].innerHTML="向右滑动"+disX;
+
+            if(e.touches[0].clientX<startPx && Math.abs(disX)>offsetVal && Math.abs(disX)>Math.abs(disY)) 
+                span[1].innerHTML="向左滑动"+disX;
+
+            if(e.touches[0].clientY>startPy && Math.abs(disY)>offsetVal && Math.abs(disY)>Math.abs(disX)) 
+                span[2].innerHTML="向下滑动"+disY;
+
+            if(e.touches[0].clientY<startPy && Math.abs(disY)>offsetVal && Math.abs(disY)>Math.abs(disX)) 
+                span[3].innerHTML="向上滑动"+disY;
+        },false);
+    </script>
+</body>
+</html>

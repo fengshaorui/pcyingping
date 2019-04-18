@@ -1,0 +1,184 @@
+/*header开始*/
+.header .header-mid{
+    width: 1100px;
+    margin:0 auto;
+    padding-top:30px;
+}
+.header .header-mid .left{
+    float:left;
+    margin-top:-10px;
+}
+.header .header-mid .right{
+    float:right;
+}
+.header .header-mid .right p{
+    width: 775px;
+    border:1px solid #FFB4A8;
+    background-color:#FEF2F2;
+    font-size: 12px;
+    padding-left:45px;
+    line-height: 28px;
+}
+.header .header-mid .right ul{
+    margin-top:25px;
+    float:right;
+} 
+.header .header-mid .right ul li{
+    float:left;
+    cursor: pointer;
+}
+/*content 样式开始*/
+.content{
+    height: 620px;
+    background: url(../images/login-regist/body.jpg) no-repeat center center;
+    position: relative;
+}
+.content .box{
+    width: 350px;
+    position: absolute;
+    left:65%;
+    top:50px;
+}
+.content .box .title{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+.content .box .login-box{
+    width: 280px; 
+    background-color:white;
+    margin-top:25px;
+    border-radius: 2px;
+    padding:20px 35px;
+}
+.content .box .login-box span.tips{
+    font-size: 18px;
+    color:#666666;
+    margin:0 auto;
+}
+.content .box .login-box form{
+    position: relative;
+}
+.content .box .login-box form p{
+    position: relative;
+    margin-top:15px;
+}
+.content .box .login-box form input{
+    width: 270px;
+    height: 43px;
+    border:1px solid #E6E6E6;
+    outline:none;
+    padding-left:10px;
+    margin-top:10px;
+}
+::-webkit-input-placeholder { 
+　　color:#C2C2C2;
+}
+.content .box .login-box .forget{
+    margin-bottom:15px;
+    text-align: right;
+    color:#666666;
+}
+.content .box .login-box form .msgall{
+    position: absolute;
+    top:150px;
+    left:0;
+    color:red;
+}
+.content .box .login-box form span.login{
+    height:45px;
+    width: 280px;
+    display: inline-block;
+    background-color:red;
+    text-align: center;
+    color:white;
+    line-height: 45px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.content .box .login-box form p .msg,.msg1{
+    position: absolute;
+    top:60px;
+    left:0px;
+    font-size: 12px;
+    color:#666666;
+
+}
+.content .box .login-box div.hezuo{
+    text-align: right;
+    margin-top:15px;
+}
+.content .box .login-box div.hezuo .tips2{
+    font-size: 14px;
+    color:#666666;
+    margin-top:3px;
+    height: 30px;
+    line-height: 30px;
+
+}
+.content .box .login-box div.hezuo span.init{
+    display: inline-block;
+    width: 30px;
+    height: 24px;
+    vertical-align: middle;
+}
+.content .box .login-box div.hezuo span.weixin{
+    background: url(../images/login-regist/icon.png) no-repeat  0 0;
+}
+
+.content .box .login-box div.hezuo span.zhifubao{
+    background: url(../images/login-regist/icon.png) no-repeat  0 -58px;
+}
+.content .box .login-box div.hezuo span.qq{
+    background: url(../images/login-regist/icon.png) no-repeat  0 -87px;
+}
+.content .box .login-box div.hezuo span.weibo{
+    background: url(../images/login-regist/icon.png) no-repeat  0 -116px;
+}
+.content .box .login-box .regist{
+    display: inline-block;
+    width: 280px;
+    height: 45px;
+    border:1px solid #E6E6E6;
+    text-align: center;
+    line-height: 45px;
+    margin-top:15px;
+    font-size: 16px;
+}
+.content .box .login-box .regist a:link{
+    color:#7C7C7C;
+}
+.content .box .login-box .regist a:visited{
+    color:#7C7C7C;
+}
+.content .box .login-box .regist a:hover{
+    color:#7C7C7C;
+}
+.content .box .login-box .regist a:active{
+    color:#7C7C7C;
+}
+
+.footer{
+    text-align: center;
+    color:#999999;
+    font-size: 12px;
+    margin-top:80px;
+}
+.footer .line{
+    margin:0 10px;
+}
+.footer p{
+    margin-top:10px;
+}
+.footer p a:link{
+    color:#7C7C7C;
+}
+.footer p a:visited{
+    color:#7C7C7C;
+}
+.footer p a:hover{
+    color:#333333;
+}
+.footer p a:active{
+    color:#7C7C7C;
+}

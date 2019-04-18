@@ -1,0 +1,25 @@
+<?php
+header('content-type:text/html;charset=utf-8');
+$mysqli=new mysqli('localhost','root','root','addpic');
+if($mysqli->connect_errno){
+    die();
+}
+$type=$_POST["type"];
+$sql = "select * from pic where type='新品发布'";
+$sql1 = "select * from pic where type='主题专场'";
+$result = $mysqli->query($sql);
+$result1 = $mysqli->query($sql1);
+if($result->num_rows>0){
+    while($row=mysqli_fetch_assoc($result)){
+        $list1[]=$row;
+    }
+    $data[1]=$list1;
+}
+if($result1->num_rows>0){
+    while($row1=mysqli_fetch_assoc($result1)){
+        $list2[]=$row1;
+    }
+    $data[2]=$list2;
+}  
+echo json_encode($data);
+?>

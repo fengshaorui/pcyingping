@@ -1,0 +1,80 @@
+$(function(){
+    //hover效果，鼠标放上去出现隐藏块，移除消失
+    //传参数1，hover的块，参数2需要隐藏显示的块
+    function hoverHideShow(hoverObj,showHideObj){
+        $(hoverObj).hover(
+            function(){
+                $(showHideObj).show();
+            },
+            function(){
+                $(showHideObj).hide();
+            }
+            )
+    }
+    hoverHideShow(".right-one",".right-one-hid");
+    hoverHideShow(".right-four",".right-four-hid");
+    hoverHideShow(".small-icon-one",".hid-icon");
+
+    //轮播图给li设置背景图片封装
+    function setImgLoop(arr,obj){
+        var len=$(obj).length;
+        for(var i=0;i<len;i++){
+            $(obj).eq(i).css({
+                background:"url(images/index/"+arr[i]+") no-repeat 0 0",
+            })      
+        }
+    }
+    //small====loop
+    var imgstr = ["loop1.jpg","loop2.jpg","loop3.jpg"];
+
+    setImgLoop(imgstr,".small-loop ul li");
+    
+    var lastLoopImg=$(".small-loop ul li:first").clone(true,true);
+    lastLoopImg.appendTo(".small-loop ul");
+
+    var imgindex=0;
+
+    $(".arrow-bottom").click(arrowBottom);
+    function arrowBottom(){
+        imgindex++;
+        if(imgindex==4){
+            $(".small-loop ul").css({marginTop:0});
+            imgindex=1;
+        }
+        $(".small-loop ul").stop(true,true).animate({marginTop:-35*imgindex});
+    }
+    $(".arrow-top").click(function(){
+        imgindex--;
+        if(imgindex<0){
+            $(".small-loop ul").css({marginTop:-105});
+            imgindex=2;
+        }
+        $(".small-loop ul").stop(true,true).animate({marginTop:-35*imgindex});
+
+    })
+    //自动播放
+    var time=setInterval(arrowBottom,2000);
+    $(".arrow-top,.arrow-bottom").hover(
+        function(){
+            if(time){
+                clearInterval(time);
+            }
+        },
+        function(){
+            time=setInterval(arrowBottom,2000);
+        })
+    
+    //banner=====loop
+    var bannerImg=["banner1.jpg","banner2.jpg","banner3.jpg","banner4.jpg","banner5.jpg","banner6.jpg","banner7.jpg"];
+    var colorArr=["#FE6029","#9812D4","#9412FE","#16B865","#2C95FF","#E71832","#FF6702"];
+    
+    setImgLoop(bannerImg,".banner ul li");
+
+    var bannerLoopImg=$(".banner ul li:first").clone(true,true);
+    bannerLoopImg.appendTo(".banner ul");
+
+
+
+})
+
+

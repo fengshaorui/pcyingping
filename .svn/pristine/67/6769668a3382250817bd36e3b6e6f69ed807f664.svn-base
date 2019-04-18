@@ -1,0 +1,193 @@
+$(function () {
+    var G_myFun = (function ($) {
+        // 请求接口
+        // function sousuojiekou(){
+        //     function fun(){
+        //         $(".head-middle-seek ul").html()=="";
+        //         if($(".head-middle-seek").val()==""){
+        //             $(".head-middle-seek ul").html()=="";
+        //         }else{
+        //             if()
+        //         }
+        //     }
+        // }
+
+        // 商品分类隐藏兰
+        function hoverHdo(obj) {
+            obj.hover(
+                function () {
+                    $(this).children().eq(1).show();
+                },
+                function () {
+                    $(this).children().eq(1).hide();
+                }
+            );
+        };
+        // 商品分类隐藏栏右侧
+        function hoverPll(obj) {
+            obj.hover(
+                function () {
+                    $(this).children().eq(2).show();
+                    // $(this).css({"background":"white"});
+                    $(this).addClass("active");
+                    var addDiv =$(this);
+                    $.ajax({
+                        type: "post",
+                        url: "api/index-api/listgoods.php",
+                        data: { index: $(this).index()},
+                        dataType: 'json',
+                        success: function (data) {
+                            // 生成内容的大盒子
+                            console.log(data);
+                            var contentbox = $("<div>");
+                            contentbox.addClass("product-list-3 clearfix");
+                            addDiv.append(contentbox);
+                            // 生成内容的小盒子
+                            var smallbox = $("<div>");
+                            smallbox.addClass("pop clearfix");
+                            $(".product-list-3").append(smallbox);
+                            // 生成内容左边的盒子
+                            var ltbox = $("<div>");
+                            ltbox.addClass("product-list-left clearfix");
+                            $(".pop").append(ltbox);
+                            // 生成右边盒子
+                            var lrbox = $("<div>");
+                            lrbox.addClass("product-list-right-down");
+                            $(".pop").append(lrbox);
+
+
+                            $.each(data, function (key, value) {
+                                if (key !== "imgs") {
+                                    // 生成类
+                                    var pllbox = $("<div>");
+                                    pllbox.addClass("product-list-fenlei clearfix");
+                                    var aObj = $("<a>");
+                                    aObj.attr("href", "#");
+                                    aObj.html(key);
+                                    pllbox.append(aObj);
+                                    $(".product-list-left").append(pllbox);
+                                    // 生成类列表
+                                    var plobox = $("<div>");
+                                    plobox.addClass("product-list-one clearfix")
+                                    for (var i = 0; i < value.length; i++) {
+                                        var aObj = $("<a>");
+                                        aObj.attr("href", "#");
+                                        aObj.html(value[i]);
+                                        plobox.append(aObj);
+                                    }
+                                    $(".product-list-left").append(plobox);
+                                    
+                                }else{
+                                    var 
+                                }
+
+                            });
+                        }
+                    })
+                },
+                function () {
+                    $(this).children().eq(2).hide();
+                    $(this).removeClass("active");
+                    //  $(this).css({"background":"rgba(50, 50, 50, 0.1)",});
+                }
+            );
+        };
+        // 改变小轮播上箭头颜色
+        function hoverup(obj) {
+            obj.hover(
+                function () {
+                    $(this).css({
+                        "backgroundImage": "url(images/navList1/uph.png)"
+                    })
+                },
+                function () {
+                    $(this).css({
+                        "backgroundImage": "url(images/navList1/upb.png)"
+                    })
+                }
+            )
+        }
+        // 改变小轮播下箭头颜色
+        function hoverdown(obj) {
+            obj.hover(
+                function () {
+                    $(this).css({
+                        "backgroundImage": "url(images/navList1/downh.png)"
+                    })
+                },
+                function () {
+                    $(this).css({
+                        "backgroundImage": "url(images/navList1/downb.png)"
+                    })
+                }
+            )
+
+        }
+        // 小轮播
+        function banner(obj, obj1, obj2) {
+            obj.children().eq(0).clone("true").appendTo(".head-down-three-L ul");
+            var imgH = obj.children().eq(0).innerHeight(),
+                len = obj.children().length,
+                imgX = 0;
+            obj2.click(function () {
+                xia();
+            })
+            function xia() {
+                imgX++;
+                if (imgX == len) {
+                    imgX = 1;
+                    obj.css({ marginTop: 0 })
+                }
+                obj.stop(true, true).animate({ marginTop: -imgX * imgH });
+            }
+            obj1.click(function () {
+
+                if (imgX <= 0) {
+                    imgX = len - 1;
+                    obj.css({ marginTop: -imgX * imgH })
+                }
+                imgX--;
+                bj.stop(true, true).animate({ marginTop: -imgX * imgH });
+            })
+            // 悬浮停止
+            obj.parent().hover(
+                function () {
+                    if (tim) {
+                        clearInterval(tim);
+                    }
+                },
+                function () {
+                    tim = setInterval(xia, 2000);
+                }
+            )
+            // 自动播放
+            var tim = setInterval(xia, 2000);
+        }
+
+
+        return {
+            // 商品分类隐藏兰
+            hoverHdo: hoverHdo,
+            // 商品分类隐藏栏右侧
+            hoverPll: hoverPll,
+            // 改变小轮播上箭头颜色
+            hoverup: hoverup,
+            // 改变小轮播下箭头颜色
+            hoverdown: hoverdown,
+            // 小轮播
+            banner: banner,
+        }
+
+    })(jQuery);
+    // 改变小轮播下箭头颜色
+    G_myFun.hoverdown($(".head-down-three-R-down"));
+    // 改变小轮播上箭头颜色
+    G_myFun.hoverup($(".head-down-three-R-up"));
+    // 商品分类隐藏兰
+    G_myFun.hoverHdo($(".head-down-one"));
+    // 商品分类隐藏栏右侧
+    G_myFun.hoverPll($(".product-list-li"));
+    // 轮播图
+    G_myFun.banner($(".head-down-three-L ul"), $(".head-down-three-R-up"), $(".head-down-three-R-down"));
+
+});

@@ -1,0 +1,57 @@
+// tab切换
+function plate4Tab() {
+   
+
+
+$(".content .plate4 .plate4-16-1 li").mouseover (function(){
+         $(this).css({background:"#fff",color:"#e6004f",textDecoration:"underline"})
+         .siblings().css({ background:'',color:"",textDecoration:"none"});
+        //  $(".plate4 .plate4-16-z1").eq($(this).index())
+        // $(".content .plate4 .plate4-16-1").childern().each(
+        //     function(){
+                
+        //     }
+        // )
+        console.log($(this).html())
+
+         $.ajax({
+            type: "get",
+            url: 'api/section1.php',
+            data: {
+               type:$(this).html()
+            },
+            dataType:'json',
+            success:function(data){
+                var htmlStr="";
+                for(var i = 0; i < data.length; i++){
+                    htmlStr += "<div class=\"plate4-16-z1\">";
+                    htmlStr += "<a href=\"#\">";
+                    htmlStr += "<p class=\"text\">"+ data[i].brief+"</p>";
+                    htmlStr += "<p class=\"price\">"+ data[i].price +"</p>";
+                    htmlStr += "<img src=images/section1/"+ data[i].img+".img>";
+                    htmlStr += "</a>";
+                    htmlStr += "</div>";
+                // console.log(data)
+
+                }
+                $(".plate4-16-z").innerHTML += htmlStr; 
+                // console.log($(".plate4-16-z").innerHTML+= htmlStr)
+            },
+            error:function(){
+                console.log('请求失败');
+            }
+        });
+
+    //  console.log($(".content .plate4 .plate4-16-1 ").html())
+     console.log($(".content .plate4 .plate4-16-z1 ").html())
+    //  console.log($(".plate4 .plate4-16-1 li").val())
+     })
+
+
+
+  
+
+}
+
+
+plate4Tab()

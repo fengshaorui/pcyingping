@@ -1,0 +1,48 @@
+/* 主体开始 */
+.main{
+    width: 1907px;
+}
+/* banner轮播图开始 */
+.main .banner-loop{
+    position: relative;
+    width: 1907px;
+    height: 450px;
+    border: 1px solid red;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.main .banner-loop .loop a{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.main .banner-loop .loop li{
+    width: 1907px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    display: none;
+}
+.main .banner-loop .banner-next li {
+    width: 50px;
+    height: 8px;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.main .banner-loop .banner-next{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -95px;
+}
+/* content开始 */
+.main .content-first{
+    width: 1907px;
+    background-color: #FF3062;
+}
+.main .content-first .content-head{
+
+}

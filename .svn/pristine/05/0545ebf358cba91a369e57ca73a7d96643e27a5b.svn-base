@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/lib/init.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-mid clearfix">
+            <div class="left">
+                <img src="images/login-regist/logo.png">
+            </div>
+            <div class="right">
+                <p>为确保您的账号安全及正常使用，依《网络安全法》相关要求，会员账号需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！</p>
+                <ul class="clearfix">
+                    <li><img src="images/login-regist/ad-01.png"/></li>
+                    <li><img src="images/login-regist/ad-02.png"/></li>
+                    <li><img src="images/login-regist/ad-03.png"/></li>
+                    <li><img src="images/login-regist/ad-04.png"/></li>
+                    <li><img src="images/login-regist/ad-05.png"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content"></div>
+    
+</body>
+</html>
